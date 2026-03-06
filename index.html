@@ -3,96 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>IT TOEIC Challenge 🚀</title>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
+    <title>IT TOEIC Project</title>
     <style>
-        :root {
-            --bg: #0f172a;
-            --card-bg: #1e293b;
-            --primary: #38bdf8; /* Sky Blue */
-            --secondary: #818cf8; /* Indigo */
-            --accent: #f471b5; /* Pink */
-            --text: #f1f5f9;
-        }
-
-        * {
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-        }
-
+        /* Couleurs simples et contrastées */
         body {
-            font-family: 'Poppins', sans-serif;
-            background-color: var(--bg);
-            color: var(--text);
+            font-family: sans-serif;
+            background-color: #f0f2f5; /* Gris très clair */
+            color: #1c1e21; /* Presque noir */
             display: flex;
-            align-items: center;
             justify-content: center;
-            min-height: 100vh;
-            overflow-x: hidden;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .card {
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
             text-align: center;
-        }
-
-        /* Animation de fond */
-        .blobs {
-            position: absolute;
-            width: 100%;
-            height: 100%;
-            overflow: hidden;
-            z-index: -1;
-        }
-
-        .blob {
-            position: absolute;
-            background: linear-gradient(45deg, var(--primary), var(--secondary));
-            filter: blur(80px);
-            border-radius: 50%;
-            opacity: 0.2;
-            animation: move 20s infinite alternate;
-        }
-
-        @keyframes move {
-            from { transform: translate(-20%, -20%); }
-            to { transform: translate(20%, 20%); }
-        }
-
-        .container {
+            max-width: 400px;
             width: 90%;
-            max-width: 500px;
-            padding: 40px 20px;
-            background: var(--card-bg);
-            border-radius: 24px;
-            box-shadow: 0 20px 50px rgba(0,0,0,0.5);
-            border: 1px solid rgba(255,255,255,0.1);
-            position: relative;
-            animation: fadeIn 1s ease-out;
-        }
-
-        @keyframes fadeIn {
-            from { opacity: 0; transform: translateY(20px); }
-            to { opacity: 1; transform: translateY(0); }
-        }
-
-        .emoji-header {
-            font-size: 4rem;
-            margin-bottom: 10px;
-            display: block;
-            animation: bounce 2s infinite;
-        }
-
-        @keyframes bounce {
-            0%, 100% { transform: translateY(0); }
-            50% { transform: translateY(-15px); }
         }
 
         h1 {
-            font-size: 2rem;
-            font-weight: 800;
-            background: linear-gradient(to right, var(--primary), var(--accent));
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            margin-bottom: 15px;
+            color: #007bff; /* Bleu standard */
+            margin-bottom: 10px;
         }
 
         p {
-            font-size:
+            line-height: 1.5;
+            color: #4b4f56;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 12px 24px;
+            background-color: #28a745; /* Vert "Succès" */
+            color: white;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: bold;
+            cursor: pointer;
+            border: none;
+        }
+
+        .btn:hover {
+            background-color: #218838;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <h1>🚀 TOEIC IT Group</h1>
+        <p>Bienvenue sur la future plateforme d'entraînement du groupe !</p>
+        <p>Le système de <strong>Question du Jour</strong> est en cours de déploiement.</p>
+        
+        <button class="btn" onclick="alert('C\'est en ligne ! Le JSON sera bientôt connecté.')">
+            Vérifier la connexion
+        </button>
+    </div>
+
+</body>
+</html>
