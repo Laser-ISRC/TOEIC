@@ -161,14 +161,6 @@ body {
     font-weight: 600;
 }
 
-.progress-labels {
-    display: flex;
-    justify-content: space-between;
-    font-size: 0.85rem;
-    margin-bottom: 8px;
-    font-weight: 600;
-    color: #94a3b8;
-}
 
 .progress-bar-bg {
     background: #0f172a;
@@ -178,37 +170,11 @@ body {
     border: 1px solid #334155;
 }
 
-.progress-bar-fill-green {
+#daily-bar-main {
     background: linear-gradient(90deg, #22c55e, #4ade80);
     height: 100%;
     width: 0%; 
     transition: width 0.4s ease-out;
-}
-
-.weekly-stats {
-    margin-top: 15px;
-    padding-top: 15px;
-    border-top: 1px solid #334155;
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
-
-.weekly-label { font-size: 0.85rem; color: #94a3b8; }
-.weekly-badge {
-    background: rgba(59, 130, 246, 0.2);
-    color: #38bdf8;
-    padding: 2px 10px;
-    border-radius: 10px;
-    font-weight: 800;
-    font-size: 0.9rem;
-}
-
-.weekly-footer {
-    margin-top: 15px;
-    padding-top: 15px;
-    border-top: 1px solid #334155;
-    font-size: 0.85rem;
 }
 
 .version-tag {
@@ -216,7 +182,7 @@ body {
     bottom: 10px;
     right: 10px;
     font-family: monospace;
-    font-size: 10px;
+    font-size: 5px;
     color: #64748b; /* Gris ardoise discret */
     background: rgba(30, 41, 59, 0.5); /* Fond sombre transparent */
     padding: 2px 6px;
