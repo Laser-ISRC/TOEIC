@@ -1,93 +1,119 @@
 // --- VARIABLES GLOBALES ---
 let correctAnswersToday = 0;
 let totalQuestionsToday = 0;
+let solvedQuestions = new Set();
 
 async function loadDailyChallenge() {
     try {
         const response = await fetch('questions.json?v=' + Date.now());
+        if (!response.ok) throw new Error("Fichier JSON introuvable");
+        
         const allChallenges = await response.json();
+        
+        // Récupérer la date du jour (format 2026-03-07)
         const today = new Date().toISOString().split('T')[0];
 
+        // Chercher l'article du jour
         let dailyData = allChallenges.find(item => item.date === today);
-        if (!dailyData) dailyData = allChallenges[allChallenges.length - 1];
 
-        // 1. On définit le nombre total de questions AVANT d'afficher
+        // Si rien pour aujourd'hui, on prend le dernier
+        if (!dailyData) {
+            dailyData = allChallenges[allChallenges.length - 1];
+        }
+
+        // Initialisation du Dashboard
         totalQuestionsToday = dailyData.questions.length;
+        updateDisplay();
         
-        // 2. On affiche les scores à 0 au départ
-        updateDisplay(); 
-        
-        // 3. On affiche l'article
+        // Affichage de l'article
         renderPage(dailyData);
 
     } catch (error) {
-        console.error("Erreur:", error);
+        console.error("Erreur critique :", error);
+        document.getElementById('art-title').innerText = "Erreur de chargement du défi du jour ❌";
     }
+}
+
+function renderPage(data) {
+    // Titre et Image
+    document.getElementById('art-title').innerText = data.articleTitle;
+    document.getElementById('art-link').href = data.articleLink;
+    document.getElementById('art-img').src = data.articleImg;
+    
+    // Corps du texte (découpage par paragraphes)
+    const textDiv = document.getElementById('art-text');
+    textDiv.innerHTML = data.articleBody.split('\n\n').map(p => `<p>${p}</p>`).join('');
+
+    // Nettoyage et génération du Quiz
+    const container = document.getElementById('quiz-container');
+    container.innerHTML = ""; 
+
+    data.questions.forEach((q, qIdx) => {
+        const qBox = document.createElement('div');
+        qBox.className = 'question-box';
+        // On prépare le bloc pour la sécurité anti-doublon
+        qBox.dataset.answered = "false"; 
+
+        const optionsHtml = q.options.map((opt, optIdx) => `
+            <button class="option-btn" onclick="verify(${qIdx}, ${optIdx}, this, ${q.correctIndex}, 'expl-${qIdx}')">
+                ${opt}
+            </button>
+        `).join('');
+
+        qBox.innerHTML = `
+            <p class="question-text"><strong>Q${qIdx + 1}: ${q.qText}</strong></p>
+            <div class="options-grid">${optionsHtml}</div>
+            <div id="expl-${qIdx}" class="explanation" style="display:none;">${q.explanation}</div>
+        `;
+        container.appendChild(qBox);
+    });
 }
 
 function verify(qIdx, optIdx, btn, correctIndex, explId) {
-    // 1. On récupère le conteneur de la question (le parent)
-    const questionBlock = btn.parentElement;
+    const questionBlock = btn.closest('.question-box');
 
-    // 2. SÉCURITÉ : Si la question a déjà été répondue, on stoppe tout de suite
-    if (questionBlock.dataset.answered === "true") {
-        return; 
-    }
-
-    // 3. On marque immédiatement la question comme répondue
+    // Sécurité : stop si déjà répondu
+    if (questionBlock.dataset.answered === "true") return;
     questionBlock.dataset.answered = "true";
 
-    // 4. On désactive TOUS les boutons de cette question pour empêcher d'autres clics
     const allButtons = questionBlock.querySelectorAll('.option-btn');
-    allButtons.forEach(b => {
-        b.disabled = true;
-        b.style.cursor = "default"; // Optionnel : change le curseur pour montrer que c'est bloqué
-    });
+    allButtons.forEach(b => b.disabled = true);
 
-    // 5. Logique de scoring
     if (optIdx === correctIndex) {
-        // C'est juste !
         btn.classList.add('btn-correct');
-        
-        // On incrémente les scores
-        correctAnswersToday++;
-        saveToWeekly(1); // Sauvegarde +1 dans le localStorage
+        if (!solvedQuestions.has(qIdx)) {
+            solvedQuestions.add(qIdx);
+            correctAnswersToday++;
+            saveToWeekly(1);
+        }
     } else {
-        // C'est faux !
         btn.classList.add('btn-wrong');
-        
-        // Optionnel : on montre la bonne réponse en vert pour aider l'utilisateur
+        // On montre la bonne réponse
         allButtons[correctIndex].classList.add('btn-correct');
     }
 
-    // 6. Mise à jour visuelle des barres et du compteur
     updateDisplay();
-
-    // 7. Affichage de l'explication pédagogique
-    const explanation = document.getElementById(explId);
-    if (explanation) {
-        explanation.style.display = 'block';
-    }
+    document.getElementById(explId).style.display = 'block';
 }
-
 
 function updateDisplay() {
     const dailyPercent = totalQuestionsToday > 0 ? (correctAnswersToday / totalQuestionsToday) * 100 : 0;
     
-    // On met à jour la barre du bloc ET le liseré du haut
+    // Mise à jour des deux barres (si elles existent dans le HTML)
     const miniBar = document.getElementById('daily-bar-mini');
     const mainBar = document.getElementById('daily-bar-main');
-    
     if (miniBar) miniBar.style.width = dailyPercent + "%";
     if (mainBar) mainBar.style.width = dailyPercent + "%";
 
-    document.getElementById('daily-count').innerText = `${correctAnswersToday}/${totalQuestionsToday}`;
+    // Mise à jour des textes
+    const dailyCountText = document.getElementById('daily-count');
+    if (dailyCountText) dailyCountText.innerText = `${correctAnswersToday}/${totalQuestionsToday}`;
 
     const stats = JSON.parse(localStorage.getItem('toeic_stats')) || { total: 0 };
-    document.getElementById('weekly-total').innerText = `${stats.total} pts`;
+    const weeklyText = document.getElementById('weekly-total');
+    if (weeklyText) weeklyText.innerText = `${stats.total} pts`;
 }
 
-// Fonction pour sauvegarder dans la mémoire du navigateur
 function saveToWeekly(pts) {
     let stats = JSON.parse(localStorage.getItem('toeic_stats')) || { week: getWeekNumber(), total: 0 };
     const currentWeek = getWeekNumber();
@@ -107,4 +133,5 @@ function getWeekNumber() {
     return Math.ceil((((d - new Date(d.getFullYear(), 0, 1)) / 8.64e7) + 1) / 7);
 }
 
+// Lancement au chargement de la page
 window.onload = loadDailyChallenge;
