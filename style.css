@@ -178,16 +178,13 @@ body {
 }
 
 .version-tag {
-    position: fixed;
-    bottom: 10px;
-    right: 10px;
+    display: block;
+    text-align: center;
+    margin: 20px auto; /* Espace après le quiz */
     font-family: monospace;
-    font-size: 5px;
-    color: #64748b; /* Gris ardoise discret */
-    background: rgba(30, 41, 59, 0.5); /* Fond sombre transparent */
-    padding: 2px 6px;
-    border-radius: 4px;
-    z-index: 10000;
-    pointer-events: none; /* Pour ne pas gêner les clics en dessous */
-    border: 1px solid rgba(255, 255, 255, 0.1);
+    font-size: 6px;
+    color: rgba(148, 163, 184, 0.3); /* Très clair (filigrane) */
+    letter-spacing: 1px;
+    pointer-events: none;
+    user-select: none; /* Impossible à sélectionner au texte */
 }
