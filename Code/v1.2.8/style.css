@@ -28,7 +28,7 @@ body {
 
 .container {
     max-width: 800px;
-    margin: 40px auto;
+    margin: 20px auto;
     padding: 0 20px;
 }
 
@@ -100,6 +100,7 @@ body {
     font-size: 0.9rem;
 }
 
+
 .score-board {
     background: #1e293b;
     border: 1px solid #334155;
@@ -127,52 +128,90 @@ body {
 
 .score-details { font-size: 0.85rem; color: #f8fafc; }
 
+.progress-container-fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    z-index: 9999;
+}
+#daily-bar-mini {
+    height: 100%;
+    width: 0%;
+    background: #22c55e;
+    transition: width 0.4s ease-in-out;
+}
+
 .dashboard {
     background: #1e293b;
     border: 1px solid #334155;
     padding: 20px;
     border-radius: 16px;
     margin-bottom: 25px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+.dashboard-header {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.9rem;
+    color: #94a3b8;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.daily-progress-container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px; /* Espace précis entre le texte et la barre */
+    width: 100%;
 }
 
 .progress-labels {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+
+.progress-labels span {
     font-size: 0.85rem;
-    margin-bottom: 8px;
     font-weight: 600;
     color: #94a3b8;
+}
+
+#daily-count {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: #94a3b8; /* Blanc brillant pour qu'il ressorte */
 }
 
 .progress-bar-bg {
     background: #0f172a;
     height: 12px;
     border-radius: 6px;
+    border: 1px solid #334155;
     overflow: hidden;
+    width: 100%; /* On force la largeur */
+    display: block !important; /* On s'assure qu'elle n'est pas masquée */
 }
 
-.progress-bar-fill-green {
-    background: linear-gradient(90deg, #22c55e, #4ade80);
+#daily-bar-main {
     height: 100%;
-    width: 0%; /* Animé par le JS */
-    transition: width 0.6s cubic-bezier(0.17, 0.67, 0.83, 0.67);
+    width: 0; /* On commence à 0 */
+    background: linear-gradient(90deg, #22c55e, #4ade80);
+    transition: width 0.5s cubic-bezier(0.4, 0, 0.2, 1); /* Animation plus fluide */
+    display: block !important; /* On s'assure qu'elle n'est pas en 'inline' */
 }
 
-.weekly-stats {
-    margin-top: 15px;
-    padding-top: 15px;
-    border-top: 1px solid #334155;
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
-
-.weekly-label { font-size: 0.85rem; color: #94a3b8; }
-.weekly-badge {
-    background: rgba(59, 130, 246, 0.2);
-    color: #38bdf8;
-    padding: 2px 10px;
-    border-radius: 10px;
-    font-weight: 800;
-    font-size: 0.9rem;
+.version-tag {
+    display: block;
+    text-align: center;
+    margin: 20px auto; /* Espace après le quiz */
+    font-family: monospace;
+    font-size: 13px;
+    color: rgba(148, 163, 184, 0.3); /* Très clair (filigrane) */
+    letter-spacing: 1px;
+    pointer-events: none;
+    user-select: none; /* Impossible à sélectionner au texte */
 }

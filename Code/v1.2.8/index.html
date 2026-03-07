@@ -17,11 +17,27 @@
         </select>
     </div>
 
+    <div class="progress-container-fixed">
+        <div id="daily-bar-mini"></div>
+    </div>
+
     <main class="container">
         <header>
             <span class="badge">Daily Challenge</span>
             <h1>Part 7: Reading Comprehension</h1>
         </header>
+
+        <section class="dashboard">
+            <div class="daily-progress-container">
+                    <div class="progress-labels">
+                        <span>Daily progress</span>
+                        <span id="daily-count">0/0</span>
+                    </div>
+                    <div class="progress-bar-bg">
+                        <div id="daily-bar-main" ></div>
+                    </div>
+            </div>            
+        </section>
 
         <section class="article-card">
             <div class="article-header">
@@ -35,6 +51,7 @@
         <section id="quiz-container"></section>
     </main>
 
-    <script src="script.js"></script>
+    <script src="script.js?v=1.2.8"></script>
+    <div class="version-tag">v1.2.8</div>
 </body>
 </html>
