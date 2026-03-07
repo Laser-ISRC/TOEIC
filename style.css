@@ -128,14 +128,37 @@ body {
 
 .score-details { font-size: 0.85rem; color: #f8fafc; }
 
+.progress-container-fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    z-index: 9999;
+}
+#daily-bar-mini {
+    height: 100%;
+    width: 0%;
+    background: #22c55e;
+    transition: width 0.4s ease;
+}
+
 .dashboard {
     background: #1e293b;
-    border-bottom: 2px solid #334155;
-    padding: 15px 5%;
-    position: sticky; /* Garde la barre en haut */
-    top: 0;
-    z-index: 1000; /* Passe au-dessus de l'article */
-    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+    border: 1px solid #334155;
+    padding: 20px;
+    border-radius: 16px;
+    margin-bottom: 25px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+.dashboard-header {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.9rem;
+    color: #94a3b8;
+    margin-bottom: 10px;
+    font-weight: 600;
 }
 
 .progress-labels {
@@ -179,4 +202,11 @@ body {
     border-radius: 10px;
     font-weight: 800;
     font-size: 0.9rem;
+}
+
+.weekly-footer {
+    margin-top: 15px;
+    padding-top: 15px;
+    border-top: 1px solid #334155;
+    font-size: 0.85rem;
 }

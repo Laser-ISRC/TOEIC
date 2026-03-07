@@ -26,37 +26,65 @@ async function loadDailyChallenge() {
 }
 
 function verify(qIdx, optIdx, btn, correctIndex, explId) {
-    const parent = btn.parentElement;
-    // Empêche de recliquer
-    if (btn.disabled) return; 
-    parent.querySelectorAll('.option-btn').forEach(b => b.disabled = true);
+    // 1. On récupère le conteneur de la question (le parent)
+    const questionBlock = btn.parentElement;
 
-    if (optIdx === correctIndex) {
-        btn.classList.add('btn-correct');
-        correctAnswersToday++; // +1 pour la barre verte
-        saveToWeekly(1);       // +1 pour le cumul hebdo
-    } else {
-        btn.classList.add('btn-wrong');
+    // 2. SÉCURITÉ : Si la question a déjà été répondue, on stoppe tout de suite
+    if (questionBlock.dataset.answered === "true") {
+        return; 
     }
-    
-    updateDisplay(); // Met à jour les barres visuellement
-    document.getElementById(explId).style.display = 'block';
+
+    // 3. On marque immédiatement la question comme répondue
+    questionBlock.dataset.answered = "true";
+
+    // 4. On désactive TOUS les boutons de cette question pour empêcher d'autres clics
+    const allButtons = questionBlock.querySelectorAll('.option-btn');
+    allButtons.forEach(b => {
+        b.disabled = true;
+        b.style.cursor = "default"; // Optionnel : change le curseur pour montrer que c'est bloqué
+    });
+
+    // 5. Logique de scoring
+    if (optIdx === correctIndex) {
+        // C'est juste !
+        btn.classList.add('btn-correct');
+        
+        // On incrémente les scores
+        correctAnswersToday++;
+        saveToWeekly(1); // Sauvegarde +1 dans le localStorage
+    } else {
+        // C'est faux !
+        btn.classList.add('btn-wrong');
+        
+        // Optionnel : on montre la bonne réponse en vert pour aider l'utilisateur
+        allButtons[correctIndex].classList.add('btn-correct');
+    }
+
+    // 6. Mise à jour visuelle des barres et du compteur
+    updateDisplay();
+
+    // 7. Affichage de l'explication pédagogique
+    const explanation = document.getElementById(explId);
+    if (explanation) {
+        explanation.style.display = 'block';
+    }
 }
 
+
 function updateDisplay() {
-    // Calcul du pourcentage pour la barre verte
     const dailyPercent = totalQuestionsToday > 0 ? (correctAnswersToday / totalQuestionsToday) * 100 : 0;
     
-    const bar = document.getElementById('daily-bar');
-    const countText = document.getElementById('daily-count');
-    const weeklyText = document.getElementById('weekly-total');
+    // On met à jour la barre du bloc ET le liseré du haut
+    const miniBar = document.getElementById('daily-bar-mini');
+    const mainBar = document.getElementById('daily-bar-main');
+    
+    if (miniBar) miniBar.style.width = dailyPercent + "%";
+    if (mainBar) mainBar.style.width = dailyPercent + "%";
 
-    if (bar) bar.style.width = dailyPercent + "%";
-    if (countText) countText.innerText = `${correctAnswersToday}/${totalQuestionsToday}`;
+    document.getElementById('daily-count').innerText = `${correctAnswersToday}/${totalQuestionsToday}`;
 
-    // Récupération du score hebdo dans le stockage du navigateur
     const stats = JSON.parse(localStorage.getItem('toeic_stats')) || { total: 0 };
-    if (weeklyText) weeklyText.innerText = `${stats.total} pts`;
+    document.getElementById('weekly-total').innerText = `${stats.total} pts`;
 }
 
 // Fonction pour sauvegarder dans la mémoire du navigateur
