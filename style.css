@@ -163,18 +163,18 @@ body {
 
 
 .progress-bar-bg {
-    background: #0f172a;
+    background: #0f172a; /* Le fond de la barre */
     height: 12px;
     border-radius: 6px;
-    overflow: hidden;
     border: 1px solid #334155;
+    overflow: hidden; /* Crucial pour que le remplissage ne dépasse pas */
 }
 
 #daily-bar-main {
-    background: linear-gradient(90deg, #22c55e, #4ade80);
     height: 100%;
-    width: 0%; 
-    transition: width 0.4s ease-out;
+    width: 0%; /* État initial */
+    background: linear-gradient(90deg, #22c55e, #4ade80);
+    transition: width 0.4s ease-out; /* Pour l'effet de glissement */
 }
 
 .version-tag {
@@ -182,7 +182,7 @@ body {
     text-align: center;
     margin: 20px auto; /* Espace après le quiz */
     font-family: monospace;
-    font-size: 6px;
+    font-size: 10px;
     color: rgba(148, 163, 184, 0.3); /* Très clair (filigrane) */
     letter-spacing: 1px;
     pointer-events: none;

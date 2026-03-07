@@ -101,7 +101,9 @@ function updateDisplay() {
 
     // Mise à jour de la barre dashboard (ID: daily-bar-main)
     const main = document.getElementById('daily-bar-main');
-    if (main) main.style.width = widthString;
+    if (main) {
+    main.style.width = dailyPercent + "%";
+    }
 
     // Mise à jour du texte 0/0 (ID: daily-count)
     const countText = document.getElementById('daily-count');
