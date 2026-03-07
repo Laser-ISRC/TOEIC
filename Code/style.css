@@ -1,0 +1,93 @@
+/* Section Part 7 - Article */
+.article-container {
+    background: white;
+    color: #1e293b;
+    padding: 25px;
+    border-radius: 15px;
+    text-align: left;
+    margin: 20px 0;
+    box-shadow: inset 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.article-title {
+    font-size: 1.4rem;
+    font-weight: 800;
+    margin-bottom: 10px;
+    color: #0f172a;
+}
+
+.article-link {
+    font-size: 0.8rem;
+    color: #38bdf8;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.article-img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+/* Questions & Réponses */
+.quiz-section {
+    margin-top: 30px;
+}
+
+.question-block {
+    background: rgba(255, 255, 255, 0.05);
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.option-btn {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border: 1px solid #475569;
+    background: transparent;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    text-align: left;
+    transition: 0.3s;
+}
+
+/* Code couleur validation */
+.btn-correct {
+    background-color: #22c55e !important; /* Vert */
+    border-color: #22c55e !important;
+}
+
+.btn-wrong {
+    background-color: #ef4444 !important; /* Rouge */
+    border-color: #ef4444 !important;
+}
+
+.explanation {
+    margin-top: 10px;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.1);
+    border-left: 4px solid #38bdf8;
+    font-size: 0.9rem;
+    display: none; /* Caché par défaut */
+}
+
+/* Menu discret */
+.nav-menu {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+#part-selector {
+    background: transparent;
+    color: #38bdf8;
+    border: 1px solid #38bdf8;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 0.8rem;
+}
