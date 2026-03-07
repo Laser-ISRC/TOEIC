@@ -70,63 +70,64 @@ function renderPage(data) {
 }
 
 function verify(qIdx, optIdx, btn, correctIndex, explId) {
-    // 1. Trouver la boîte de la question
     const questionBlock = btn.closest('.question-box');
     
-    // 2. VERROU ANTI-TRICHE : On vérifie une classe CSS plutôt qu'un dataset
-    if (questionBlock.classList.contains('answered')) return;
+    // 1. VERROU RADICAL : Si le bloc a déjà la classe "answered", on stoppe tout
+    if (questionBlock.classList.contains('answered')) {
+        console.log("Question déjà répondue. Clic ignoré.");
+        return;
+    }
     
-    // 3. Marquage immédiat
+    // 2. MARQUAGE : On verrouille immédiatement
     questionBlock.classList.add('answered');
     
-    // 4. Désactiver tous les boutons du bloc
+    // 3. DESACTIVATION : On gèle les boutons
     const buttons = questionBlock.querySelectorAll('.option-btn');
     buttons.forEach(b => b.disabled = true);
 
-    // 5. Calcul du point
+    // 4. LOGIQUE DE SCORE
     if (optIdx === correctIndex) {
         btn.classList.add('btn-correct');
-        // Sécurité supplémentaire pour le cumul
+        
+        // SÉCURITÉ : On ne compte le point que s'il n'est pas dans le Set local
         if (!solvedQuestions.has(qIdx)) {
             solvedQuestions.add(qIdx);
             correctAnswersToday++;
+            
+            // On ne sauvegarde que si c'est une réussite
             saveToWeekly(1);
         }
     } else {
         btn.classList.add('btn-wrong');
-        buttons[correctIndex].classList.add('btn-correct'); // Montre la bonne réponse
+        buttons[correctIndex].classList.add('btn-correct');
     }
 
-    // 6. Mise à jour visuelle
+    // 5. MISE À JOUR VISUELLE
     updateDisplay();
     document.getElementById(explId).style.display = 'block';
 }
 
 function updateDisplay() {
     const dailyPercent = totalQuestionsToday > 0 ? (correctAnswersToday / totalQuestionsToday) * 100 : 0;
-    
-    // Ciblage ultra-précis des deux barres
-    const miniBar = document.getElementById('daily-bar-mini'); // Le liseré fixe
-    const mainBar = document.getElementById('daily-bar-main'); // La grosse barre du bloc
-    
+    const progressString = dailyPercent.toFixed(2) + "%";
+
+    // Mise à jour Forcée du liseré fixe
+    const miniBar = document.getElementById('daily-bar-mini');
     if (miniBar) {
-        miniBar.style.width = dailyPercent + "%";
-        console.log("Liseré mis à jour : " + dailyPercent + "%"); // Pour vérifier dans la console
-    } else {
-        console.error("ERREUR : L'élément #daily-bar-mini est introuvable dans le HTML !");
+        miniBar.style.setProperty('width', progressString, 'important');
     }
 
+    // Mise à jour de la barre du Dashboard
+    const mainBar = document.getElementById('daily-bar-main');
     if (mainBar) {
-        mainBar.style.width = dailyPercent + "%";
+        mainBar.style.width = progressString;
     }
 
-    // Mise à jour des textes
-    const dailyText = document.getElementById('daily-count');
-    if (dailyText) dailyText.innerText = `${correctAnswersToday}/${totalQuestionsToday}`;
+    // Textes
+    document.getElementById('daily-count').innerText = `${correctAnswersToday}/${totalQuestionsToday}`;
 
     const stats = JSON.parse(localStorage.getItem('toeic_stats')) || { total: 0 };
-    const weeklyText = document.getElementById('weekly-total');
-    if (weeklyText) weeklyText.innerText = `${stats.total} pts`;
+    document.getElementById('weekly-total').innerText = `${stats.total} pts`;
 }
 
 function saveToWeekly(pts) {
