@@ -1,44 +1,63 @@
-const dailyData = {
-    title: "Legal Expert Warns EU Parliament Against Digital ID Implementation",
-    link: "https://www.ninefornews.nl/advocaat-meike-terhorst-waarschuwt-in-europees-parlement-voor-digitale-id-absolute-misdaad-tegen-de-menselijkheid/",
-    img: "https://images.unsplash.com/photo-1633158829585-23bb8f628e3c?auto=format&fit=crop&q=80&w=600",
-    body: "STRASBOURG — During a recent session at the European Parliament, attorney Meike Terhorst delivered a stern warning regarding the proposed Digital Identity (eID) framework. The legal expert argued that the centralization of personal data through a digital wallet could lead to unprecedented levels of surveillance and social control.\n\nTerhorst stated that the implementation of such a system might fundamentally alter the relationship between citizens and the state. She expressed concerns that access to essential public services could eventually become conditional upon the possession and use of a digital ID.",
-    questions: [
-        {
-            q: "What is the primary concern expressed by Meike Terhorst?",
-            options: ["High cost of software", "Increased surveillance", "Digital literacy", "Online security"],
-            correct: 1,
-            expl: "<b>Correct: Increased surveillance.</b> Terhorst mentions 'unprecedented levels of surveillance' as a direct consequence of data centralization."
-        }
-    ]
-};
+async function loadDailyChallenge() {
+    try {
+        // Le "cache busting" (?v=...) force le navigateur à lire le JSON frais
+        const response = await fetch('questions.json?v=' + new Date().getTime());
+        const data = await response.json();
 
-function initPage() {
-    document.getElementById('art-title').innerText = dailyData.title;
-    document.getElementById('art-link').href = dailyData.link;
-    document.getElementById('art-img').src = dailyData.img;
-    document.getElementById('art-text').innerHTML = dailyData.body.split('\n\n').map(p => `<p>${p}</p>`).join('');
+        // On prend la dernière question du tableau (la plus récente)
+        const dailyData = data[data.length - 1];
 
+        renderPage(dailyData);
+    } catch (error) {
+        console.error("Erreur de chargement du JSON :", error);
+        document.getElementById('art-title').innerText = "Erreur de chargement ❌";
+    }
+}
+
+function renderPage(data) {
+    // Remplissage de l'article
+    document.getElementById('art-title').innerText = data.articleTitle;
+    document.getElementById('art-link').href = data.articleLink;
+    document.getElementById('art-img').src = data.articleImg;
+    
+    // Gestion du texte (supporte les sauts de ligne \n\n)
+    const textDiv = document.getElementById('art-text');
+    textDiv.innerHTML = data.articleBody.split('\n\n').map(p => `<p>${p}</p>`).join('');
+
+    // Remplissage du Quiz
     const container = document.getElementById('quiz-container');
-    dailyData.questions.forEach((q, idx) => {
-        const qDiv = document.createElement('div');
-        qDiv.className = 'question-box';
-        qDiv.innerHTML = `
-            <p><strong>Q: ${q.q}</strong></p>
-            ${q.options.map((opt, i) => `<button class="option-btn" onclick="verify(${idx}, ${i}, this)">${opt}</button>`).join('')}
-            <div id="expl-${idx}" class="explanation">${q.expl}</div>
+    container.innerHTML = ""; // On vide avant de remplir
+
+    data.questions.forEach((q, qIdx) => {
+        const qBox = document.createElement('div');
+        qBox.className = 'question-box';
+        qBox.innerHTML = `
+            <p><strong>Q${qIdx + 1}: ${q.qText}</strong></p>
+            <div class="options-list">
+                ${q.options.map((opt, optIdx) => `
+                    <button class="option-btn" onclick="verify(${qIdx}, ${optIdx}, this, ${q.correctIndex}, 'expl-${qIdx}')">
+                        ${opt}
+                    </button>
+                `).join('')}
+            </div>
+            <div id="expl-${qIdx}" class="explanation">
+                ${q.explanation}
+            </div>
         `;
-        container.appendChild(qDiv);
+        container.appendChild(qBox);
     });
 }
 
-function verify(qIdx, optIdx, btn) {
-    const isCorrect = optIdx === dailyData.questions[qIdx].correct;
+function verify(qIdx, optIdx, btn, correctIndex, explId) {
+    const isCorrect = optIdx === correctIndex;
     const parent = btn.parentElement;
+    
+    // Désactive les boutons du bloc de CETTE question uniquement
     parent.querySelectorAll('.option-btn').forEach(b => b.disabled = true);
     
     btn.classList.add(isCorrect ? 'btn-correct' : 'btn-wrong');
-    document.getElementById(`expl-${qIdx}`).style.display = 'block';
+    document.getElementById(explId).style.display = 'block';
 }
 
-window.onload = initPage;
+// Lancement au chargement de la page
+window.onload = loadDailyChallenge;
