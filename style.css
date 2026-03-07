@@ -99,3 +99,81 @@ body {
     border-left: 4px solid var(--primary);
     font-size: 0.9rem;
 }
+
+
+.score-board {
+    background: #1e293b;
+    border: 1px solid #334155;
+    padding: 15px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+
+.score-header { font-size: 0.9rem; font-weight: bold; margin-bottom: 8px; color: #94a3b8; }
+
+.score-bar-container {
+    background: #0f172a;
+    height: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 8px;
+}
+
+.score-bar-fill {
+    background: linear-gradient(90deg, #3b82f6, #8b5cf6);
+    height: 100%;
+    width: 0%; /* Animé par le JS */
+    transition: width 0.5s ease-out;
+}
+
+.score-details { font-size: 0.85rem; color: #f8fafc; }
+
+.dashboard {
+    background: #1e293b;
+    border: 1px solid #334155;
+    padding: 20px;
+    border-radius: 16px;
+    margin-bottom: 25px;
+}
+
+.progress-labels {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.85rem;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #94a3b8;
+}
+
+.progress-bar-bg {
+    background: #0f172a;
+    height: 12px;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.progress-bar-fill-green {
+    background: linear-gradient(90deg, #22c55e, #4ade80);
+    height: 100%;
+    width: 0%; /* Animé par le JS */
+    transition: width 0.6s cubic-bezier(0.17, 0.67, 0.83, 0.67);
+}
+
+.weekly-stats {
+    margin-top: 15px;
+    padding-top: 15px;
+    border-top: 1px solid #334155;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.weekly-label { font-size: 0.85rem; color: #94a3b8; }
+.weekly-badge {
+    background: rgba(59, 130, 246, 0.2);
+    color: #38bdf8;
+    padding: 2px 10px;
+    border-radius: 10px;
+    font-weight: 800;
+    font-size: 0.9rem;
+}
