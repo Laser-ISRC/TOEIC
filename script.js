@@ -1,3 +1,6 @@
+const APP_VERSION = "3.2.0";
+console.log(`%c TOEIC App Version: ${APP_VERSION} `, "background: #22c55e; color: #fff; font-weight: bold;");
+
 // --- VARIABLES GLOBALES ---
 let correctAnswersToday = 0;
 let totalQuestionsToday = 0;
