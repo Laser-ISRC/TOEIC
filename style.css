@@ -28,7 +28,7 @@ body {
 
 .container {
     max-width: 800px;
-    margin: 40px auto;
+    margin: 20px auto;
     padding: 0 20px;
 }
 
@@ -130,10 +130,12 @@ body {
 
 .dashboard {
     background: #1e293b;
-    border: 1px solid #334155;
-    padding: 20px;
-    border-radius: 16px;
-    margin-bottom: 25px;
+    border-bottom: 2px solid #334155;
+    padding: 15px 5%;
+    position: sticky; /* Garde la barre en haut */
+    top: 0;
+    z-index: 1000; /* Passe au-dessus de l'article */
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
 }
 
 .progress-labels {
@@ -150,13 +152,14 @@ body {
     height: 12px;
     border-radius: 6px;
     overflow: hidden;
+    border: 1px solid #334155;
 }
 
 .progress-bar-fill-green {
     background: linear-gradient(90deg, #22c55e, #4ade80);
     height: 100%;
-    width: 0%; /* Animé par le JS */
-    transition: width 0.6s cubic-bezier(0.17, 0.67, 0.83, 0.67);
+    width: 0%; 
+    transition: width 0.4s ease-out;
 }
 
 .weekly-stats {
