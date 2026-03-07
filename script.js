@@ -1,51 +1,44 @@
-// Fonction pour valider une réponse
-function checkAnswer(button, isCorrect, explanationId) {
-    const parent = button.parentElement;
-    const buttons = parent.querySelectorAll('.option-btn');
-    const explanationDiv = document.getElementById(explanationId);
+const dailyData = {
+    title: "Legal Expert Warns EU Parliament Against Digital ID Implementation",
+    link: "https://www.ninefornews.nl/advocaat-meike-terhorst-waarschuwt-in-europees-parlement-voor-digitale-id-absolute-misdaad-tegen-de-menselijkheid/",
+    img: "https://images.unsplash.com/photo-1633158829585-23bb8f628e3c?auto=format&fit=crop&q=80&w=600",
+    body: "STRASBOURG — During a recent session at the European Parliament, attorney Meike Terhorst delivered a stern warning regarding the proposed Digital Identity (eID) framework. The legal expert argued that the centralization of personal data through a digital wallet could lead to unprecedented levels of surveillance and social control.\n\nTerhorst stated that the implementation of such a system might fundamentally alter the relationship between citizens and the state. She expressed concerns that access to essential public services could eventually become conditional upon the possession and use of a digital ID.",
+    questions: [
+        {
+            q: "What is the primary concern expressed by Meike Terhorst?",
+            options: ["High cost of software", "Increased surveillance", "Digital literacy", "Online security"],
+            correct: 1,
+            expl: "<b>Correct: Increased surveillance.</b> Terhorst mentions 'unprecedented levels of surveillance' as a direct consequence of data centralization."
+        }
+    ]
+};
 
-    // Désactiver tous les boutons après le clic
-    buttons.forEach(btn => btn.disabled = true);
+function initPage() {
+    document.getElementById('art-title').innerText = dailyData.title;
+    document.getElementById('art-link').href = dailyData.link;
+    document.getElementById('art-img').src = dailyData.img;
+    document.getElementById('art-text').innerHTML = dailyData.body.split('\n\n').map(p => `<p>${p}</p>`).join('');
 
-    if (isCorrect) {
-        button.classList.add('btn-correct');
-    } else {
-        button.classList.add('btn-wrong');
-        // Optionnel : montrer la bonne réponse en vert quand même
-    }
-
-    // Afficher l'analyse des distracteurs
-    explanationDiv.style.display = 'block';
+    const container = document.getElementById('quiz-container');
+    dailyData.questions.forEach((q, idx) => {
+        const qDiv = document.createElement('div');
+        qDiv.className = 'question-box';
+        qDiv.innerHTML = `
+            <p><strong>Q: ${q.q}</strong></p>
+            ${q.options.map((opt, i) => `<button class="option-btn" onclick="verify(${idx}, ${i}, this)">${opt}</button>`).join('')}
+            <div id="expl-${idx}" class="explanation">${q.expl}</div>
+        `;
+        container.appendChild(qDiv);
+    });
 }
 
-// Fonction pour injecter les données du JSON dans le HTML
-function displayPart7(data) {
-    document.getElementById('art-title').innerText = data.articleTitle;
-    document.getElementById('art-link').href = data.articleLink;
-    document.getElementById('art-img').src = data.articleImg;
+function verify(qIdx, optIdx, btn) {
+    const isCorrect = optIdx === dailyData.questions[qIdx].correct;
+    const parent = btn.parentElement;
+    parent.querySelectorAll('.option-btn').forEach(b => b.disabled = true);
     
-    // Injection du texte avec paragraphes
-    const artTextDiv = document.getElementById('art-text');
-    artTextDiv.innerHTML = data.articleBody.split('\n\n').map(p => `<p>${p}</p>`).join('');
-
-    // Injection des questions
-    const quizContainer = document.getElementById('quiz-container');
-    quizContainer.innerHTML = data.questions.map((q, qIndex) => `
-        <div class="question-block">
-            <p><strong>Question ${qIndex + 1}:</strong> ${q.qText}</p>
-            ${q.options.map((opt, optIndex) => `
-                <button class="option-btn" onclick="handleAnswer(this, ${optIndex === q.correctIndex}, 'expl-${q.id}')">
-                    ${opt}
-                </button>
-            `).join('')}
-            <div id="expl-${q.id}" class="explanation-box">
-                ${q.explanation}
-            </div>
-        </div>
-    `).join('');
+    btn.classList.add(isCorrect ? 'btn-correct' : 'btn-wrong');
+    document.getElementById(`expl-${qIdx}`).style.display = 'block';
 }
 
-// Pour le test, on appelle la fonction avec notre objet
-// (Plus tard, ce sera un fetch('questions.json'))
-const testData = /* coller le bloc JSON ici pour tester */;
-displayPart7(testData);
+window.onload = initPage;

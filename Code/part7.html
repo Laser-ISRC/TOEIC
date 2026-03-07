@@ -3,40 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TOEIC IT - Part 7</title>
+    <title>TOEIC IT Mastery</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-    <div class="container">
-        <div class="nav-menu">
-            <select id="part-selector">
-                <option value="part7">Part 7: Reading</option>
-                <option value="part5">Part 5: Grammar (Soon)</option>
-                <option value="part2">Part 2: Listening (Soon)</option>
-            </select>
-        </div>
-
-        <div class="badge">TOEIC CHALLENGE</div>
-        <h1 id="header-title">Part 7: Reading Comprehension</h1>
-
-        <div class="article-container">
-            <h2 id="art-title" class="article-title">Chargement de l'article...</h2>
-            <a id="art-link" href="#" class="article-link" target="_blank">Lien vers l'article original ↗</a>
-            
-            <img id="art-img" src="https://via.placeholder.com/600x300?text=Chargement+de+l'image..." alt="Illustration" class="article-img">
-            
-            <div id="art-text" class="article-body">
-                </div>
-        </div>
-
-        <div id="quiz-container" class="quiz-section">
-            </div>
-
-        <div class="footer">
-            &copy; 2026 IT Student Group • Powered by Gemini
-        </div>
+    <div class="nav-bar">
+        <div class="logo">TOEIC<span>IT</span></div>
+        <select id="part-selector">
+            <option>Part 7: Reading</option>
+            <option disabled>Part 5: Grammar</option>
+            <option disabled>Part 2: Listening</option>
+        </select>
     </div>
+
+    <main class="container">
+        <header>
+            <span class="badge">Daily Challenge</span>
+            <h1>Part 7: Reading Comprehension</h1>
+        </header>
+
+        <section class="article-card">
+            <div class="article-header">
+                <h2 id="art-title"></h2>
+                <a id="art-link" target="_blank">Original Source ↗</a>
+            </div>
+            <img id="art-img" class="article-image">
+            <div id="art-text" class="article-content"></div>
+        </section>
+
+        <section id="quiz-container"></section>
+    </main>
 
     <script src="script.js"></script>
 </body>
