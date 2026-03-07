@@ -46,5 +46,53 @@
       "explanation": "<b>Correct: (C).</b> In a legal context, 'safeguards' are measures taken to protect against risks or overreach. <br><i>Distractors:</i> (A) suggests guidance, not protection. (B) relates to money. (D) implies a mutual contract, whereas safeguards are often unilateral legal barriers."
     }
   ]
+},
+{
+  "id": "2026-03-08-P7",
+  "date": "2026-03-08",
+  "type": "Part 7",
+  "category": "Geopolitics & Security",
+  "articleTitle": "Rising Tensions in Cyprus Over Strategic British Military Bases",
+  "articleLink": "https://www.aljazeera.com/features/2026/3/6/anger-in-cyprus-over-uk-bases-as-us-israel-war-with-iran-endangers-island",
+  "articleImg": "https://www.aljazeera.com/wp-content/uploads/2026/03/260303-15-1772714340.jpg?resize=730%2C410&quality=80",
+  "articleBody": "NICOSIA — Local residents and activists in Cyprus are expressing growing frustration over the presence of sovereign British military bases on the island. As regional tensions escalate due to the ongoing conflict involving the US, Israel, and Iran, many Cypriots fear that these installations turn their home into a potential target.\n\nThe British Sovereign Base Areas (SBAs) of Akrotiri and Dhekelia have been used for decades as strategic hubs for intelligence gathering and aerial operations. Recent reports suggest that these bases have played a critical role in supporting allied military logistics in the Middle Eastern theater, a move that critics say violates Cyprus's neutrality.\n\nDemonstrations have broken out near the Akrotiri base, with protesters demanding more transparency regarding the nature of the missions conducted from the island. While the British Ministry of Defence maintains that the bases are essential for regional stability, the Cypriot government is under increasing pressure to renegotiate the status of these territories to ensure the safety of its population.",
+  "questions": [
+    {
+      "id": "q1",
+      "qText": "Why are some residents of Cyprus currently protesting?",
+      "options": [
+        "(A) They want the British military to increase local security.",
+        "(B) They are concerned that the bases make the island a military target.",
+        "(C) They are demanding a share of the intelligence gathered at the bases.",
+        "(D) They want to move the bases to the northern part of the island."
+      ],
+      "correctIndex": 1,
+      "explanation": "<b>Correct: (B).</b> The text mentions that many Cypriots fear these installations turn the island into a 'potential target'. <br><i>Distractors:</i> (A) is the opposite of the residents' wish. (C) is a plausible real-world request but not in the text. (D) is not mentioned at all."
+    },
+    {
+      "id": "q2",
+      "qText": "What has been the historical function of the Akrotiri and Dhekelia bases?",
+      "options": [
+        "(A) To serve as tourist centers for the British military.",
+        "(B) To act as diplomatic headquarters for the US and Iran.",
+        "(C) To serve as hubs for intelligence and aerial missions.",
+        "(D) To monitor environmental changes in the Mediterranean."
+      ],
+      "correctIndex": 2,
+      "explanation": "<b>Correct: (C).</b> The article states the bases have been used for 'intelligence gathering and aerial operations'. <br><i>Distractors:</i> (A) is incorrect as they are military, not tourist areas. (B) confuses the nations involved in the conflict with the owners of the bases. (D) uses 'monitor', but for the wrong subject (environment instead of military)."
+    },
+    {
+      "id": "q3",
+      "qText": "In the third paragraph, the word 'transparency' is closest in meaning to:",
+      "options": [
+        "(A) Visibility",
+        "(B) Clearness",
+        "(C) Accountability",
+        "(D) Opacity"
+      ],
+      "correctIndex": 2,
+      "explanation": "<b>Correct: (C).</b> In a political context, 'transparency' refers to the need for organizations to be open and accountable for their actions. <br><i>Distractors:</i> (A) and (B) are literal synonyms of 'transparent' (like glass) but don't fit the political context. (D) is the antonym (opposite) of the word."
+    }
+  ]
 }
 ]
