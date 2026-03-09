@@ -1,5 +1,54 @@
 [
 {
+  "id": "2026-03-10-P7",
+  "date": "2026-03-10",
+  "type": "Part 7",
+  "category": "Gaming & Software Development",
+  "articleTitle": "Electronic Arts Adapts Javelin Anti-Cheat for Upcoming ARM-Based PCs",
+  "articleLink": "https://www.tomshardware.com/video-games/pc-gaming/eas-javelin-anti-cheat-is-coming-to-arm-based-systems-soon-new-job-listing-for-windows-on-arm-driver-anticipates-nvidia-n1-n1x-debut-and-pivotal-shift-in-pc-gaming",
+  "articleImg": "https://cdn.mos.cms.futurecdn.net/MmLKbdpoic3kWb9JcKgV4c-970-80.jpg.webp",
+  "articleBody": "REDWOOD CITY — Electronic Arts (EA) is reportedly preparing its proprietary 'Javelin' anti-cheat software for a significant transition toward ARM-based computing. A recent job posting for a Windows on ARM Driver Developer suggests that the gaming giant is looking to ensure its titles remain secure on the next generation of hardware, including anticipated chips from NVIDIA.\n\nTraditionally, high-end PC gaming has been dominated by x86 architecture. However, the industry is anticipating a 'pivotal shift' as more manufacturers adopt ARM processors for Windows laptops. This transition requires software engineers to rebuild kernel-level drivers—the core components of anti-cheat systems—to function natively on the new architecture without compromising system performance or game integrity.\n\nIndustry analysts note that this move by EA is a proactive step to support the growing 'Windows on ARM' ecosystem. By developing these drivers now, EA aims to have its most popular competitive franchises ready for the launch of new ARM-based silicon, ensuring that players can transition to the new hardware without losing access to their favorite online communities.",
+  "questions": [
+    {
+      "id": "q1",
+      "qText": "What triggered the reports about EA's new software development?",
+      "options": [
+        "(A) An official press release from NVIDIA's CEO.",
+        "(B) A new employment advertisement for a specialized developer.",
+        "(C) A public complaint from professional gamers using ARM laptops.",
+        "(D) The cancellation of the Javelin anti-cheat program."
+      ],
+      "correctIndex": 1,
+      "explanation": "<b>Correct: (B).</b> The text mentions that a 'recent job posting' (an employment advertisement) suggested these plans. <br><i>Distractors:</i> (A) is plausible but not mentioned. (C) is a real-world scenario but not in the text. (D) contradicts the article, which says the software is being adapted, not cancelled."
+    },
+    {
+      "id": "q2",
+      "qText": "Why must EA rebuild its kernel-level drivers?",
+      "options": [
+        "(A) To make the games compatible with older x86 systems.",
+        "(B) To reduce the overall cost of game development.",
+        "(C) To allow the anti-cheat software to run natively on ARM architecture.",
+        "(D) To comply with new international privacy laws."
+      ],
+      "correctIndex": 2,
+      "explanation": "<b>Correct: (C).</b> The article explains that the transition to ARM 'requires software engineers to rebuild kernel-level drivers' to function on the new architecture. <br><i>Distractors:</i> (A) is the opposite; they are moving *away* from x86 dominance. (B) and (D) are common business topics that are never discussed in this specific text."
+    },
+    {
+      "id": "q3",
+      "qText": "The word 'pivotal' in the second paragraph is closest in meaning to:",
+      "options": [
+        "(A) Small",
+        "(B) Optional",
+        "(C) Crucial",
+        "(D) Negative"
+      ],
+      "correctIndex": 2,
+      "explanation": "<b>Correct: (C).</b> In this context, a 'pivotal shift' means a central, very important, or crucial change in the industry. <br><i>Distractors:</i> (A) is the opposite of the intended scale. (B) suggests it doesn't matter, while the text implies it's a major trend. (D) implies a bad change, but the text describes it as a strategic evolution."
+    }
+  ]
+},
+
+  {
   "id": "2026-03-09-P7",
   "date": "2026-03-09",
   "type": "Part 7",
