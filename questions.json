@@ -1,5 +1,54 @@
 [
 {
+  "id": "2026-03-11-P7",
+  "date": "2026-03-11",
+  "type": "Part 7",
+  "category": "Energy & Infrastructure",
+  "articleTitle": "Taiwan Projects Massive Surge in Power Demand Driven by AI and Semiconductors",
+  "articleLink": "https://www.tomshardware.com/tech-industry/taiwan-expects-power-demand-to-increase-by-more-than-5gw-by-2030-enough-to-power-nearly-4-million-homes-rise-in-electricity-consumption-driven-by-semiconductor-manufacturing-and-ai-data-center-deployments",
+  "articleImg": "https://cdn.mos.cms.futurecdn.net/woUU8Hr3jfctwDwsf5k5gJ-970-80.jpg.webp",
+  "articleBody": "TAIPEI — The Taiwanese government has released a comprehensive energy forecast indicating that the nation's power demand is expected to increase by more than 5 gigawatts (GW) by 2030. This surge, equivalent to the energy consumption of nearly 4 million households, is primarily attributed to the rapid expansion of semiconductor manufacturing and the deployment of massive AI data centers.\n\nTaiwan, a global leader in advanced chip production, faces the dual challenge of meeting the high energy requirements of factories while maintaining a stable power grid. Official reports suggest that the electricity consumption from the technology sector alone will account for a significant portion of this growth. To address this, the Ministry of Economic Affairs is exploring a mix of renewable energy sources and grid modernization projects to prevent potential shortages.\n\nEnergy analysts warn that if the infrastructure development does not keep pace with the industrial demand, it could lead to higher operational costs for tech giants. Consequently, the government is encouraging companies to invest in energy-efficient technologies and private power generation facilities to mitigate the strain on the public utility system.",
+  "questions": [
+    {
+      "id": "q1",
+      "qText": "What is the main cause of the projected increase in electricity consumption?",
+      "options": [
+        "(A) A sudden growth in the number of residential building projects.",
+        "(B) The expansion of chip manufacturing and AI data centers.",
+        "(C) A government mandate to lower electricity prices for citizens.",
+        "(D) The closure of several renewable energy facilities."
+      ],
+      "correctIndex": 1,
+      "explanation": "<b>Correct: (B).</b> The text explicitly states the rise is 'driven by semiconductor manufacturing and AI data center deployments'. <br><i>Distractors:</i> (A) mentions '4 million homes' but only as a comparison for scale, not as the cause. (C) and (D) are not mentioned in the article."
+    },
+    {
+      "id": "q2",
+      "qText": "According to the article, how is the Ministry of Economic Affairs planning to handle the energy challenge?",
+      "options": [
+        "(A) By limiting the number of new factories built in Taipei.",
+        "(B) By importing electricity from neighboring countries.",
+        "(C) By utilizing renewable energy and updating the power grid.",
+        "(D) By increasing taxes on all energy-intensive businesses."
+      ],
+      "correctIndex": 2,
+      "explanation": "<b>Correct: (C).</b> The article mentions exploring 'renewable energy sources and grid modernization projects'. <br><i>Distractors:</i> (A), (B), and (D) are logical real-world solutions but are not stated in this specific text."
+    },
+    {
+      "id": "q3",
+      "qText": "The word 'mitigate' in the third paragraph is closest in meaning to:",
+      "options": [
+        "(A) Enhance",
+        "(B) Reduce",
+        "(C) Ignore",
+        "(D) Advertise"
+      ],
+      "correctIndex": 1,
+      "explanation": "<b>Correct: (B).</b> To 'mitigate' a strain or a problem means to make it less severe or to reduce it. <br><i>Distractors:</i> (A) means to make something better/stronger, which is the opposite. (C) means to pay no attention. (D) is related to marketing."
+    }
+  ]
+},
+  
+{
   "id": "2026-03-10-P7",
   "date": "2026-03-10",
   "type": "Part 7",
