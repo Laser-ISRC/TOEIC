@@ -3,6 +3,55 @@
   "id": "2026-03-11-P7",
   "date": "2026-03-11",
   "type": "Part 7",
+  "category": "Corporate & Energy Law",
+  "articleTitle": "Shell Declares Force Majeure on LNG Contracts Following Qatar Disruptions",
+  "articleLink": "https://www.aljazeera.com/economy/2026/3/11/shell-declares-force-majeure-on-lng-contracts-from-qatar",
+  "articleImg": "https://www.aljazeera.com/wp-content/uploads/2026/03/getty_69a82fdf94-1772629983.jpg?resize=770%2C513&quality=80",
+  "articleBody": "DOHA — Energy giant Shell has officially declared force majeure on several liquefied natural gas (LNG) delivery contracts sourced from Qatar. This legal declaration comes after unforeseen technical issues at a major production facility, combined with logistical bottlenecks in the Red Sea, made it impossible to fulfill current shipment schedules.\n\nForce majeure is a standard contractual clause that excuses a company from meeting its obligations due to extraordinary events beyond its control. Shell stated that while it is working closely with Qatari authorities to resolve the production setbacks, the duration of the disruption remains uncertain. The move is expected to tighten global gas supplies, potentially driving up prices in European and Asian markets.\n\nIndustry analysts suggest that this event highlights the vulnerability of global energy supply chains. Major buyers are already looking for alternative sources to cover the anticipated shortfall. Shell has assured its clients that it is exploring all available options to minimize the impact on long-term agreements, although immediate spot-market deliveries will likely be deferred.",
+  "questions": [
+    {
+      "id": "q1",
+      "qText": "Why did Shell declare force majeure on its contracts?",
+      "options": [
+        "(A) It decided to sell its LNG assets in Qatar to a competitor.",
+        "(B) It encountered technical problems and logistical challenges.",
+        "(C) It is planning to increase the price of all existing contracts.",
+        "(D) It has successfully completed all its scheduled deliveries early."
+      ],
+      "correctIndex": 1,
+      "explanation": "<b>Correct: (B).</b> The article mentions 'unforeseen technical issues' and 'logistical bottlenecks' as the reasons for the declaration. <br><i>Distractors:</i> (A) is not mentioned. (C) is a possible consequence of the event, but not the reason for the legal declaration. (D) is the opposite of the situation described."
+    },
+    {
+      "id": "q2",
+      "qText": "What is the expected consequence of Shell's announcement on the global market?",
+      "options": [
+        "(A) A decrease in gas prices in Asia and Europe.",
+        "(B) An immediate surplus of LNG supplies worldwide.",
+        "(C) A potential increase in energy costs due to tighter supplies.",
+        "(D) The permanent closure of all Qatari production facilities."
+      ],
+      "correctIndex": 2,
+      "explanation": "<b>Correct: (C).</b> The text states the move is expected to 'tighten global gas supplies, potentially driving up prices'. <br><i>Distractors:</i> (A) is the opposite of 'driving up prices'. (B) contradicts the idea of 'tighten supplies'. (D) is an extreme exaggeration not supported by the text."
+    },
+    {
+      "id": "q3",
+      "qText": "The word 'deferred' in the third paragraph is closest in meaning to:",
+      "options": [
+        "(A) Cancelled",
+        "(B) Postponed",
+        "(C) Accelerated",
+        "(D) Guaranteed"
+      ],
+      "correctIndex": 1,
+      "explanation": "<b>Correct: (B).</b> In a business and legal context, to 'defer' a delivery or a payment means to put it off to a later time, or to postpone it. <br><i>Distractors:</i> (A) implies it will never happen, while deferred means it is delayed. (C) means to make it happen faster. (D) implies a certainty that is currently missing due to the 'uncertain' duration."
+    }
+  ]
+},
+
+{
+  "id": "2026-03-11-P7",
+  "date": "2026-03-11",
+  "type": "Part 7",
   "category": "Energy & Infrastructure",
   "articleTitle": "Taiwan Projects Massive Surge in Power Demand Driven by AI and Semiconductors",
   "articleLink": "https://www.tomshardware.com/tech-industry/taiwan-expects-power-demand-to-increase-by-more-than-5gw-by-2030-enough-to-power-nearly-4-million-homes-rise-in-electricity-consumption-driven-by-semiconductor-manufacturing-and-ai-data-center-deployments",
