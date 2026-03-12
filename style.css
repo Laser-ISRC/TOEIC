@@ -217,13 +217,12 @@ body {
 }
 
 .nav-controls {
-    display: flex;
+    display: grid;
+    grid-template-columns: 90px 1fr 90px; /* On garde la grille pour la stabilité */
     align-items: center;
-    justify-content: center;
-    gap: 15px;
-    margin-bottom: 10px;
+    max-width: 450px;
+    margin: 20px auto;
 }
-
 
 
 .nav-btn {
@@ -237,11 +236,12 @@ body {
     border: 1px solid rgba(255, 255, 255, 0.1);
     color: #94a3b8;
     padding: 8px 16px; /* Un peu plus large pour les pouces sur mobile */
-    border-radius: 20px;
+    border-radius: 15px;
     cursor: pointer;
     font-size: 0.85rem;
     font-weight: 600;
     transition: all 0.2s;
+    text-align: center;
     
     /* Empêche le zoom auto sur certains mobiles lors du clic */
     touch-action: manipulation; 
@@ -277,4 +277,23 @@ body {
     color: rgba(255, 255, 255, 0.2);
     border-color: transparent;
     cursor: not-allowed;
+}
+
+#current-date-display {
+    /* --- STABILITÉ --- */
+    display: block;
+    width: 100%;           /* Occupe toute la colonne centrale */
+    max-width: 105px;      /* Limite la largeur max pour ne pas écarter les boutons */
+    margin: 0 auto;        /* Centre le bloc dans sa colonne */
+
+    
+    /* --- DESIGN --- */
+    text-align: center;
+    font-size: 0.9rem;
+    
+    
+    /* --- PROTECTION --- */
+    white-space: nowrap;   /* Interdit le retour à la ligne de la date */
+    overflow: hidden;      /* Sécurité : rien ne dépasse */
+    text-overflow: ellipsis; /* Si vraiment c'est trop long, met des "..." */
 }
