@@ -224,15 +224,27 @@ body {
     margin-bottom: 10px;
 }
 
+
+
 .nav-btn {
-    background: rgba(255, 255, 255, 0.05);
+    /* --- RESET MOBILE --- */
+    -webkit-appearance: none;  /* Supprime le style natif iOS/Android */
+    -moz-appearance: none;
+    appearance: none;
+    background: rgba(255, 255, 255, 0.05); /* Ton fond sombre */
+    
+    /* --- STYLE --- */
     border: 1px solid rgba(255, 255, 255, 0.1);
     color: #94a3b8;
-    padding: 5px 12px;
+    padding: 8px 16px; /* Un peu plus large pour les pouces sur mobile */
     border-radius: 20px;
     cursor: pointer;
+    font-size: 0.85rem;
+    font-weight: 600;
     transition: all 0.2s;
-    font-weight: bold;
+    
+    /* Empêche le zoom auto sur certains mobiles lors du clic */
+    touch-action: manipulation; 
 }
 
 .nav-btn:hover {
