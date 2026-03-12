@@ -110,5 +110,57 @@ function updateDisplay() {
     if (countText) countText.innerText = `${correctAnswersToday}/${totalQuestionsToday}`;
 }
 
+
+let currentOffset = 0; 
+
+async function loadChallenge(offset = 0) {
+    try {
+        const response = await fetch('questions.json?v=' + Date.now());
+        const allChallenges = await response.json();
+        
+        // Calcul de la date ciblée
+        const targetDate = new Date();
+        targetDate.setDate(targetDate.getDate() + offset);
+        const dateStr = targetDate.toLocaleDateString('en-CA');
+
+        // Recherche du challenge dans le JSON
+        let dailyData = allChallenges.find(item => item.date === dateStr);
+        
+        if (dailyData) {
+            // Mise à jour de l'interface
+            document.getElementById('current-date-display').innerText = dateStr;
+            renderPage(dailyData);
+            
+            // Réinitialisation du score pour ce jour précis
+            solvedQuestions.clear();
+            correctAnswersToday = 0;
+            totalQuestionsToday = dailyData.questions.length;
+            updateDisplay();
+        } else {
+            alert("Contenu non disponible pour cette date.");
+            currentOffset = (offset > 0) ? currentOffset - 1 : currentOffset + 1;
+            return;
+        }
+
+        // --- GESTION DES BOUTONS (Sécurité) ---
+        // On empêche d'aller dans le futur au-delà d'aujourd'hui
+        document.getElementById('next-day').disabled = (currentOffset >= 0);
+        
+    } catch (error) {
+        console.error("Erreur de navigation :", error);
+    }
+}
+
+// Écouteurs d'événements
+document.getElementById('prev-day').addEventListener('click', () => {
+    currentOffset--;
+    loadChallenge(currentOffset);
+});
+
+document.getElementById('next-day').addEventListener('click', () => {
+    currentOffset++;
+    loadChallenge(currentOffset);
+});
+
 // Lancement au chargement
 window.onload = loadDailyChallenge;
