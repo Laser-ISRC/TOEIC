@@ -230,6 +230,7 @@ body {
     -webkit-appearance: none;  /* Supprime le style natif iOS/Android */
     -moz-appearance: none;
     appearance: none;
+    width: 90x;
     background: rgba(255, 255, 255, 0.05); /* Ton fond sombre */
     
     /* --- STYLE --- */
