@@ -10,6 +10,11 @@ async function loadDailyChallenge() {
         
         const allChallenges = await response.json();
         const today = new Date().toISOString().split('T')[0];
+        
+        // --- AJOUT ICI : Sécurité au chargement ---
+        document.getElementById('next-day').disabled = true; 
+        document.getElementById('current-date-display').innerText = today;
+        // ------------------------------------------
 
         // On cherche le défi du jour
         let dailyData = allChallenges.find(item => item.date === today);
@@ -27,6 +32,7 @@ async function loadDailyChallenge() {
         if (title) title.innerText = "Error loading content. Please refresh.";
     }
 }
+
 
 function renderPage(data) {
     // Remplissage des éléments de l'article
