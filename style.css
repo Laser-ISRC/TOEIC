@@ -247,9 +247,29 @@ body {
     touch-action: manipulation; 
 }
 
-.nav-btn:hover {
+.nav-btn span {
+    font-size: 0.845rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    opacity: 0.8;
+}
+
+.nav-btn .arrow {
+    font-size: 1.2rem;
+    margin-top: 2px;
+    color: #94a3b8; /* Ta couleur d'accent */
+    opacity: 1;
+}
+
+.nav-btn:hover:not(:disabled) {
     background: rgba(34, 197, 94, 0.2);
     border-color: #22c55e;
+    transform: translateY(-1px);
+}
+
+.nav-btn:active {
+    background: rgba(34, 197, 94, 0.2);
+    transform: translateY(0px);
 }
 
 .nav-btn:disabled {
