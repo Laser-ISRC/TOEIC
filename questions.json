@@ -1,4 +1,148 @@
 [
+  {
+  "id": "2026-03-15-P7",
+  "date": "2026-03-15",
+  "type": "Part 7",
+  "category": "Global Economy & Tech Policy",
+  "articleTitle": "China’s New Five-Year Plan Prioritizes Tech Self-Reliance Amid US Tensions",
+  "articleLink": "https://edition.cnn.com/2026/03/12/business/china-five-year-plan-tech-us-intl-hnk",
+  "articleImg": "https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-2255435511.jpg?c=16x9&q=w_1544,c_fill/f_avif",
+  "articleBody": "BEIJING — The Chinese government has unveiled its latest ambitious five-year economic blueprint, placing a heavy emphasis on achieving 'technological self-reliance.' The plan outlines a strategic shift to reduce dependency on foreign suppliers for critical components, particularly in the semiconductor and artificial intelligence sectors.\n\nAccording to official documents released during the annual legislative session, the government intends to significantly increase research and development (R&D) spending over the next half-decade. This initiative comes as a direct response to ongoing export restrictions and trade pressures from the United States. Beijing aims to foster a domestic ecosystem of 'little giants'—specialized small and medium-sized enterprises that can innovate in niche high-tech fields.\n\nInternational economists suggest that while the plan demonstrates a clear long-term vision, its success will depend on the private sector's ability to overcome current capital constraints. Furthermore, the push for isolation in certain tech sectors could lead to redundant investments and a slowing of global innovation standards if cross-border collaboration continues to diminish.",
+  "questions": [
+    {
+      "id": "q1",
+      "qText": "What is the primary focus of China's new economic blueprint?",
+      "options": [
+        "(A) Increasing the export of low-cost consumer goods.",
+        "(B) Achieving independence from foreign technology suppliers.",
+        "(C) Reducing the national budget for research and development.",
+        "(D) Encouraging citizens to invest in foreign real estate."
+      ],
+      "correctIndex": 1,
+      "explanation": "<b>Correct: (B).</b> The text explicitly mentions the goal of 'achieving technological self-reliance' and reducing dependency on foreign suppliers. <br><i>Distractors:</i> (A) is an old economic model not mentioned here. (C) is the opposite; the plan aims to 'increase' R&D spending. (D) is not discussed in the article."
+    },
+    {
+      "id": "q2",
+      "qText": "Who are the 'little giants' mentioned in the second paragraph?",
+      "options": [
+        "(A) Large multinational corporations based in the US.",
+        "(B) New biological research projects focused on human growth.",
+        "(C) Specialized small and medium-sized high-tech companies.",
+        "(D) Government officials in charge of trade negotiations."
+      ],
+      "correctIndex": 2,
+      "explanation": "<b>Correct: (C).</b> The article defines them as 'specialized small and medium-sized enterprises' in high-tech fields. <br><i>Distractors:</i> (A) is the opposite of 'small/medium'. (B) is a literal and incorrect interpretation of the term 'giants'. (D) confuses the subjects with the companies they regulate."
+    },
+    {
+      "id": "q3",
+      "qText": "The word 'diminish' in the third paragraph is closest in meaning to:",
+      "options": [
+        "(A) Improve",
+        "(B) Decline",
+        "(C) Expand",
+        "(D) Stabilize"
+      ],
+      "correctIndex": 1,
+      "explanation": "<b>Correct: (B).</b> In this context, if collaboration 'continues to diminish', it means it is decreasing or declining. <br><i>Distractors:</i> (A) and (C) are opposites (increase/growth). (D) implies staying the same, whereas diminish implies a downward trend."
+    }
+  ]
+},
+  {
+  "id": "2026-03-14-P7",
+  "date": "2026-03-14",
+  "type": "Part 7",
+  "category": "International Relations & Policy",
+  "articleTitle": "Opinion: A Shift Toward Multilateralism Beyond Traditional Powers",
+  "articleLink": "https://www.aljazeera.com/opinions/2026/3/9/it-is-time-for-the-world-to-move-on-without-the-united-states",
+  "articleImg": "https://www.aljazeera.com/wp-content/uploads/2026/03/2022-03-01T223515Z_1032719589_RC2XTS90LJCL_RTRMADP_3_UKRAINE-CRISIS-UN-1773056813.jpg?resize=770%2C513&quality=80",
+  "articleBody": "UNITED NATIONS — A growing number of diplomatic figures and global analysts are calling for a fundamental restructuring of international cooperation. The argument suggests that the current global order, long dominated by a single superpower, is no longer sufficient to address modern challenges such as climate change, economic inequality, and regional security.\n\nObservers point to the increasing frequency of gridlock within the UN Security Council as evidence that traditional leadership models are struggling to adapt to a multipolar world. Instead of waiting for consensus from established powers, emerging economies and regional blocs are beginning to forge new alliances. These 'minilateral' agreements aim to solve specific issues through targeted collaboration, bypassing the slow administrative processes of larger, traditional institutions.\n\nWhile some critics argue that moving away from established frameworks could lead to global instability, proponents believe that a more decentralized approach to diplomacy is inevitable. They suggest that true international progress will now come from a broader coalition of nations willing to take collective action, regardless of the stance taken by traditional dominant players.",
+  "questions": [
+    {
+      "id": "q1",
+      "qText": "What is the main reason cited for the need to restructure international cooperation?",
+      "options": [
+        "(A) The high cost of maintaining the UN headquarters.",
+        "(B) The inability of the current order to solve modern global issues.",
+        "(C) A lack of interest in climate change from emerging economies.",
+        "(D) The total collapse of all existing regional security alliances."
+      ],
+      "correctIndex": 1,
+      "explanation": "<b>Correct: (B).</b> The text mentions that the current order is 'no longer sufficient to address modern challenges'. <br><i>Distractors:</i> (A) is a financial detail not mentioned. (C) is the opposite; climate change is listed as a reason *for* restructuring. (D) is an extreme statement (total collapse) not supported by the text."
+    },
+    {
+      "id": "q2",
+      "qText": "What are 'minilateral' agreements according to the article?",
+      "options": [
+        "(A) Trade deals focused only on the sale of mineral resources.",
+        "(B) Large-scale treaties that take decades to finalize.",
+        "(C) Small, targeted collaborations between specific groups of nations.",
+        "(D) Military interventions led by the UN Security Council."
+      ],
+      "correctIndex": 2,
+      "explanation": "<b>Correct: (C).</b> The article describes them as agreements that 'aim to solve specific issues through targeted collaboration'. <br><i>Distractors:</i> (A) is a play on the word 'mini/mineral'. (B) is the opposite of 'minilateral'. (D) confuses the new alliances with the institution they are trying to bypass."
+    },
+    {
+      "id": "q3",
+      "qText": "The word 'gridlock' in the second paragraph is closest in meaning to:",
+      "options": [
+        "(A) Progress",
+        "(B) Standstill",
+        "(C) Expansion",
+        "(D) Opening"
+      ],
+      "correctIndex": 1,
+      "explanation": "<b>Correct: (B).</b> In a political or administrative context, 'gridlock' refers to a situation where no progress can be made, a standstill. <br><i>Distractors:</i> (A), (C), and (D) all imply movement or growth, which is the opposite of the frustration described in the text."
+    }
+  ]
+},
+  {
+  "id": "2026-03-13-P7",
+  "date": "2026-03-13",
+  "type": "Part 7",
+  "category": "Market Trends & Electronics",
+  "articleTitle": "A 'Perfect Storm' of Factors is Driving Up Global Storage Costs",
+  "articleLink": "https://www.tomshardware.com/pc-components/storage/perfect-storm-of-demand-and-supply-driving-up-storage-costs",
+  "articleImg": "https://cdn.mos.cms.futurecdn.net/gFgoMDe8UXm9jrKuWfp3rj-1199-80.jpg.webp",
+  "articleBody": "SAN JOSE — Hardware enthusiasts and enterprise buyers alike are facing a significant rise in the prices of Solid State Drives (SSDs) and traditional Hard Disk Drives (HDDs). Industry experts describe the current situation as a 'perfect storm,' where a surge in demand for high-capacity storage is colliding with a restricted global supply.\n\nThe primary driver behind this trend is the massive expansion of AI infrastructure, which requires vast amounts of data storage. Simultaneously, major NAND flash manufacturers have maintained reduced production levels throughout the previous fiscal year to stabilize market prices. This intentional undersupply, combined with the unexpected speed of the AI boom, has left distributors struggling to maintain inventory levels.\n\nAnalysts predict that consumers should expect double-digit price increases through the next two quarters. While some manufacturers are beginning to ramp up production again, the lead time required for these changes to reach the retail market means that relief for buyers is unlikely to arrive before the end of the year.",
+  "questions": [
+    {
+      "id": "q1",
+      "qText": "According to the article, why is there currently a shortage of storage devices?",
+      "options": [
+        "(A) Because a major natural disaster destroyed several factories.",
+        "(B) Because manufacturers intentionally kept production levels low.",
+        "(C) Because consumers have stopped buying traditional hard drives.",
+        "(D) Because of a decrease in the development of AI technologies."
+      ],
+      "correctIndex": 1,
+      "explanation": "<b>Correct: (B).</b> The text states that manufacturers 'maintained reduced production levels' to stabilize prices. <br><i>Distractors:</i> (A) is a common real-world cause but is not mentioned here. (C) is incorrect as demand is rising. (D) is the opposite of what the text says ('massive expansion of AI')."
+    },
+    {
+      "id": "q2",
+      "qText": "When do analysts expect the prices of storage to start decreasing?",
+      "options": [
+        "(A) Within the next few weeks.",
+        "(B) At the beginning of the next quarter.",
+        "(C) Not before the end of the current year.",
+        "(D) Prices are expected to remain the same for two years."
+      ],
+      "correctIndex": 2,
+      "explanation": "<b>Correct: (C).</b> The text mentions that 'relief for buyers is unlikely to arrive before the end of the year'. <br><i>Distractors:</i> (A) and (B) are too optimistic based on the 'lead time' mentioned. (D) contradicts the 'double-digit price increases' prediction."
+    },
+    {
+      "id": "q3",
+      "qText": "The word 'ramp up' in the third paragraph is closest in meaning to:",
+      "options": [
+        "(A) Improve the quality of",
+        "(B) Decrease the cost of",
+        "(C) Increase the amount of",
+        "(D) Advertise the benefits of"
+      ],
+      "correctIndex": 2,
+      "explanation": "<b>Correct: (C).</b> In a manufacturing context, to 'ramp up' production means to increase the volume or speed of production. <br><i>Distractors:</i> (A), (B), and (D) are other business activities, but they do not describe the action of producing more units."
+    }
+  ]
+},
 {
   "id": "2026-03-12-P7",
   "date": "2026-03-12",
