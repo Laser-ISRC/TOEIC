@@ -230,7 +230,7 @@ body {
     -webkit-appearance: none;  /* Supprime le style natif iOS/Android */
     -moz-appearance: none;
     appearance: none;
-    width: 90x;
+    width: 90px;
     background: rgba(255, 255, 255, 0.05); /* Ton fond sombre */
     
     /* --- STYLE --- */
@@ -258,7 +258,6 @@ body {
 .nav-btn .arrow {
     font-size: 1.2rem;
     margin-top: 2px;
-    color: #94a3b8; /* Ta couleur d'accent */
     opacity: 1;
 }
 
