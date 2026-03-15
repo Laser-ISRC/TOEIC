@@ -1,4 +1,199 @@
 [
+{
+  "id": "2026-03-19-P7",
+  "date": "2026-03-19",
+  "type": "Part 7",
+  "category": "Global Politics & Governance",
+  "articleTitle": "Analyzing the Global Impact of Shifting Executive Power in Washington",
+  "articleLink": "https://www.aljazeera.com/news/2026/3/15/how-trumps-unchecked-power-has-changed-the-world",
+  "articleImg": "https://www.aljazeera.com/wp-content/uploads/2020/12/000_8XP4NF.jpg?resize=770%2C513&quality=80",
+  "articleBody": "WASHINGTON, D.C. — As the current administration continues to implement its 'America First' doctrine, political analysts are examining the profound changes in global diplomatic structures. The shift toward a more centralized executive authority has prompted both allies and adversaries to recalibrate their trade and security strategies in response to a more unpredictable US foreign policy.\n\nInternational organizations, including the United Nations and the World Trade Organization, have reported a notable decrease in multilateral cooperation. Instead, there has been a significant rise in bilateral agreements, which the current administration argues provide better leverage for American interests. Critics, however, warn that this approach undermines long-standing international norms and could lead to increased regional instability.\n\nThe economic consequences of these policy shifts are becoming evident in global markets. Increased tariffs and the renegotiation of major trade deals have forced multinational corporations to diversify their supply chains away from traditional hubs. While some domestic sectors have seen a temporary boost, long-term global growth projections remain cautious as businesses navigate the complexities of a changing international order.",
+  "questions": [
+    {
+      "id": "q1",
+      "qText": "According to the article, how have other countries responded to the change in US foreign policy?",
+      "options": [
+        "(A) By ending all diplomatic relations with Washington.",
+        "(B) By adjusting their own trade and security approaches.",
+        "(C) By increasing their reliance on multilateral organizations.",
+        "(D) By refusing to engage in any bilateral agreements."
+      ],
+      "correctIndex": 1,
+      "explanation": "<b>Correct: (B).</b> The text states that the shift has 'prompted both allies and adversaries to recalibrate their trade and security strategies'. <br><i>Distractors:</i> (A) is too extreme and not mentioned. (C) is the opposite of the reported trend. (D) contradicts the text which mentions a rise in bilateral deals."
+    },
+    {
+      "id": "q2",
+      "qText": "What has been one major result of the shift toward bilateral agreements?",
+      "options": [
+        "(A) A strengthening of the United Nations' authority.",
+        "(B) A complete stop in global corporate diversification.",
+        "(C) A decrease in cooperation between multiple nations simultaneously.",
+        "(D) The immediate stabilization of all regional conflicts."
+      ],
+      "correctIndex": 2,
+      "explanation": "<b>Correct: (C).</b> The article notes a 'notable decrease in multilateral cooperation' (cooperation between many nations) in favor of bilateral (two-nation) deals. <br><i>Distractors:</i> (A) is the opposite of what is implied. (B) and (D) are not supported by the article's cautious tone."
+    },
+    {
+      "id": "q3",
+      "qText": "The word 'recalibrate' in the first paragraph is closest in meaning to:",
+      "options": [
+        "(A) Disregard",
+        "(B) Adjust",
+        "(C) Finance",
+        "(D) Simplify"
+      ],
+      "correctIndex": 1,
+      "explanation": "<b>Correct: (B).</b> To 'recalibrate' in this context means to reassess and adjust one's strategy or position. <br><i>Distractors:</i> (A) means to ignore. (C) relates to money. (D) means to make easier, which doesn't fit the strategic context."
+    }
+  ]
+},
+  
+  {
+  "id": "2026-03-18-P7",
+  "date": "2026-03-18",
+  "type": "Part 7",
+  "category": "International Affairs & Security",
+  "articleTitle": "Security Challenges Persist as Syria Marks 15 Years Since Uprising",
+  "articleLink": "https://www.aljazeera.com/features/2026/3/15/as-syria-marks-15-years-since-anti-assad-uprising-security-issues-remain",
+  "articleImg": "https://www.aljazeera.com/wp-content/uploads/2025/12/afp_6937f95f786d-1765275999.jpg?resize=770%2C513&quality=80",
+  "articleBody": "DAMASCUS — This week marks the 15th anniversary of the initial anti-government protests that reshaped the geopolitical landscape of the Middle East. While major combat operations have subsided in several regions, international observers report that significant security issues remain, hindering long-term economic recovery and the return of displaced populations.\n\nA recent report by humanitarian agencies highlights that the lack of consistent infrastructure—particularly in electricity and water management—continues to pose a major hurdle for local businesses. Furthermore, diplomatic efforts to stabilize the region have met with limited success, as various stakeholders remain divided over the framework for a permanent political settlement.\n\nDespite these challenges, some local entrepreneurs are attempting to revitalize urban centers through small-scale reconstruction projects. However, without substantial foreign investment and a more predictable security environment, analysts suggest that the pace of development will stay marginal for the foreseeable future. The international community continues to emphasize the need for a comprehensive approach to address both the immediate humanitarian needs and the underlying structural grievances.",
+  "questions": [
+    {
+      "id": "q1",
+      "qText": "What is identified as a major obstacle for local businesses in the region?",
+      "options": [
+        "(A) A surplus of foreign investment.",
+        "(B) The lack of reliable basic infrastructure.",
+        "(C) Excessive government regulations on technology.",
+        "(D) A decrease in the cost of raw materials."
+      ],
+      "correctIndex": 1,
+      "explanation": "<b>Correct: (B).</b> The text states that the 'lack of consistent infrastructure—particularly in electricity and water management—continues to pose a major hurdle'. <br><i>Distractors:</i> (A) is the opposite; there is a lack of investment. (C) and (D) are not mentioned in the article."
+    },
+    {
+      "id": "q2",
+      "qText": "According to analysts, what is required for faster economic development?",
+      "options": [
+        "(A) A complete change in the region's currency.",
+        "(B) The closure of all small-scale local businesses.",
+        "(C) Significant foreign capital and a stable environment.",
+        "(D) A reduction in the number of diplomatic workers."
+      ],
+      "correctIndex": 2,
+      "explanation": "<b>Correct: (C).</b> The article mentions that without 'substantial foreign investment and a more predictable security environment', development will remain marginal. <br><i>Distractors:</i> (A), (B), and (D) are not suggested as solutions by the analysts in the text."
+    },
+    {
+      "id": "q3",
+      "qText": "The word 'subsided' in the first paragraph is closest in meaning to:",
+      "options": [
+        "(A) Increased",
+        "(B) Diminished",
+        "(C) Transferred",
+        "(D) Announced"
+      ],
+      "correctIndex": 1,
+      "explanation": "<b>Correct: (B).</b> When combat operations 'subside', they decrease in intensity or frequency, meaning they have diminished. <br><i>Distractors:</i> (A) is the opposite. (C) and (D) do not fit the context of military operations reducing over time."
+    }
+  ]
+},
+  {
+  "id": "2026-03-17-P7",
+  "date": "2026-03-17",
+  "type": "Part 7",
+  "category": "International Trade & Technology",
+  "articleTitle": "New Russian Tech Firm Faces Skepticism Over 'Native' Processor Claims",
+  "articleLink": "https://www.tomshardware.com/pc-components/cpus/11-month-old-russian-outfit-claims-it-has-developed-16-core-and-32-core-processors-flaunts-cyrillic-badged-processors-chips-appear-to-be-sanctions-swerving-rebadged-chinese-loongson-processors",
+  "articleImg": "https://cdn.mos.cms.futurecdn.net/Qm8NMkqo42z8KKyAsiyRad-650-80.jpg.webp",
+  "articleBody": "MOSCOW — A relatively new Russian technology startup, founded only eleven months ago, has made headlines by claiming to have developed high-performance 16-core and 32-core processors. The company recently showcased physical chips featuring Cyrillic branding, asserting that these components were designed and manufactured domestically to ensure technological independence.\n\nHowever, international hardware experts and industry analysts have expressed significant doubts regarding these claims. Detailed inspections of the chip architecture suggest that the processors may actually be rebadged versions of existing Chinese Loongson designs. This practice, often referred to as 'white-labeling,' would allow the firm to bypass current trade sanctions that restrict the export of advanced Western computing hardware to the region.\n\nThe startup maintains that its engineering team achieved these breakthroughs in record time. Nevertheless, critics point out that developing a completely new high-end processor architecture typically takes several years and billions of dollars in research and development. This controversy highlights the ongoing challenges of maintaining global supply chain transparency amid shifting geopolitical tensions and strict export controls.",
+  "questions": [
+    {
+      "id": "q1",
+      "qText": "What is the primary claim made by the Russian startup?",
+      "options": [
+        "(A) It has acquired a major Chinese processor manufacturer.",
+        "(B) It has developed its own high-performance chips in under a year.",
+        "(C) It has discovered a way to remove all trade sanctions.",
+        "(D) It is closing its operations due to a lack of funding."
+      ],
+      "correctIndex": 1,
+      "explanation": "<b>Correct: (B).</b> The text says the firm, founded 11 months ago, claims to have 'developed high-performance 16-core and 32-core processors'. <br><i>Distractors:</i> (A) is a misinterpretation of the Chinese connection. (C) is incorrect; the firm is accused of 'bypassing' sanctions, not removing them. (D) is not mentioned."
+    },
+    {
+      "id": "q2",
+      "qText": "Why are industry experts skeptical of the company's assertions?",
+      "options": [
+        "(A) The chips were found to be less powerful than advertised.",
+        "(B) The startup does not have enough employees to run a factory.",
+        "(C) The architecture appears to be identical to existing Chinese designs.",
+        "(D) The Cyrillic branding was misspelled on the physical hardware."
+      ],
+      "correctIndex": 2,
+      "explanation": "<b>Correct: (C).</b> The article mentions that experts suggest the chips are 'rebadged versions of existing Chinese Loongson designs'. <br><i>Distractors:</i> (A), (B), and (D) are plausible reasons for skepticism but are not the reasons cited in this specific text."
+    },
+    {
+      "id": "q3",
+      "qText": "The word 'bypass' in the second paragraph is closest in meaning to:",
+      "options": [
+        "(A) Avoid",
+        "(B) Strengthen",
+        "(C) Investigate",
+        "(D) Purchase"
+      ],
+      "correctIndex": 0,
+      "explanation": "<b>Correct: (A).</b> To 'bypass' sanctions means to find a way around them or to avoid them. <br><i>Distractors:</i> (B) is the opposite. (C) means to look into something. (D) is related to commerce but doesn't capture the idea of evasion."
+    }
+  ]
+},
+
+
+  {
+  "id": "2026-03-16-P7",
+  "date": "2026-03-16",
+  "type": "Part 7",
+  "category": "Industrial Supply Chain",
+  "articleTitle": "Qatar Helium Shutdown Forces Chipmakers to Tighten Schedules",
+  "articleLink": "https://www.tomshardware.com/tech-industry/qatar-helium-shutdown-puts-chip-supply-chain-on-a-two-week-clock",
+  "articleImg": "https://cdn.mos.cms.futurecdn.net/H2W39McUJD9PvHn7aRQM6d-650-80.jpg.webp",
+  "articleBody": "DOHA — A sudden operational shutdown at two of Qatar’s largest helium production facilities has sent ripples through the global semiconductor industry. Experts warn that the stoppage has effectively put the chip supply chain on a 'two-week clock,' as manufacturers typically maintain only limited on-site reserves of the gas, which is essential for cooling during the wafer fabrication process.\n\nQatar provides approximately 35% of the world's helium supply. The current outage, reportedly caused by a localized infrastructure failure, coincides with a period of peak demand for advanced processor manufacturing. While some tech giants have secured long-term strategic reserves, smaller chipmakers may face immediate production delays if shipments do not resume within the next fourteen days.\n\nLogistics coordinators are scrambling to find alternative sources from producers in the United States and Algeria. However, transportation constraints and higher spot-market prices are expected to drive up operational costs for the second quarter. Industry analysts suggest that this event underscores the fragile nature of relying on a single geographic region for high-purity industrial gases.",
+  "questions": [
+    {
+      "id": "q1",
+      "qText": "Why is the shutdown in Qatar particularly concerning for chipmakers?",
+      "options": [
+        "(A) They use helium as a primary energy source for their offices.",
+        "(B) They have very small amounts of the gas stored at their factories.",
+        "(C) Most manufacturers have already closed their production lines.",
+        "(D) Qatar is the only country in the world that produces helium."
+      ],
+      "correctIndex": 1,
+      "explanation": "<b>Correct: (B).</b> The article states that manufacturers 'typically maintain only limited on-site reserves' of the gas. <br><i>Distractors:</i> (A) is incorrect; it is used for 'cooling during fabrication'. (C) is a future risk, not the current state. (D) is false as the text mentions producers in the US and Algeria."
+    },
+    {
+      "id": "q2",
+      "qText": "How long do manufacturers have before production is seriously impacted?",
+      "options": [
+        "(A) Approximately two days.",
+        "(B) Exactly one month.",
+        "(C) Roughly two weeks.",
+        "(D) Until the end of the fiscal year."
+      ],
+      "correctIndex": 2,
+      "explanation": "<b>Correct: (C).</b> The text mentions a 'two-week clock' and that delays occur if shipments do not resume within 'fourteen days'. <br><i>Distractors:</i> (A), (B), and (D) provide incorrect timeframes not supported by the article."
+    },
+    {
+      "id": "q3",
+      "qText": "The word 'outage' in the second paragraph is closest in meaning to:",
+      "options": [
+        "(A) Expansion",
+        "(B) Interruption",
+        "(C) Negotiation",
+        "(D) Promotion"
+      ],
+      "correctIndex": 1,
+      "explanation": "<b>Correct: (B).</b> An 'outage' refers to a period when a service or a production facility is not operational, which is an interruption. <br><i>Distractors:</i> (A) is an increase. (C) relates to business discussions. (D) relates to marketing or career advancement."
+    }
+  ]
+},
   {
   "id": "2026-03-15-P7",
   "date": "2026-03-15",
