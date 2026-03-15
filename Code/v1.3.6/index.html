@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TOEIC IT Mastery</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="nav-bar">
+        <div class="logo">TOEIC<span>LASER</span></div>
+        <select id="part-selector">
+            <option>Part 7: Reading</option>
+            <option disabled>Part 5: Grammar</option>
+            <option disabled>Part 2: Listening</option>
+        </select>
+    </div>
+
+    <div class="progress-container-fixed">
+        <div id="daily-bar-mini"></div>
+    </div>
+
+    <main class="container">
+        <header>
+            <div class="nav-controls">
+                <button id="prev-day" class="nav-btn">
+                    <span>Previous</span>
+                    </br>
+                    <span>Day</span>
+                    </br>
+                    <span class="arrow">←</span>
+                </button>
+                <span class="badge" id="current-date-display">Loading...</span>
+                <button id="next-day" class="nav-btn" disabled>
+                    <span>Next</span>
+                    </br>
+                    <span>Day</span>
+                    </br>
+                    <span class="arrow">→</span>
+                </button>
+            </div>
+            <h1>Part 7: Reading Comprehension</h1>
+        </header>
+
+        <section class="dashboard">
+            <div class="daily-progress-container">
+                    <div class="progress-labels">
+                        <span>Daily progress</span>
+                        <span id="daily-count">0/0</span>
+                    </div>
+                    <div class="progress-bar-bg">
+                        <div id="daily-bar-main" ></div>
+                    </div>
+            </div>            
+        </section>
+
+        <section class="article-card">
+            <div class="article-header">
+                <h2 id="art-title"></h2>
+                <a id="art-link" target="_blank">Original Source ↗</a>
+            </div>
+            <img id="art-img" class="article-image">
+            <div id="art-text" class="article-content"></div>
+        </section>
+
+        <section id="quiz-container"></section>
+    </main>
+
+    <script src="script.js?v=1.3.6"></script>
+    <div class="version-tag">v1.3.6</div>
+</body>
+</html>

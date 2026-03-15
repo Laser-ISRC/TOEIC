@@ -1,0 +1,635 @@
+[
+{
+  "id": "2026-03-19-P7",
+  "date": "2026-03-19",
+  "type": "Part 7",
+  "category": "Global Politics & Governance",
+  "articleTitle": "Analyzing the Global Impact of Shifting Executive Power in Washington",
+  "articleLink": "https://www.aljazeera.com/news/2026/3/15/how-trumps-unchecked-power-has-changed-the-world",
+  "articleImg": "https://www.aljazeera.com/wp-content/uploads/2020/12/000_8XP4NF.jpg?resize=770%2C513&quality=80",
+  "articleBody": "WASHINGTON, D.C. — As the current administration continues to implement its 'America First' doctrine, political analysts are examining the profound changes in global diplomatic structures. The shift toward a more centralized executive authority has prompted both allies and adversaries to recalibrate their trade and security strategies in response to a more unpredictable US foreign policy.\n\nInternational organizations, including the United Nations and the World Trade Organization, have reported a notable decrease in multilateral cooperation. Instead, there has been a significant rise in bilateral agreements, which the current administration argues provide better leverage for American interests. Critics, however, warn that this approach undermines long-standing international norms and could lead to increased regional instability.\n\nThe economic consequences of these policy shifts are becoming evident in global markets. Increased tariffs and the renegotiation of major trade deals have forced multinational corporations to diversify their supply chains away from traditional hubs. While some domestic sectors have seen a temporary boost, long-term global growth projections remain cautious as businesses navigate the complexities of a changing international order.",
+  "questions": [
+    {
+      "id": "q1",
+      "qText": "According to the article, how have other countries responded to the change in US foreign policy?",
+      "options": [
+        "(A) By ending all diplomatic relations with Washington.",
+        "(B) By adjusting their own trade and security approaches.",
+        "(C) By increasing their reliance on multilateral organizations.",
+        "(D) By refusing to engage in any bilateral agreements."
+      ],
+      "correctIndex": 1,
+      "explanation": "<b>Correct: (B).</b> The text states that the shift has 'prompted both allies and adversaries to recalibrate their trade and security strategies'. <br><i>Distractors:</i> (A) is too extreme and not mentioned. (C) is the opposite of the reported trend. (D) contradicts the text which mentions a rise in bilateral deals."
+    },
+    {
+      "id": "q2",
+      "qText": "What has been one major result of the shift toward bilateral agreements?",
+      "options": [
+        "(A) A strengthening of the United Nations' authority.",
+        "(B) A complete stop in global corporate diversification.",
+        "(C) A decrease in cooperation between multiple nations simultaneously.",
+        "(D) The immediate stabilization of all regional conflicts."
+      ],
+      "correctIndex": 2,
+      "explanation": "<b>Correct: (C).</b> The article notes a 'notable decrease in multilateral cooperation' (cooperation between many nations) in favor of bilateral (two-nation) deals. <br><i>Distractors:</i> (A) is the opposite of what is implied. (B) and (D) are not supported by the article's cautious tone."
+    },
+    {
+      "id": "q3",
+      "qText": "The word 'recalibrate' in the first paragraph is closest in meaning to:",
+      "options": [
+        "(A) Disregard",
+        "(B) Adjust",
+        "(C) Finance",
+        "(D) Simplify"
+      ],
+      "correctIndex": 1,
+      "explanation": "<b>Correct: (B).</b> To 'recalibrate' in this context means to reassess and adjust one's strategy or position. <br><i>Distractors:</i> (A) means to ignore. (C) relates to money. (D) means to make easier, which doesn't fit the strategic context."
+    }
+  ]
+},
+  
+  {
+  "id": "2026-03-18-P7",
+  "date": "2026-03-18",
+  "type": "Part 7",
+  "category": "International Affairs & Security",
+  "articleTitle": "Security Challenges Persist as Syria Marks 15 Years Since Uprising",
+  "articleLink": "https://www.aljazeera.com/features/2026/3/15/as-syria-marks-15-years-since-anti-assad-uprising-security-issues-remain",
+  "articleImg": "https://www.aljazeera.com/wp-content/uploads/2025/12/afp_6937f95f786d-1765275999.jpg?resize=770%2C513&quality=80",
+  "articleBody": "DAMASCUS — This week marks the 15th anniversary of the initial anti-government protests that reshaped the geopolitical landscape of the Middle East. While major combat operations have subsided in several regions, international observers report that significant security issues remain, hindering long-term economic recovery and the return of displaced populations.\n\nA recent report by humanitarian agencies highlights that the lack of consistent infrastructure—particularly in electricity and water management—continues to pose a major hurdle for local businesses. Furthermore, diplomatic efforts to stabilize the region have met with limited success, as various stakeholders remain divided over the framework for a permanent political settlement.\n\nDespite these challenges, some local entrepreneurs are attempting to revitalize urban centers through small-scale reconstruction projects. However, without substantial foreign investment and a more predictable security environment, analysts suggest that the pace of development will stay marginal for the foreseeable future. The international community continues to emphasize the need for a comprehensive approach to address both the immediate humanitarian needs and the underlying structural grievances.",
+  "questions": [
+    {
+      "id": "q1",
+      "qText": "What is identified as a major obstacle for local businesses in the region?",
+      "options": [
+        "(A) A surplus of foreign investment.",
+        "(B) The lack of reliable basic infrastructure.",
+        "(C) Excessive government regulations on technology.",
+        "(D) A decrease in the cost of raw materials."
+      ],
+      "correctIndex": 1,
+      "explanation": "<b>Correct: (B).</b> The text states that the 'lack of consistent infrastructure—particularly in electricity and water management—continues to pose a major hurdle'. <br><i>Distractors:</i> (A) is the opposite; there is a lack of investment. (C) and (D) are not mentioned in the article."
+    },
+    {
+      "id": "q2",
+      "qText": "According to analysts, what is required for faster economic development?",
+      "options": [
+        "(A) A complete change in the region's currency.",
+        "(B) The closure of all small-scale local businesses.",
+        "(C) Significant foreign capital and a stable environment.",
+        "(D) A reduction in the number of diplomatic workers."
+      ],
+      "correctIndex": 2,
+      "explanation": "<b>Correct: (C).</b> The article mentions that without 'substantial foreign investment and a more predictable security environment', development will remain marginal. <br><i>Distractors:</i> (A), (B), and (D) are not suggested as solutions by the analysts in the text."
+    },
+    {
+      "id": "q3",
+      "qText": "The word 'subsided' in the first paragraph is closest in meaning to:",
+      "options": [
+        "(A) Increased",
+        "(B) Diminished",
+        "(C) Transferred",
+        "(D) Announced"
+      ],
+      "correctIndex": 1,
+      "explanation": "<b>Correct: (B).</b> When combat operations 'subside', they decrease in intensity or frequency, meaning they have diminished. <br><i>Distractors:</i> (A) is the opposite. (C) and (D) do not fit the context of military operations reducing over time."
+    }
+  ]
+},
+  {
+  "id": "2026-03-17-P7",
+  "date": "2026-03-17",
+  "type": "Part 7",
+  "category": "International Trade & Technology",
+  "articleTitle": "New Russian Tech Firm Faces Skepticism Over 'Native' Processor Claims",
+  "articleLink": "https://www.tomshardware.com/pc-components/cpus/11-month-old-russian-outfit-claims-it-has-developed-16-core-and-32-core-processors-flaunts-cyrillic-badged-processors-chips-appear-to-be-sanctions-swerving-rebadged-chinese-loongson-processors",
+  "articleImg": "https://cdn.mos.cms.futurecdn.net/Qm8NMkqo42z8KKyAsiyRad-650-80.jpg.webp",
+  "articleBody": "MOSCOW — A relatively new Russian technology startup, founded only eleven months ago, has made headlines by claiming to have developed high-performance 16-core and 32-core processors. The company recently showcased physical chips featuring Cyrillic branding, asserting that these components were designed and manufactured domestically to ensure technological independence.\n\nHowever, international hardware experts and industry analysts have expressed significant doubts regarding these claims. Detailed inspections of the chip architecture suggest that the processors may actually be rebadged versions of existing Chinese Loongson designs. This practice, often referred to as 'white-labeling,' would allow the firm to bypass current trade sanctions that restrict the export of advanced Western computing hardware to the region.\n\nThe startup maintains that its engineering team achieved these breakthroughs in record time. Nevertheless, critics point out that developing a completely new high-end processor architecture typically takes several years and billions of dollars in research and development. This controversy highlights the ongoing challenges of maintaining global supply chain transparency amid shifting geopolitical tensions and strict export controls.",
+  "questions": [
+    {
+      "id": "q1",
+      "qText": "What is the primary claim made by the Russian startup?",
+      "options": [
+        "(A) It has acquired a major Chinese processor manufacturer.",
+        "(B) It has developed its own high-performance chips in under a year.",
+        "(C) It has discovered a way to remove all trade sanctions.",
+        "(D) It is closing its operations due to a lack of funding."
+      ],
+      "correctIndex": 1,
+      "explanation": "<b>Correct: (B).</b> The text says the firm, founded 11 months ago, claims to have 'developed high-performance 16-core and 32-core processors'. <br><i>Distractors:</i> (A) is a misinterpretation of the Chinese connection. (C) is incorrect; the firm is accused of 'bypassing' sanctions, not removing them. (D) is not mentioned."
+    },
+    {
+      "id": "q2",
+      "qText": "Why are industry experts skeptical of the company's assertions?",
+      "options": [
+        "(A) The chips were found to be less powerful than advertised.",
+        "(B) The startup does not have enough employees to run a factory.",
+        "(C) The architecture appears to be identical to existing Chinese designs.",
+        "(D) The Cyrillic branding was misspelled on the physical hardware."
+      ],
+      "correctIndex": 2,
+      "explanation": "<b>Correct: (C).</b> The article mentions that experts suggest the chips are 'rebadged versions of existing Chinese Loongson designs'. <br><i>Distractors:</i> (A), (B), and (D) are plausible reasons for skepticism but are not the reasons cited in this specific text."
+    },
+    {
+      "id": "q3",
+      "qText": "The word 'bypass' in the second paragraph is closest in meaning to:",
+      "options": [
+        "(A) Avoid",
+        "(B) Strengthen",
+        "(C) Investigate",
+        "(D) Purchase"
+      ],
+      "correctIndex": 0,
+      "explanation": "<b>Correct: (A).</b> To 'bypass' sanctions means to find a way around them or to avoid them. <br><i>Distractors:</i> (B) is the opposite. (C) means to look into something. (D) is related to commerce but doesn't capture the idea of evasion."
+    }
+  ]
+},
+
+
+  {
+  "id": "2026-03-16-P7",
+  "date": "2026-03-16",
+  "type": "Part 7",
+  "category": "Industrial Supply Chain",
+  "articleTitle": "Qatar Helium Shutdown Forces Chipmakers to Tighten Schedules",
+  "articleLink": "https://www.tomshardware.com/tech-industry/qatar-helium-shutdown-puts-chip-supply-chain-on-a-two-week-clock",
+  "articleImg": "https://cdn.mos.cms.futurecdn.net/H2W39McUJD9PvHn7aRQM6d-650-80.jpg.webp",
+  "articleBody": "DOHA — A sudden operational shutdown at two of Qatar’s largest helium production facilities has sent ripples through the global semiconductor industry. Experts warn that the stoppage has effectively put the chip supply chain on a 'two-week clock,' as manufacturers typically maintain only limited on-site reserves of the gas, which is essential for cooling during the wafer fabrication process.\n\nQatar provides approximately 35% of the world's helium supply. The current outage, reportedly caused by a localized infrastructure failure, coincides with a period of peak demand for advanced processor manufacturing. While some tech giants have secured long-term strategic reserves, smaller chipmakers may face immediate production delays if shipments do not resume within the next fourteen days.\n\nLogistics coordinators are scrambling to find alternative sources from producers in the United States and Algeria. However, transportation constraints and higher spot-market prices are expected to drive up operational costs for the second quarter. Industry analysts suggest that this event underscores the fragile nature of relying on a single geographic region for high-purity industrial gases.",
+  "questions": [
+    {
+      "id": "q1",
+      "qText": "Why is the shutdown in Qatar particularly concerning for chipmakers?",
+      "options": [
+        "(A) They use helium as a primary energy source for their offices.",
+        "(B) They have very small amounts of the gas stored at their factories.",
+        "(C) Most manufacturers have already closed their production lines.",
+        "(D) Qatar is the only country in the world that produces helium."
+      ],
+      "correctIndex": 1,
+      "explanation": "<b>Correct: (B).</b> The article states that manufacturers 'typically maintain only limited on-site reserves' of the gas. <br><i>Distractors:</i> (A) is incorrect; it is used for 'cooling during fabrication'. (C) is a future risk, not the current state. (D) is false as the text mentions producers in the US and Algeria."
+    },
+    {
+      "id": "q2",
+      "qText": "How long do manufacturers have before production is seriously impacted?",
+      "options": [
+        "(A) Approximately two days.",
+        "(B) Exactly one month.",
+        "(C) Roughly two weeks.",
+        "(D) Until the end of the fiscal year."
+      ],
+      "correctIndex": 2,
+      "explanation": "<b>Correct: (C).</b> The text mentions a 'two-week clock' and that delays occur if shipments do not resume within 'fourteen days'. <br><i>Distractors:</i> (A), (B), and (D) provide incorrect timeframes not supported by the article."
+    },
+    {
+      "id": "q3",
+      "qText": "The word 'outage' in the second paragraph is closest in meaning to:",
+      "options": [
+        "(A) Expansion",
+        "(B) Interruption",
+        "(C) Negotiation",
+        "(D) Promotion"
+      ],
+      "correctIndex": 1,
+      "explanation": "<b>Correct: (B).</b> An 'outage' refers to a period when a service or a production facility is not operational, which is an interruption. <br><i>Distractors:</i> (A) is an increase. (C) relates to business discussions. (D) relates to marketing or career advancement."
+    }
+  ]
+},
+  {
+  "id": "2026-03-15-P7",
+  "date": "2026-03-15",
+  "type": "Part 7",
+  "category": "Global Economy & Tech Policy",
+  "articleTitle": "China’s New Five-Year Plan Prioritizes Tech Self-Reliance Amid US Tensions",
+  "articleLink": "https://edition.cnn.com/2026/03/12/business/china-five-year-plan-tech-us-intl-hnk",
+  "articleImg": "https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-2255435511.jpg?c=16x9&q=w_1544,c_fill/f_avif",
+  "articleBody": "BEIJING — The Chinese government has unveiled its latest ambitious five-year economic blueprint, placing a heavy emphasis on achieving 'technological self-reliance.' The plan outlines a strategic shift to reduce dependency on foreign suppliers for critical components, particularly in the semiconductor and artificial intelligence sectors.\n\nAccording to official documents released during the annual legislative session, the government intends to significantly increase research and development (R&D) spending over the next half-decade. This initiative comes as a direct response to ongoing export restrictions and trade pressures from the United States. Beijing aims to foster a domestic ecosystem of 'little giants'—specialized small and medium-sized enterprises that can innovate in niche high-tech fields.\n\nInternational economists suggest that while the plan demonstrates a clear long-term vision, its success will depend on the private sector's ability to overcome current capital constraints. Furthermore, the push for isolation in certain tech sectors could lead to redundant investments and a slowing of global innovation standards if cross-border collaboration continues to diminish.",
+  "questions": [
+    {
+      "id": "q1",
+      "qText": "What is the primary focus of China's new economic blueprint?",
+      "options": [
+        "(A) Increasing the export of low-cost consumer goods.",
+        "(B) Achieving independence from foreign technology suppliers.",
+        "(C) Reducing the national budget for research and development.",
+        "(D) Encouraging citizens to invest in foreign real estate."
+      ],
+      "correctIndex": 1,
+      "explanation": "<b>Correct: (B).</b> The text explicitly mentions the goal of 'achieving technological self-reliance' and reducing dependency on foreign suppliers. <br><i>Distractors:</i> (A) is an old economic model not mentioned here. (C) is the opposite; the plan aims to 'increase' R&D spending. (D) is not discussed in the article."
+    },
+    {
+      "id": "q2",
+      "qText": "Who are the 'little giants' mentioned in the second paragraph?",
+      "options": [
+        "(A) Large multinational corporations based in the US.",
+        "(B) New biological research projects focused on human growth.",
+        "(C) Specialized small and medium-sized high-tech companies.",
+        "(D) Government officials in charge of trade negotiations."
+      ],
+      "correctIndex": 2,
+      "explanation": "<b>Correct: (C).</b> The article defines them as 'specialized small and medium-sized enterprises' in high-tech fields. <br><i>Distractors:</i> (A) is the opposite of 'small/medium'. (B) is a literal and incorrect interpretation of the term 'giants'. (D) confuses the subjects with the companies they regulate."
+    },
+    {
+      "id": "q3",
+      "qText": "The word 'diminish' in the third paragraph is closest in meaning to:",
+      "options": [
+        "(A) Improve",
+        "(B) Decline",
+        "(C) Expand",
+        "(D) Stabilize"
+      ],
+      "correctIndex": 1,
+      "explanation": "<b>Correct: (B).</b> In this context, if collaboration 'continues to diminish', it means it is decreasing or declining. <br><i>Distractors:</i> (A) and (C) are opposites (increase/growth). (D) implies staying the same, whereas diminish implies a downward trend."
+    }
+  ]
+},
+  {
+  "id": "2026-03-14-P7",
+  "date": "2026-03-14",
+  "type": "Part 7",
+  "category": "International Relations & Policy",
+  "articleTitle": "Opinion: A Shift Toward Multilateralism Beyond Traditional Powers",
+  "articleLink": "https://www.aljazeera.com/opinions/2026/3/9/it-is-time-for-the-world-to-move-on-without-the-united-states",
+  "articleImg": "https://www.aljazeera.com/wp-content/uploads/2026/03/2022-03-01T223515Z_1032719589_RC2XTS90LJCL_RTRMADP_3_UKRAINE-CRISIS-UN-1773056813.jpg?resize=770%2C513&quality=80",
+  "articleBody": "UNITED NATIONS — A growing number of diplomatic figures and global analysts are calling for a fundamental restructuring of international cooperation. The argument suggests that the current global order, long dominated by a single superpower, is no longer sufficient to address modern challenges such as climate change, economic inequality, and regional security.\n\nObservers point to the increasing frequency of gridlock within the UN Security Council as evidence that traditional leadership models are struggling to adapt to a multipolar world. Instead of waiting for consensus from established powers, emerging economies and regional blocs are beginning to forge new alliances. These 'minilateral' agreements aim to solve specific issues through targeted collaboration, bypassing the slow administrative processes of larger, traditional institutions.\n\nWhile some critics argue that moving away from established frameworks could lead to global instability, proponents believe that a more decentralized approach to diplomacy is inevitable. They suggest that true international progress will now come from a broader coalition of nations willing to take collective action, regardless of the stance taken by traditional dominant players.",
+  "questions": [
+    {
+      "id": "q1",
+      "qText": "What is the main reason cited for the need to restructure international cooperation?",
+      "options": [
+        "(A) The high cost of maintaining the UN headquarters.",
+        "(B) The inability of the current order to solve modern global issues.",
+        "(C) A lack of interest in climate change from emerging economies.",
+        "(D) The total collapse of all existing regional security alliances."
+      ],
+      "correctIndex": 1,
+      "explanation": "<b>Correct: (B).</b> The text mentions that the current order is 'no longer sufficient to address modern challenges'. <br><i>Distractors:</i> (A) is a financial detail not mentioned. (C) is the opposite; climate change is listed as a reason *for* restructuring. (D) is an extreme statement (total collapse) not supported by the text."
+    },
+    {
+      "id": "q2",
+      "qText": "What are 'minilateral' agreements according to the article?",
+      "options": [
+        "(A) Trade deals focused only on the sale of mineral resources.",
+        "(B) Large-scale treaties that take decades to finalize.",
+        "(C) Small, targeted collaborations between specific groups of nations.",
+        "(D) Military interventions led by the UN Security Council."
+      ],
+      "correctIndex": 2,
+      "explanation": "<b>Correct: (C).</b> The article describes them as agreements that 'aim to solve specific issues through targeted collaboration'. <br><i>Distractors:</i> (A) is a play on the word 'mini/mineral'. (B) is the opposite of 'minilateral'. (D) confuses the new alliances with the institution they are trying to bypass."
+    },
+    {
+      "id": "q3",
+      "qText": "The word 'gridlock' in the second paragraph is closest in meaning to:",
+      "options": [
+        "(A) Progress",
+        "(B) Standstill",
+        "(C) Expansion",
+        "(D) Opening"
+      ],
+      "correctIndex": 1,
+      "explanation": "<b>Correct: (B).</b> In a political or administrative context, 'gridlock' refers to a situation where no progress can be made, a standstill. <br><i>Distractors:</i> (A), (C), and (D) all imply movement or growth, which is the opposite of the frustration described in the text."
+    }
+  ]
+},
+  {
+  "id": "2026-03-13-P7",
+  "date": "2026-03-13",
+  "type": "Part 7",
+  "category": "Market Trends & Electronics",
+  "articleTitle": "A 'Perfect Storm' of Factors is Driving Up Global Storage Costs",
+  "articleLink": "https://www.tomshardware.com/pc-components/storage/perfect-storm-of-demand-and-supply-driving-up-storage-costs",
+  "articleImg": "https://cdn.mos.cms.futurecdn.net/gFgoMDe8UXm9jrKuWfp3rj-1199-80.jpg.webp",
+  "articleBody": "SAN JOSE — Hardware enthusiasts and enterprise buyers alike are facing a significant rise in the prices of Solid State Drives (SSDs) and traditional Hard Disk Drives (HDDs). Industry experts describe the current situation as a 'perfect storm,' where a surge in demand for high-capacity storage is colliding with a restricted global supply.\n\nThe primary driver behind this trend is the massive expansion of AI infrastructure, which requires vast amounts of data storage. Simultaneously, major NAND flash manufacturers have maintained reduced production levels throughout the previous fiscal year to stabilize market prices. This intentional undersupply, combined with the unexpected speed of the AI boom, has left distributors struggling to maintain inventory levels.\n\nAnalysts predict that consumers should expect double-digit price increases through the next two quarters. While some manufacturers are beginning to ramp up production again, the lead time required for these changes to reach the retail market means that relief for buyers is unlikely to arrive before the end of the year.",
+  "questions": [
+    {
+      "id": "q1",
+      "qText": "According to the article, why is there currently a shortage of storage devices?",
+      "options": [
+        "(A) Because a major natural disaster destroyed several factories.",
+        "(B) Because manufacturers intentionally kept production levels low.",
+        "(C) Because consumers have stopped buying traditional hard drives.",
+        "(D) Because of a decrease in the development of AI technologies."
+      ],
+      "correctIndex": 1,
+      "explanation": "<b>Correct: (B).</b> The text states that manufacturers 'maintained reduced production levels' to stabilize prices. <br><i>Distractors:</i> (A) is a common real-world cause but is not mentioned here. (C) is incorrect as demand is rising. (D) is the opposite of what the text says ('massive expansion of AI')."
+    },
+    {
+      "id": "q2",
+      "qText": "When do analysts expect the prices of storage to start decreasing?",
+      "options": [
+        "(A) Within the next few weeks.",
+        "(B) At the beginning of the next quarter.",
+        "(C) Not before the end of the current year.",
+        "(D) Prices are expected to remain the same for two years."
+      ],
+      "correctIndex": 2,
+      "explanation": "<b>Correct: (C).</b> The text mentions that 'relief for buyers is unlikely to arrive before the end of the year'. <br><i>Distractors:</i> (A) and (B) are too optimistic based on the 'lead time' mentioned. (D) contradicts the 'double-digit price increases' prediction."
+    },
+    {
+      "id": "q3",
+      "qText": "The word 'ramp up' in the third paragraph is closest in meaning to:",
+      "options": [
+        "(A) Improve the quality of",
+        "(B) Decrease the cost of",
+        "(C) Increase the amount of",
+        "(D) Advertise the benefits of"
+      ],
+      "correctIndex": 2,
+      "explanation": "<b>Correct: (C).</b> In a manufacturing context, to 'ramp up' production means to increase the volume or speed of production. <br><i>Distractors:</i> (A), (B), and (D) are other business activities, but they do not describe the action of producing more units."
+    }
+  ]
+},
+{
+  "id": "2026-03-12-P7",
+  "date": "2026-03-12",
+  "type": "Part 7",
+  "category": "Corporate & Energy Law",
+  "articleTitle": "Shell Declares Force Majeure on LNG Contracts Following Qatar Disruptions",
+  "articleLink": "https://www.aljazeera.com/economy/2026/3/11/shell-declares-force-majeure-on-lng-contracts-from-qatar",
+  "articleImg": "https://www.aljazeera.com/wp-content/uploads/2026/03/getty_69a82fdf94-1772629983.jpg?resize=770%2C513&quality=80",
+  "articleBody": "DOHA — Energy giant Shell has officially declared force majeure on several liquefied natural gas (LNG) delivery contracts sourced from Qatar. This legal declaration comes after unforeseen technical issues at a major production facility, combined with logistical bottlenecks in the Red Sea, made it impossible to fulfill current shipment schedules.\n\nForce majeure is a standard contractual clause that excuses a company from meeting its obligations due to extraordinary events beyond its control. Shell stated that while it is working closely with Qatari authorities to resolve the production setbacks, the duration of the disruption remains uncertain. The move is expected to tighten global gas supplies, potentially driving up prices in European and Asian markets.\n\nIndustry analysts suggest that this event highlights the vulnerability of global energy supply chains. Major buyers are already looking for alternative sources to cover the anticipated shortfall. Shell has assured its clients that it is exploring all available options to minimize the impact on long-term agreements, although immediate spot-market deliveries will likely be deferred.",
+  "questions": [
+    {
+      "id": "q1",
+      "qText": "Why did Shell declare force majeure on its contracts?",
+      "options": [
+        "(A) It decided to sell its LNG assets in Qatar to a competitor.",
+        "(B) It encountered technical problems and logistical challenges.",
+        "(C) It is planning to increase the price of all existing contracts.",
+        "(D) It has successfully completed all its scheduled deliveries early."
+      ],
+      "correctIndex": 1,
+      "explanation": "<b>Correct: (B).</b> The article mentions 'unforeseen technical issues' and 'logistical bottlenecks' as the reasons for the declaration. <br><i>Distractors:</i> (A) is not mentioned. (C) is a possible consequence of the event, but not the reason for the legal declaration. (D) is the opposite of the situation described."
+    },
+    {
+      "id": "q2",
+      "qText": "What is the expected consequence of Shell's announcement on the global market?",
+      "options": [
+        "(A) A decrease in gas prices in Asia and Europe.",
+        "(B) An immediate surplus of LNG supplies worldwide.",
+        "(C) A potential increase in energy costs due to tighter supplies.",
+        "(D) The permanent closure of all Qatari production facilities."
+      ],
+      "correctIndex": 2,
+      "explanation": "<b>Correct: (C).</b> The text states the move is expected to 'tighten global gas supplies, potentially driving up prices'. <br><i>Distractors:</i> (A) is the opposite of 'driving up prices'. (B) contradicts the idea of 'tighten supplies'. (D) is an extreme exaggeration not supported by the text."
+    },
+    {
+      "id": "q3",
+      "qText": "The word 'deferred' in the third paragraph is closest in meaning to:",
+      "options": [
+        "(A) Cancelled",
+        "(B) Postponed",
+        "(C) Accelerated",
+        "(D) Guaranteed"
+      ],
+      "correctIndex": 1,
+      "explanation": "<b>Correct: (B).</b> In a business and legal context, to 'defer' a delivery or a payment means to put it off to a later time, or to postpone it. <br><i>Distractors:</i> (A) implies it will never happen, while deferred means it is delayed. (C) means to make it happen faster. (D) implies a certainty that is currently missing due to the 'uncertain' duration."
+    }
+  ]
+},
+
+{
+  "id": "2026-03-11-P7",
+  "date": "2026-03-11",
+  "type": "Part 7",
+  "category": "Energy & Infrastructure",
+  "articleTitle": "Taiwan Projects Massive Surge in Power Demand Driven by AI and Semiconductors",
+  "articleLink": "https://www.tomshardware.com/tech-industry/taiwan-expects-power-demand-to-increase-by-more-than-5gw-by-2030-enough-to-power-nearly-4-million-homes-rise-in-electricity-consumption-driven-by-semiconductor-manufacturing-and-ai-data-center-deployments",
+  "articleImg": "https://cdn.mos.cms.futurecdn.net/woUU8Hr3jfctwDwsf5k5gJ-970-80.jpg.webp",
+  "articleBody": "TAIPEI — The Taiwanese government has released a comprehensive energy forecast indicating that the nation's power demand is expected to increase by more than 5 gigawatts (GW) by 2030. This surge, equivalent to the energy consumption of nearly 4 million households, is primarily attributed to the rapid expansion of semiconductor manufacturing and the deployment of massive AI data centers.\n\nTaiwan, a global leader in advanced chip production, faces the dual challenge of meeting the high energy requirements of factories while maintaining a stable power grid. Official reports suggest that the electricity consumption from the technology sector alone will account for a significant portion of this growth. To address this, the Ministry of Economic Affairs is exploring a mix of renewable energy sources and grid modernization projects to prevent potential shortages.\n\nEnergy analysts warn that if the infrastructure development does not keep pace with the industrial demand, it could lead to higher operational costs for tech giants. Consequently, the government is encouraging companies to invest in energy-efficient technologies and private power generation facilities to mitigate the strain on the public utility system.",
+  "questions": [
+    {
+      "id": "q1",
+      "qText": "What is the main cause of the projected increase in electricity consumption?",
+      "options": [
+        "(A) A sudden growth in the number of residential building projects.",
+        "(B) The expansion of chip manufacturing and AI data centers.",
+        "(C) A government mandate to lower electricity prices for citizens.",
+        "(D) The closure of several renewable energy facilities."
+      ],
+      "correctIndex": 1,
+      "explanation": "<b>Correct: (B).</b> The text explicitly states the rise is 'driven by semiconductor manufacturing and AI data center deployments'. <br><i>Distractors:</i> (A) mentions '4 million homes' but only as a comparison for scale, not as the cause. (C) and (D) are not mentioned in the article."
+    },
+    {
+      "id": "q2",
+      "qText": "According to the article, how is the Ministry of Economic Affairs planning to handle the energy challenge?",
+      "options": [
+        "(A) By limiting the number of new factories built in Taipei.",
+        "(B) By importing electricity from neighboring countries.",
+        "(C) By utilizing renewable energy and updating the power grid.",
+        "(D) By increasing taxes on all energy-intensive businesses."
+      ],
+      "correctIndex": 2,
+      "explanation": "<b>Correct: (C).</b> The article mentions exploring 'renewable energy sources and grid modernization projects'. <br><i>Distractors:</i> (A), (B), and (D) are logical real-world solutions but are not stated in this specific text."
+    },
+    {
+      "id": "q3",
+      "qText": "The word 'mitigate' in the third paragraph is closest in meaning to:",
+      "options": [
+        "(A) Enhance",
+        "(B) Reduce",
+        "(C) Ignore",
+        "(D) Advertise"
+      ],
+      "correctIndex": 1,
+      "explanation": "<b>Correct: (B).</b> To 'mitigate' a strain or a problem means to make it less severe or to reduce it. <br><i>Distractors:</i> (A) means to make something better/stronger, which is the opposite. (C) means to pay no attention. (D) is related to marketing."
+    }
+  ]
+},
+  
+{
+  "id": "2026-03-10-P7",
+  "date": "2026-03-10",
+  "type": "Part 7",
+  "category": "Gaming & Software Development",
+  "articleTitle": "Electronic Arts Adapts Javelin Anti-Cheat for Upcoming ARM-Based PCs",
+  "articleLink": "https://www.tomshardware.com/video-games/pc-gaming/eas-javelin-anti-cheat-is-coming-to-arm-based-systems-soon-new-job-listing-for-windows-on-arm-driver-anticipates-nvidia-n1-n1x-debut-and-pivotal-shift-in-pc-gaming",
+  "articleImg": "https://cdn.mos.cms.futurecdn.net/MmLKbdpoic3kWb9JcKgV4c-970-80.jpg.webp",
+  "articleBody": "REDWOOD CITY — Electronic Arts (EA) is reportedly preparing its proprietary 'Javelin' anti-cheat software for a significant transition toward ARM-based computing. A recent job posting for a Windows on ARM Driver Developer suggests that the gaming giant is looking to ensure its titles remain secure on the next generation of hardware, including anticipated chips from NVIDIA.\n\nTraditionally, high-end PC gaming has been dominated by x86 architecture. However, the industry is anticipating a 'pivotal shift' as more manufacturers adopt ARM processors for Windows laptops. This transition requires software engineers to rebuild kernel-level drivers—the core components of anti-cheat systems—to function natively on the new architecture without compromising system performance or game integrity.\n\nIndustry analysts note that this move by EA is a proactive step to support the growing 'Windows on ARM' ecosystem. By developing these drivers now, EA aims to have its most popular competitive franchises ready for the launch of new ARM-based silicon, ensuring that players can transition to the new hardware without losing access to their favorite online communities.",
+  "questions": [
+    {
+      "id": "q1",
+      "qText": "What triggered the reports about EA's new software development?",
+      "options": [
+        "(A) An official press release from NVIDIA's CEO.",
+        "(B) A new employment advertisement for a specialized developer.",
+        "(C) A public complaint from professional gamers using ARM laptops.",
+        "(D) The cancellation of the Javelin anti-cheat program."
+      ],
+      "correctIndex": 1,
+      "explanation": "<b>Correct: (B).</b> The text mentions that a 'recent job posting' (an employment advertisement) suggested these plans. <br><i>Distractors:</i> (A) is plausible but not mentioned. (C) is a real-world scenario but not in the text. (D) contradicts the article, which says the software is being adapted, not cancelled."
+    },
+    {
+      "id": "q2",
+      "qText": "Why must EA rebuild its kernel-level drivers?",
+      "options": [
+        "(A) To make the games compatible with older x86 systems.",
+        "(B) To reduce the overall cost of game development.",
+        "(C) To allow the anti-cheat software to run natively on ARM architecture.",
+        "(D) To comply with new international privacy laws."
+      ],
+      "correctIndex": 2,
+      "explanation": "<b>Correct: (C).</b> The article explains that the transition to ARM 'requires software engineers to rebuild kernel-level drivers' to function on the new architecture. <br><i>Distractors:</i> (A) is the opposite; they are moving *away* from x86 dominance. (B) and (D) are common business topics that are never discussed in this specific text."
+    },
+    {
+      "id": "q3",
+      "qText": "The word 'pivotal' in the second paragraph is closest in meaning to:",
+      "options": [
+        "(A) Small",
+        "(B) Optional",
+        "(C) Crucial",
+        "(D) Negative"
+      ],
+      "correctIndex": 2,
+      "explanation": "<b>Correct: (C).</b> In this context, a 'pivotal shift' means a central, very important, or crucial change in the industry. <br><i>Distractors:</i> (A) is the opposite of the intended scale. (B) suggests it doesn't matter, while the text implies it's a major trend. (D) implies a bad change, but the text describes it as a strategic evolution."
+    }
+  ]
+},
+
+  {
+  "id": "2026-03-09-P7",
+  "date": "2026-03-09",
+  "type": "Part 7",
+  "category": "Technology & Trade Policy",
+  "articleTitle": "US Commerce Department Finalizes Strict AI Chip Export Controls",
+  "articleLink": "https://www.tomshardware.com/tech-industry/artificial-intelligence/us-commerce-department-confirms-harsh-new-ai-export-rules-shoots-down-reports-over-the-return-of-biden-era-ai-diffusion-rule-doc-to-formalize-a-new-approach-to-strategic-ai-accelerator-export-controls",
+  "articleImg": "https://cdn.mos.cms.futurecdn.net/XC7BztBiYaLzNEMYPXdhWc-650-80.jpg.webp",
+  "articleBody": "WASHINGTON — The US Department of Commerce has officially confirmed a new set of stringent regulations governing the export of high-performance artificial intelligence accelerators. These rules aim to formalize the government's approach to national security by limiting the availability of advanced computing power to strategic competitors.\n\nContrary to previous industry rumors, the Department clarified that it would not be reinstating the older 'diffusion-based' thresholds. Instead, the new framework focuses on total processing power and interconnect speeds, effectively banning the shipment of the most capable GPUs used in data centers. Government officials stated that the goal is to prevent the misuse of AI technology in foreign military applications.\n\nTech industry leaders have expressed concerns that these 'harsh' new rules could disrupt global supply chains and lead to significant revenue losses for hardware manufacturers. However, the Commerce Department maintains that protecting domestic technological advantages outweighs the immediate economic impact on the private sector.",
+  "questions": [
+    {
+      "id": "q1",
+      "qText": "What is the primary objective of the new export regulations?",
+      "options": [
+        "(A) To increase the revenue of domestic hardware manufacturers.",
+        "(B) To encourage the diffusion of AI technology globally.",
+        "(C) To prevent strategic competitors from accessing advanced AI chips.",
+        "(D) To simplify the administrative process for international trade."
+      ],
+      "correctIndex": 2,
+      "explanation": "<b>Correct: (C).</b> The text states the rules aim to limit 'the availability of advanced computing power to strategic competitors'. <br><i>Distractors:</i> (A) is wrong because the text says it may cause 'revenue losses'. (B) uses the word 'diffusion' from the text but in the opposite sense. (D) is not mentioned; the rules are described as 'stringent', not simple."
+    },
+    {
+      "id": "q2",
+      "qText": "How do the new rules differ from previous industry rumors?",
+      "options": [
+        "(A) They will use a framework based on total processing power instead of diffusion.",
+        "(B) They will only apply to consumer-grade video games.",
+        "(C) They will be less strict than the Biden-era regulations.",
+        "(D) They will be delayed until the next fiscal year."
+      ],
+      "correctIndex": 0,
+      "explanation": "<b>Correct: (A).</b> The article clarifies that they will 'not be reinstating' diffusion-based rules but will focus on 'total processing power'. <br><i>Distractors:</i> (B) is incorrect; the text mentions 'data centers'. (C) is the opposite; they are called 'harsh' and 'strict'. (D) is not mentioned."
+    },
+    {
+      "id": "q3",
+      "qText": "The word 'disrupt' in the third paragraph is closest in meaning to:",
+      "options": [
+        "(A) Organize",
+        "(B) Interfere with",
+        "(C) Accelerate",
+        "(D) Finance"
+      ],
+      "correctIndex": 1,
+      "explanation": "<b>Correct: (B).</b> In business, to 'disrupt' a supply chain means to break or interfere with its normal flow. <br><i>Distractors:</i> (A) is the opposite. (C) implies making it faster, which contradicts the 'harsh' nature of the rules. (D) is unrelated to the process of supply chain logistics."
+    }
+  ]
+},
+
+{
+  "id": "2026-03-08-P7",
+  "date": "2026-03-08",
+  "type": "Part 7",
+  "category": "Geopolitics & Security",
+  "articleTitle": "Rising Tensions in Cyprus Over Strategic British Military Bases",
+  "articleLink": "https://www.aljazeera.com/features/2026/3/6/anger-in-cyprus-over-uk-bases-as-us-israel-war-with-iran-endangers-island",
+  "articleImg": "https://www.aljazeera.com/wp-content/uploads/2026/03/260303-15-1772714340.jpg?resize=730%2C410&quality=80",
+  "articleBody": "NICOSIA — Local residents and activists in Cyprus are expressing growing frustration over the presence of sovereign British military bases on the island. As regional tensions escalate due to the ongoing conflict involving the US, Israel, and Iran, many Cypriots fear that these installations turn their home into a potential target.\n\nThe British Sovereign Base Areas (SBAs) of Akrotiri and Dhekelia have been used for decades as strategic hubs for intelligence gathering and aerial operations. Recent reports suggest that these bases have played a critical role in supporting allied military logistics in the Middle Eastern theater, a move that critics say violates Cyprus's neutrality.\n\nDemonstrations have broken out near the Akrotiri base, with protesters demanding more transparency regarding the nature of the missions conducted from the island. While the British Ministry of Defence maintains that the bases are essential for regional stability, the Cypriot government is under increasing pressure to renegotiate the status of these territories to ensure the safety of its population.",
+  "questions": [
+    {
+      "id": "q1",
+      "qText": "Why are some residents of Cyprus currently protesting?",
+      "options": [
+        "(A) They want the British military to increase local security.",
+        "(B) They are concerned that the bases make the island a military target.",
+        "(C) They are demanding a share of the intelligence gathered at the bases.",
+        "(D) They want to move the bases to the northern part of the island."
+      ],
+      "correctIndex": 1,
+      "explanation": "<b>Correct: (B).</b> The text mentions that many Cypriots fear these installations turn the island into a 'potential target'. <br><i>Distractors:</i> (A) is the opposite of the residents' wish. (C) is a plausible real-world request but not in the text. (D) is not mentioned at all."
+    },
+    {
+      "id": "q2",
+      "qText": "What has been the historical function of the Akrotiri and Dhekelia bases?",
+      "options": [
+        "(A) To serve as tourist centers for the British military.",
+        "(B) To act as diplomatic headquarters for the US and Iran.",
+        "(C) To serve as hubs for intelligence and aerial missions.",
+        "(D) To monitor environmental changes in the Mediterranean."
+      ],
+      "correctIndex": 2,
+      "explanation": "<b>Correct: (C).</b> The article states the bases have been used for 'intelligence gathering and aerial operations'. <br><i>Distractors:</i> (A) is incorrect as they are military, not tourist areas. (B) confuses the nations involved in the conflict with the owners of the bases. (D) uses 'monitor', but for the wrong subject (environment instead of military)."
+    },
+    {
+      "id": "q3",
+      "qText": "In the third paragraph, the word 'transparency' is closest in meaning to:",
+      "options": [
+        "(A) Visibility",
+        "(B) Clearness",
+        "(C) Accountability",
+        "(D) Opacity"
+      ],
+      "correctIndex": 2,
+      "explanation": "<b>Correct: (C).</b> In a political context, 'transparency' refers to the need for organizations to be open and accountable for their actions. <br><i>Distractors:</i> (A) and (B) are literal synonyms of 'transparent' (like glass) but don't fit the political context. (D) is the antonym (opposite) of the word."
+    }
+  ]
+},
+
+  {
+  "id": "2026-03-07-P7",
+  "date": "2026-03-07",
+  "type": "Part 7",
+  "category": "Technology & Human Rights",
+  "articleTitle": "Legal Expert Warns EU Parliament Against Digital ID Implementation",
+  "articleLink": "https://www.ninefornews.nl/advocaat-meike-terhorst-waarschuwt-in-europees-parlement-voor-digitale-id-absolute-misdaad-tegen-de-menselijkheid/",
+  "articleImg": "https://media.licdn.com/dms/image/sync/v2/D4E27AQEL-J1pOAIMjw/articleshare-shrink_800/B4EZy9WyBjIQAM-/0/1772703392357?e=2147483647&v=beta&t=_QRs_Tzfw-Ibe1oJQbcB-6vsBfa7xX20mAjQLMKwz98",
+  "articleBody": "STRASBOURG — During a recent session at the European Parliament, attorney Meike Terhorst delivered a stern warning regarding the proposed Digital Identity (eID) framework. The legal expert argued that the centralization of personal data through a digital wallet could lead to unprecedented levels of surveillance and social control.\n\nTerhorst stated that the implementation of such a system might fundamentally alter the relationship between citizens and the state. She expressed concerns that access to essential public services could eventually become conditional upon the possession and use of a digital ID. This, she argued, could create a 'digital divide' where non-compliant individuals are effectively excluded from society.\n\nSupporters of the framework argue that it will streamline administrative processes and enhance online security across member states. However, critics like Terhorst emphasize that the legal safeguards currently in place are insufficient to prevent potential government overreach and the unauthorized sharing of sensitive biometric data.",
+  "questions": [
+    {
+      "id": "q1",
+      "qText": "What is the primary concern expressed by Meike Terhorst?",
+      "options": [
+        "(A) The high cost of implementing administrative software.",
+        "(B) The potential for increased surveillance through data centralization.",
+        "(C) The lack of digital literacy among European citizens.",
+        "(D) The inefficiency of current online security protocols."
+      ],
+      "correctIndex": 1,
+      "explanation": "<b>Correct: (B).</b> The text explicitly mentions that centralization could lead to 'unprecedented levels of surveillance'. <br><i>Distractors:</i> (A) is a common business topic but not mentioned here. (C) is a real-world issue (digital divide) but Terhorst focuses on legal/surveillance aspects. (D) is mentioned as a 'supporter argument', not Terhorst's concern."
+    },
+    {
+      "id": "q2",
+      "qText": "According to the article, what do proponents of the Digital ID framework believe?",
+      "options": [
+        "(A) It will make administrative tasks more efficient.",
+        "(B) It is a fundamental crime against humanity.",
+        "(C) It will limit the power of the European Parliament.",
+        "(D) Biometric data should be shared with private corporations."
+      ],
+      "correctIndex": 0,
+      "explanation": "<b>Correct: (A).</b> The text states supporters believe it will 'streamline administrative processes'. <br><i>Distractors:</i> (B) is the opinion of the critics, not proponents. (C) is not discussed. (D) uses the keyword 'biometric data' but misrepresents the goal as 'sharing with corporations' instead of 'enhancing security'."
+    },
+    {
+      "id": "q3",
+      "qText": "The word 'safeguards' in the third paragraph is closest in meaning to:",
+      "options": [
+        "(A) Instructions",
+        "(B) Expenses",
+        "(C) Protections",
+        "(D) Agreements"
+      ],
+      "correctIndex": 2,
+      "explanation": "<b>Correct: (C).</b> In a legal context, 'safeguards' are measures taken to protect against risks or overreach. <br><i>Distractors:</i> (A) suggests guidance, not protection. (B) relates to money. (D) implies a mutual contract, whereas safeguards are often unilateral legal barriers."
+    }
+  ]
+}
+
+]
