@@ -1,5 +1,349 @@
 [
 {
+  "id": "2026-04-01-P7",
+  "date": "2026-04-01",
+  "type": "Part 7",
+  "category": "Corporate History & Events",
+  "articleTitle": "World's Largest Apple Product Museum to Open for 50th Anniversary",
+  "articleLink": "https://www.tomshardware.com/tech-industry/big-tech/museum-opens-doors-to-worlds-largest-collection-of-apple-products-on-april-1-to-celebrate-apples-50th-anniversary-2-000-artifacts-spread-across-20-000-sq-ft-in-roswell-ga",
+  "articleImg": "https://cdn.mos.cms.futurecdn.net/xqRUA9Bvsvh7MVXgFT23y9-650-80.jpg.webp",
+  "articleBody": "ROSWELL, GA — A new landmark for technology enthusiasts is set to open its doors on April 1, coinciding with the 50th anniversary of Apple's founding. Located in Roswell, Georgia, the museum houses over 2,000 artifacts, making it the world's most extensive private collection of Apple hardware and memorabilia ever assembled for public viewing.\n\nThe exhibition space spans 20,000 square feet and features rare prototypes, early personal computers like the Apple I and II, and a comprehensive timeline of the company's evolution from a garage startup to a global tech giant. Curators spent over a decade sourcing these items from around the globe, ensuring that many of the devices are still in working condition for live demonstrations.\n\nOrganizers expect a high volume of visitors during the opening week. They have implemented a timed-entry ticketing system to manage the flow of guests and ensure an optimal experience. In addition to the permanent displays, the museum plans to host educational workshops and guest lectures by former Apple engineers. This initiative not only celebrates a half-century of innovation but also serves as a permanent archive for the digital revolution that reshaped modern society.",
+  "questions": [
+    {
+      "id": "q1",
+      "qText": "What is significant about the museum's opening date?",
+      "options": [
+        "(A) It is the same day the city of Roswell was founded.",
+        "(B) It marks exactly fifty years since Apple was established.",
+        "(C) It is the day the first personal computer was invented.",
+        "(D) It coincides with a national holiday for technology."
+      ],
+      "correctIndex": 1,
+      "explanation": "<b>Correct: (B).</b> The text states the opening coincides 'with the 50th anniversary of Apple's founding'. <br><i>Distractors:</i> (A), (C), and (D) are not mentioned as reasons for the specific date choice."
+    },
+    {
+      "id": "q2",
+      "qText": "How does the museum intend to handle the expected large crowds?",
+      "options": [
+        "(A) By allowing only one hundred visitors per day.",
+        "(B) By closing the museum during the weekends.",
+        "(C) By using a system where guests enter at specific times.",
+        "(D) By requiring all visitors to be former Apple employees."
+      ],
+      "correctIndex": 2,
+      "explanation": "<b>Correct: (C).</b> The article mentions they 'implemented a timed-entry ticketing system to manage the flow of guests'. <br><i>Distractors:</i> (A) specifies a limit not in the text. (B) and (D) are incorrect operational assumptions."
+    },
+    {
+      "id": "q3",
+      "qText": "The word 'comprehensive' in the second paragraph is closest in meaning to:",
+      "options": [
+        "(A) Brief",
+        "(B) Expensive",
+        "(C) Inclusive",
+        "(D) Confusing"
+      ],
+      "correctIndex": 2,
+      "explanation": "<b>Correct: (C).</b> In this context, a 'comprehensive timeline' is one that is thorough and includes all major events; therefore, 'inclusive' or 'thorough' is the best synonym. <br><i>Distractors:</i> (A) is the opposite. (B) relates to cost. (D) relates to clarity."
+    }
+  ]
+}  
+  ,
+  {
+  "id": "2026-03-31-P7",
+  "date": "2026-03-31",
+  "type": "Part 7",
+  "category": "Legal & Technology",
+  "articleTitle": "US Supreme Court Rules ISPs Are Not Liable for Users' Online Piracy",
+  "articleLink": "https://www.tomshardware.com/tech-industry/big-tech/us-supreme-court-says-isps-arent-liable-for-their-users-piracy-top-judiciary-body-unanimously-rules-that-cox-communications-did-not-commit-copyright-infringement",
+  "articleImg": "https://cdn.mos.cms.futurecdn.net/k5ZGrmcDGutQYSGoxXygZD-650-80.png.webp",
+  "articleBody": "WASHINGTON, D.C. — In a landmark decision for the technology sector, the US Supreme Court has unanimously ruled that Internet Service Providers (ISPs) cannot be held liable for copyright infringement committed by their subscribers. The case, which centered on Cox Communications, marks a significant victory for telecommunications companies that have long argued they should not be penalized for the illegal actions of individual users on their networks.\n\nThe music industry had sought massive damages, claiming that ISPs were indirectly responsible for piracy because they failed to terminate the accounts of repeat offenders. However, the justices concluded that simply providing internet access does not constitute 'contributory infringement.' The court emphasized that for a company to be legally responsible, there must be evidence of intentional encouragement or direct profit from the specific illegal acts in question.\n\nLegal experts suggest this ruling provides essential protection for the digital infrastructure industry. Without such a shield, ISPs might have been forced to implement aggressive and potentially intrusive monitoring systems to avoid astronomical legal fees. While copyright holders expressed disappointment, stating that the decision makes it harder to protect intellectual property, the tech industry hailed the verdict as a necessary safeguard for net neutrality and operational stability.",
+  "questions": [
+    {
+      "id": "q1",
+      "qText": "What was the main conclusion of the US Supreme Court in the Cox Communications case?",
+      "options": [
+        "(A) ISPs must pay damages for every song downloaded illegally.",
+        "(B) Internet providers are not responsible for their users' copyright violations.",
+        "(C) All repeat offenders must have their internet access permanently blocked.",
+        "(D) The music industry should manage all national internet networks."
+      ],
+      "correctIndex": 1,
+      "explanation": "<b>Correct: (B).</b> The article states the court ruled that ISPs 'cannot be held liable for copyright infringement committed by their subscribers'. <br><i>Distractors:</i> (A) is the opposite of the ruling. (C) is what the music industry wanted, but not what the court decided. (D) is not mentioned."
+    },
+    {
+      "id": "q2",
+      "qText": "According to the court, when would an ISP be legally responsible for piracy?",
+      "options": [
+        "(A) If the company provides high-speed fiber optic connections.",
+        "(B) If the ISP charges a monthly subscription fee to its users.",
+        "(C) If there is proof the company intentionally encouraged illegal acts.",
+        "(D) If the company fails to update its security software every month."
+      ],
+      "correctIndex": 2,
+      "explanation": "<b>Correct: (C).</b> The court noted that responsibility requires 'evidence of intentional encouragement or direct profit from the specific illegal acts'. <br><i>Distractors:</i> (A), (B), and (D) are standard business operations that do not trigger legal liability according to this ruling."
+    },
+    {
+      "id": "q3",
+      "qText": "The word 'unanimously' in the first paragraph is closest in meaning to:",
+      "options": [
+        "(A) Partially",
+        "(B) Quickly",
+        "(C) Secretly",
+        "(D) All in agreement"
+      ],
+      "correctIndex": 3,
+      "explanation": "<b>Correct: (D).</b> If a decision is reached 'unanimously', it means every person involved (in this case, all the justices) agreed on the outcome. <br><i>Distractors:</i> (A) implies only some agreed. (B) relates to speed. (C) relates to privacy."
+    }
+  ]
+}
+  ,
+{
+  "id": "2026-03-30-P7",
+  "date": "2026-03-30",
+  "type": "Part 7",
+  "category": "Government & Legislative Affairs",
+  "articleTitle": "Congress Must Approve Any Military Deployment to Iran, Says Representative Mace",
+  "articleLink": "https://www.aljazeera.com/news/2026/3/29/republican-mace-says-congress-must-approve-any-us-troop-deployment-to-iran",
+  "articleImg": "https://www.aljazeera.com/wp-content/uploads/2026/03/getty_69c96a7b36-1774807675.jpg?resize=770%2C513&quality=80",
+  "articleBody": "WASHINGTON, D.C. — Republican Representative Nancy Mace has asserted that any potential deployment of United States troops to Iran must receive formal approval from Congress. Speaking during a televised interview on Sunday, Mace emphasized that the executive branch does not have the unilateral authority to engage in a long-term military conflict without a legislative mandate.\n\nThe debate over war powers has intensified as regional tensions escalate. Mace argued that following constitutional protocols is essential to ensure that the American public, through their elected representatives, has a voice in significant foreign policy decisions. She noted that while the President serves as the Commander-in-Chief, the power to declare war and authorize extended military funding remains a primary responsibility of the legislative branch.\n\nLegal scholars point out that this stance reflects a growing bipartisan effort to reassert congressional oversight over military operations. However, some administration officials contend that rapid response capabilities are necessary to protect national security interests in volatile regions. The disagreement highlights an ongoing struggle between the branches of government to define the limits of executive power during international crises. As discussions continue on Capitol Hill, many lawmakers are calling for a formal review of existing war powers legislation to prevent future executive overreach.",
+  "questions": [
+    {
+      "id": "q1",
+      "qText": "What is Nancy Mace's main argument regarding military action in Iran?",
+      "options": [
+        "(A) The President should have more power to make quick decisions.",
+        "(B) All military funding should be permanently cancelled.",
+        "(C) Congress must formally authorize any troop deployment.",
+        "(D) The United States should avoid all international conflicts."
+      ],
+      "correctIndex": 2,
+      "explanation": "<b>Correct: (C).</b> Representative Mace asserted that any deployment 'must receive formal approval from Congress'. <br><i>Distractors:</i> (A) is the opposite of her position. (B) and (D) are not mentioned in the article."
+    },
+    {
+      "id": "q2",
+      "qText": "According to the article, why has the debate over war powers become more intense?",
+      "options": [
+        "(A) Because of increasing tensions in the region.",
+        "(B) Because the President has officially resigned.",
+        "(C) Because a new branch of government was created.",
+        "(D) Because military spending has reached a record low."
+      ],
+      "correctIndex": 0,
+      "explanation": "<b>Correct: (A).</b> The text states that 'the debate over war powers has intensified as regional tensions escalate'. <br><i>Distractors:</i> (B), (C), and (D) are not supported by any information in the text."
+    },
+    {
+      "id": "q3",
+      "qText": "The word 'mandate' in the first paragraph is closest in meaning to:",
+      "options": [
+        "(A) Suggestion",
+        "(B) Authorization",
+        "(C) Negotiation",
+        "(D) Budget"
+      ],
+      "correctIndex": 1,
+      "explanation": "<b>Correct: (B).</b> In a legislative context, a 'mandate' is an official order or authorization to act. <br><i>Distractors:</i> (A) is too weak. (C) refers to a discussion. (D) refers specifically to financial resources."
+    }
+  ]
+}
+  ,
+  {
+  "id": "2026-03-29-P7",
+  "date": "2026-03-29",
+  "type": "Part 7",
+  "category": "Technology & Legal Affairs",
+  "articleTitle": "Anthropic Files Lawsuit Against Pentagon Over Exclusivity Agreement",
+  "articleLink": "https://www.aljazeera.com/economy/2026/3/24/anthropic-challenges-us-pentagons-ban-in-san-francisco-court-showdown",
+  "articleImg": "https://www.aljazeera.com/wp-content/uploads/2026/03/2026-03-19T104842Z_2052602485_RC2EWJAU69SB_RTRMADP_3_USA-PENTAGON-ANTHROPIC-1774365861.jpg?resize=770%2C513&quality=80",
+  "articleBody": "SAN FRANCISCO — Artificial intelligence startup Anthropic has officially filed a lawsuit in a federal court against the US Department of Defense, challenging what it describes as an 'unfairly restrictive' procurement process. The legal dispute centers on a multi-billion dollar contract for cloud-based AI services that was allegedly awarded to a rival firm without a traditional open bidding period.\n\nAnthropic’s legal team argues that the Pentagon’s decision to bypass competitive proposals violates federal acquisition regulations designed to ensure transparency and taxpayer value. According to the court filing, the current agreement effectively bans other AI providers from integrated defense systems for the next five years. Anthropic is seeking an immediate injunction to halt the implementation of the contract until a thorough review is conducted by independent auditors.\n\nIn response, a spokesperson for the Pentagon stated that the urgency of national security requirements justified the expedited selection process. However, industry analysts suggest that this court showdown could set a significant precedent for how future AI-related government contracts are distributed. If Anthropic wins, it could force a major overhaul of the military's tech procurement strategy, opening the door for more diverse competition in the defense sector.",
+  "questions": [
+    {
+      "id": "q1",
+      "qText": "What is the main reason for Anthropic's lawsuit against the Pentagon?",
+      "options": [
+        "(A) The Pentagon refused to pay for services already delivered.",
+        "(B) A major contract was awarded without a competitive bidding process.",
+        "(C) Anthropic's employees were denied access to government buildings.",
+        "(D) The government leaked confidential AI algorithms to the public."
+      ],
+      "correctIndex": 1,
+      "explanation": "<b>Correct: (B).</b> The article mentions the contract was 'allegedly awarded to a rival firm without a traditional open bidding period'. <br><i>Distractors:</i> (A), (C), and (D) are not mentioned as reasons for the legal action."
+    },
+    {
+      "id": "q2",
+      "qText": "What is Anthropic specifically asking the court to do?",
+      "options": [
+        "(A) To increase the total value of the defense contract.",
+        "(B) To force the Pentagon to move its headquarters to San Francisco.",
+        "(C) To temporarily stop the contract from being put into effect.",
+        "(D) To hire more independent auditors for the AI startup."
+      ],
+      "correctIndex": 2,
+      "explanation": "<b>Correct: (C).</b> Anthropic is seeking an 'injunction to halt the implementation of the contract'. <br><i>Distractors:</i> (A) is false as they are challenging the award itself. (B) and (D) are irrelevant to the legal request."
+    },
+    {
+      "id": "q3",
+      "qText": "The word 'overhaul' in the third paragraph is closest in meaning to:",
+      "options": [
+        "(A) Extension",
+        "(B) Celebration",
+        "(C) Redesign",
+        "(D) Announcement"
+      ],
+      "correctIndex": 2,
+      "explanation": "<b>Correct: (C).</b> An 'overhaul' refers to a thorough examination and necessary repair or revision of a system—essentially a redesign or complete transformation. <br><i>Distractors:</i> (A) means to make longer. (B) is a party. (D) is a statement."
+    }
+  ]
+}
+  ,
+{
+  "id": "2026-03-28-P7",
+  "date": "2026-03-28",
+  "type": "Part 7",
+  "category": "Economy & Workforce Trends",
+  "articleTitle": "BlackRock CEO: AI Era Requires More Skilled Trades, Fewer Lawyers",
+  "articleLink": "https://www.bbc.com/news/articles/c9wqrdkx8ppo",
+  "articleImg": "https://ichef.bbci.co.uk/news/1024/cpsprodpb/ca5a/live/7d2617f0-27ad-11f1-a79a-77e93010d956.jpg.webp",
+  "articleBody": "LONDON — Larry Fink, the head of the world's largest asset manager, BlackRock, has stated that society needs to rebalance its respect for skilled trades as artificial intelligence (AI) begins to replace traditional office roles. In an exclusive interview, Fink argued that for decades, the education system has overemphasized university degrees in fields like banking and law while undervaluing essential careers such as plumbing and electrical work.\n\nAccording to Fink, the AI boom will paradoxically increase demand for 'blue-collar' specialists like welders and electricians who are needed to build the physical infrastructure, such as data centers, that powers the technology. He noted that while investment bankers are often idolized in popular media, the actual economic necessity for skilled manual labor is becoming more critical. 'We probably overdid the focus on college,' Fink remarked, suggesting a shift in how career paths are perceived by younger generations.\n\nBeyond the workforce, Fink also issued a stark warning regarding global energy costs. He predicted that if oil prices reach $150 a barrel due to ongoing geopolitical tensions, it could trigger a 'stark and steep' global recession. To mitigate these risks, he urged countries to be pragmatic about their energy mix, suggesting an aggressive move toward alternative sources like solar and wind while still utilizing existing hydrocarbons to ensure cheap, reliable power for technological expansion.",
+  "questions": [
+    {
+      "id": "q1",
+      "qText": "According to Larry Fink, what has been a mistake in the current education system?",
+      "options": [
+        "(A) Focusing too much on vocational training for manual trades.",
+        "(B) Encouraging too many students to pursue university degrees.",
+        "(C) Reducing the number of years required to graduate from college.",
+        "(D) Ignoring the importance of banking and media careers."
+      ],
+      "correctIndex": 1,
+      "explanation": "<b>Correct: (B).</b> Fink states that 'we probably overdid' the focus on going to university and that society needs to 'balance that out' with skilled trades. <br><i>Distractors:</i> (A) is the opposite of his point. (C) and (D) are not mentioned as mistakes."
+    },
+    {
+      "id": "q2",
+      "qText": "What does the CEO believe is the main threat to the global economy?",
+      "options": [
+        "(A) A sudden collapse of all major international banks.",
+        "(B) A lack of interest in new artificial intelligence technology.",
+        "(C) Oil prices reaching $150 and triggering a recession.",
+        "(D) The replacement of solar energy by traditional coal power."
+      ],
+      "correctIndex": 2,
+      "explanation": "<b>Correct: (C).</b> The article mentions his warning that if oil hits $150, it will 'trigger a global recession'. <br><i>Distractors:</i> (A) is explicitly denied by Fink (he sees 'zero' similarities with 2008). (B) and (D) contradict his views on AI and energy."
+    },
+    {
+      "id": "q3",
+      "qText": "The word 'stark' in the third paragraph is closest in meaning to:",
+      "options": [
+        "(A) Severe",
+        "(B) Flexible",
+        "(C) Minor",
+        "(D) Brief"
+      ],
+      "correctIndex": 0,
+      "explanation": "<b>Correct: (A).</b> In the context of a recession, 'stark' means harsh, severe, or very clear. <br><i>Distractors:</i> (B) means adaptable. (C) and (D) suggest a small or short event, which is the opposite of Fink's warning."
+    }
+  ]
+}
+  ,
+
+{
+  "id": "2026-03-27-P7",
+  "date": "2026-03-27",
+  "type": "Part 7",
+  "category": "Travel & Public Administration",
+  "articleTitle": "Airport Security Concerns Rise Amid Potential Homeland Security Shutdown",
+  "articleLink": "https://www.aljazeera.com/economy/2026/3/19/why-the-us-homeland-security-shutdown-is-raising-fears-of-airport-delays",
+  "articleImg": "https://www.aljazeera.com/wp-content/uploads/2026/03/2026-03-16T163403Z_1890258856_RC2Q5KAC7ZW3_RTRMADP_3_USA-TRAVEL-SHUTDOWN-1773730160.jpg?resize=770%2C513&quality=80",
+  "articleBody": "WASHINGTON, D.C. — Travelers across the United States are bracing for significant disruptions as a looming funding deadline for the Department of Homeland Security (DHS) approaches. If Congress fails to reach a budgetary agreement by Friday at midnight, thousands of essential employees, including Transportation Security Administration (TSA) officers and Customs and Border Protection (CBP) agents, may be forced to work without immediate pay.\n\nIndustry experts warn that such a shutdown could lead to a 'sick-out'—a scenario where a high number of employees call in sick to protest the lack of paychecks. This would result in severely understaffed security checkpoints at major international hubs, causing wait times to skyrocket. Airline representatives have already begun advising passengers to arrive at terminals at least three hours before their scheduled departures to mitigate the impact of potential bottlenecks.\n\nThe situation is particularly critical as it coincides with the peak spring break travel season. While the government classifies security screeners as 'essential personnel' who must report for duty regardless of funding status, prolonged financial uncertainty often leads to a decline in morale and operational efficiency. Economists suggest that even a short-term closure of administrative support functions could have a multi-million dollar impact on the domestic tourism industry.",
+  "questions": [
+    {
+      "id": "q1",
+      "qText": "What will happen to TSA officers if a funding agreement is not reached?",
+      "options": [
+        "(A) They will be permanently replaced by private security firms.",
+        "(B) They will be required to work despite not receiving immediate payment.",
+        "(C) They will be granted an early vacation until the budget is settled.",
+        "(D) They will be promoted to administrative roles within the government."
+      ],
+      "correctIndex": 1,
+      "explanation": "<b>Correct: (B).</b> The text mentions that essential employees like TSA officers 'may be forced to work without immediate pay' and are classified as 'essential personnel'. <br><i>Distractors:</i> (A) is not mentioned. (C) and (D) contradict the 'essential' nature of their roles during a crisis."
+    },
+    {
+      "id": "q2",
+      "qText": "Why are airline representatives advising passengers to arrive early?",
+      "options": [
+        "(A) To participate in a protest against the government shutdown.",
+        "(B) Because the number of available flights has been doubled.",
+        "(C) To manage the delays caused by potential staffing shortages.",
+        "(D) To attend a mandatory security training session before flying."
+      ],
+      "correctIndex": 2,
+      "explanation": "<b>Correct: (C).</b> Passengers are advised to arrive early to 'mitigate the impact of potential bottlenecks' caused by understaffed checkpoints. <br><i>Distractors:</i> (A), (B), and (D) are unrelated to the logistical reasons provided in the article."
+    },
+    {
+      "id": "q3",
+      "qText": "The word 'looming' in the first paragraph is closest in meaning to:",
+      "options": [
+        "(A) Approaching",
+        "(B) Passing",
+        "(C) Forgotten",
+        "(D) Cancelled"
+      ],
+      "correctIndex": 0,
+      "explanation": "<b>Correct: (A).</b> A 'looming' deadline is one that is imminent or fast approaching, usually in a threatening or worrying way. <br><i>Distractors:</i> (B) means it has already happened. (C) and (D) imply the deadline is no longer an issue, which is the opposite of the context."
+    }
+  ]
+}
+  ,
+{
+  "id": "2026-03-26-P7",
+  "date": "2026-03-26",
+  "type": "Part 7",
+  "category": "Corporate Strategy & AI",
+  "articleTitle": "Nvidia CEO Urges Engineers to Maximize AI Usage for Chip Design",
+  "articleLink": "https://www.tomshardware.com/tech-industry/artificial-intelligence/jensen-huang-says-nvidia-engineers-should-use-ai-tokens-worth-half-their-annual-salary-every-year-to-be-fully-productive-compares-not-using-ai-to-using-paper-and-pencil-for-designing-chips",
+  "articleImg": "https://cdn.mos.cms.futurecdn.net/f5aCzxuchK9Gbyfxx8egjS-650-80.png.webp",
+  "articleBody": "SANTA CLARA — Nvidia CEO Jensen Huang has issued a bold directive to his engineering teams, stating that failing to leverage artificial intelligence is equivalent to using 'paper and pencil' in a modern high-tech world. During a recent internal presentation, Huang emphasized that for an engineer to remain fully productive, they should be consuming AI tokens equivalent to roughly half of their annual salary each year.\n\nThe CEO argued that the high cost of these AI resources is a necessary investment rather than a burden. According to Huang, the complexity of next-generation semiconductor architecture has reached a point where human effort alone is no longer sufficient to maintain the current pace of innovation. By automating repetitive design tasks, engineers can focus on higher-level problem-solving and architectural breakthroughs.\n\nIndustry analysts note that this aggressive stance underscores Nvidia's commitment to staying ahead in the global AI race. While some critics worry about the immense energy and financial costs associated with such high AI consumption, Nvidia maintains that the resulting gains in efficiency far outweigh the initial expenditure. The company expects this strategy to significantly shorten the development cycles for its upcoming Blackwell and Rubin GPU architectures.",
+  "questions": [
+    {
+      "id": "q1",
+      "qText": "What comparison does Jensen Huang use to describe engineers who do not use AI?",
+      "options": [
+        "(A) Using a high-speed calculator instead of a computer.",
+        "(B) Designing advanced hardware with paper and pencil.",
+        "(C) Building a factory without hiring any managers.",
+        "(D) Writing software without using a keyboard."
+      ],
+      "correctIndex": 1,
+      "explanation": "<b>Correct: (B).</b> The text explicitly states that Huang compares not using AI to using 'paper and pencil' for chip design. <br><i>Distractors:</i> (A), (C), and (D) are logical metaphors for outdated methods but are not the specific one used in the article."
+    },
+    {
+      "id": "q2",
+      "qText": "According to the article, why is high AI consumption considered a 'necessary investment'?",
+      "options": [
+        "(A) It allows engineers to work fewer hours for the same pay.",
+        "(B) It helps the company reduce the annual salaries of its staff.",
+        "(C) Human effort alone cannot keep up with the complexity of modern chip design.",
+        "(D) The government provides subsidies for every AI token used."
+      ],
+      "correctIndex": 2,
+      "explanation": "<b>Correct: (C).</b> The article mentions that 'the complexity of next-generation semiconductor architecture has reached a point where human effort alone is no longer sufficient'. <br><i>Distractors:</i> (A) and (B) are incorrect interpretations of productivity and costs. (D) is not mentioned in the text."
+    },
+    {
+      "id": "q3",
+      "qText": "The word 'expenditure' in the third paragraph is closest in meaning to:",
+      "options": [
+        "(A) Experience",
+        "(B) Revenue",
+        "(C) Spending",
+        "(D) Attendance"
+      ],
+      "correctIndex": 2,
+      "explanation": "<b>Correct: (C).</b> 'Expenditure' refers to the act of spending money or the amount of money spent. <br><i>Distractors:</i> (A) refers to knowledge gained. (B) is the money coming in (the opposite). (D) refers to being present."
+    }
+  ]
+}
+  ,
+{
   "id": "2026-03-19-P7",
   "date": "2026-03-19",
   "type": "Part 7",
@@ -339,8 +683,8 @@
   ]
 },
 {
-  "id": "2026-03-12-P7",
-  "date": "2026-03-12",
+  "id": "2026-03-25-P7",
+  "date": "2026-03-25",
   "type": "Part 7",
   "category": "Corporate & Energy Law",
   "articleTitle": "Shell Declares Force Majeure on LNG Contracts Following Qatar Disruptions",
@@ -388,8 +732,8 @@
 },
 
 {
-  "id": "2026-03-11-P7",
-  "date": "2026-03-11",
+  "id": "2026-03-24-P7",
+  "date": "2026-03-24",
   "type": "Part 7",
   "category": "Energy & Infrastructure",
   "articleTitle": "Taiwan Projects Massive Surge in Power Demand Driven by AI and Semiconductors",
@@ -437,8 +781,8 @@
 },
   
 {
-  "id": "2026-03-10-P7",
-  "date": "2026-03-10",
+  "id": "2026-03-23-P7",
+  "date": "2026-03-23",
   "type": "Part 7",
   "category": "Gaming & Software Development",
   "articleTitle": "Electronic Arts Adapts Javelin Anti-Cheat for Upcoming ARM-Based PCs",
@@ -486,8 +830,8 @@
 },
 
   {
-  "id": "2026-03-09-P7",
-  "date": "2026-03-09",
+  "id": "2026-03-22-P7",
+  "date": "2026-03-22",
   "type": "Part 7",
   "category": "Technology & Trade Policy",
   "articleTitle": "US Commerce Department Finalizes Strict AI Chip Export Controls",
@@ -535,8 +879,8 @@
 },
 
 {
-  "id": "2026-03-08-P7",
-  "date": "2026-03-08",
+  "id": "2026-03-21-P7",
+  "date": "2026-03-21",
   "type": "Part 7",
   "category": "Geopolitics & Security",
   "articleTitle": "Rising Tensions in Cyprus Over Strategic British Military Bases",
@@ -584,8 +928,8 @@
 },
 
   {
-  "id": "2026-03-07-P7",
-  "date": "2026-03-07",
+  "id": "2026-03-20-P7",
+  "date": "2026-03-20",
   "type": "Part 7",
   "category": "Technology & Human Rights",
   "articleTitle": "Legal Expert Warns EU Parliament Against Digital ID Implementation",
