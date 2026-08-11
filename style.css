@@ -110,7 +110,7 @@ body {
 #current-quiz-display {
     display: block;
     width: 100%;
-    max-width: 120px;
+    max-width: 105px;
     margin: 0 auto;
     text-align: center;
     font-size: 0.9rem;
