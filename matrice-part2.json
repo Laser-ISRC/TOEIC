@@ -1,0 +1,515 @@
+[
+  {
+    "id": 1,
+    "part2": [
+      {
+        "audioUrl": "Audio/part2_sample1.mp3",
+        "outputFile": "part2_sample1.mp3",
+        "voice": "en-US-GuyNeural",
+        "accent": "US - Male",
+        "correctIndex": 0,
+        "transcript": {
+          "question": "Where did you leave the keys to the conference room?",
+          "options": [
+            "On the receptionist's desk.",
+            "Yes, the meeting is at two o'clock.",
+            "I have to key in the password."
+          ]
+        },
+        "explanation": {
+          "correct": "(A) Directly answers 'Where' with a specific location.",
+          "distractors": {
+            "(B)": "Incorrect context: Yes/No response to a WH-question, and answers 'When'.",
+            "(C)": "Similar sound / Lexical trap: Uses 'key' as a verb (key in) instead of a noun."
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "part2": [
+      {
+        "audioUrl": "Audio/part2_sample2.mp3",
+        "outputFile": "part2_sample2.mp3",
+        "voice": "en-GB-SoniaNeural",
+        "accent": "UK - Female",
+        "correctIndex": 1,
+        "transcript": {
+          "question": "When will the quarterly financial report be published?",
+          "options": [
+            "In the main auditorium.",
+            "By the end of the week.",
+            "It was a very detailed report."
+          ]
+        },
+        "explanation": {
+          "correct": "(B) Directly addresses 'When' with a clear timeframe.",
+          "distractors": {
+            "(A)": "Incorrect context: Answers a 'Where' question by giving a place.",
+            "(C)": "Same word trap: Repeats 'report' to express an opinion without answering when."
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "part2": [
+      {
+        "audioUrl": "Audio/part2_sample3.mp3",
+        "outputFile": "part2_sample3.mp3",
+        "voice": "en-AU-WilliamNeural",
+        "accent": "AUS - Male",
+        "correctIndex": 0,
+        "transcript": {
+          "question": "Who is in charge of reviewing the new software proposals?",
+          "options": [
+            "Ms. Davis from the IT department.",
+            "No, I didn't get the chance to review it.",
+            "The software is very expensive."
+          ]
+        },
+        "explanation": {
+          "correct": "(A) Identifies the person and department responsible ('Who').",
+          "distractors": {
+            "(B)": "Incorrect context: Yes/No response to an open 'Who' question.",
+            "(C)": "Same word trap: Reuses 'software' to talk about cost instead of person in charge."
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "part2": [
+      {
+        "audioUrl": "Audio/part2_sample4.mp3",
+        "outputFile": "part2_sample4.mp3",
+        "voice": "en-CA-ClaraNeural",
+        "accent": "CAN - Female",
+        "correctIndex": 0,
+        "transcript": {
+          "question": "Why was the press conference rescheduled?",
+          "options": [
+            "Because the keynote speaker arrived late.",
+            "At the Grand Hotel ballroom.",
+            "Yes, I attended the conference."
+          ]
+        },
+        "explanation": {
+          "correct": "(A) Gives the reason ('Why') introduced by 'Because'.",
+          "distractors": {
+            "(B)": "Incorrect context: Gives a location instead of a reason ('Where').",
+            "(C)": "Incorrect context: Direct 'Yes' response to a WH-question."
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "part2": [
+      {
+        "audioUrl": "Audio/part2_sample5.mp3",
+        "outputFile": "part2_sample5.mp3",
+        "voice": "en-US-JennyNeural",
+        "accent": "US - Female",
+        "correctIndex": 1,
+        "transcript": {
+          "question": "How are we getting to the client's office tomorrow?",
+          "options": [
+            "Yes, the client was very pleased.",
+            "We're taking the express train.",
+            "The office closes at six evening."
+          ]
+        },
+        "explanation": {
+          "correct": "(B) Explains the mode of transportation ('How').",
+          "distractors": {
+            "(A)": "Incorrect context: Starts with 'Yes' and talks about client sentiment.",
+            "(C)": "Associated word trap: Focuses on 'office' closing hours rather than travel."
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "part2": [
+      {
+        "audioUrl": "Audio/part2_sample6.mp3",
+        "outputFile": "part2_sample6.mp3",
+        "voice": "en-GB-RyanNeural",
+        "accent": "UK - Male",
+        "correctIndex": 0,
+        "transcript": {
+          "question": "Has the shipping department dispatched the replacement parts yet?",
+          "options": [
+            "They went out earlier this morning.",
+            "A broad selection of spare components.",
+            "To the warehouse in Chicago."
+          ]
+        },
+        "explanation": {
+          "correct": "(A) Indirectly confirms dispatch by stating when they left.",
+          "distractors": {
+            "(B)": "Meaning confusion: Describes the items instead of confirming action.",
+            "(C)": "Incorrect context: States a destination ('Where') instead of status."
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "part2": [
+      {
+        "audioUrl": "Audio/part2_sample7.mp3",
+        "outputFile": "part2_sample7.mp3",
+        "voice": "en-AU-AnnetteNeural",
+        "accent": "AUS - Female",
+        "correctIndex": 1,
+        "transcript": {
+          "question": "Should I send the invoice by email or submit it through the online portal?",
+          "options": [
+            "Yes, the invoice is ready.",
+            "The portal is much faster.",
+            "About forty-five dollars."
+          ]
+        },
+        "explanation": {
+          "correct": "(B) Picks one option from the alternative question ('or').",
+          "distractors": {
+            "(A)": "Grammar error: 'Yes' is invalid for an alternative (A or B) question.",
+            "(C)": "Incorrect context: States an amount ('How much') instead of submission method."
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "part2": [
+      {
+        "audioUrl": "Audio/part2_sample8.mp3",
+        "outputFile": "part2_sample8.mp3",
+        "voice": "en-CA-LiamNeural",
+        "accent": "CAN - Male",
+        "correctIndex": 0,
+        "transcript": {
+          "question": "The air conditioning in room 302 seems to be broken.",
+          "options": [
+            "I'll call maintenance right away.",
+            "Room three hundred and two.",
+            "Yes, it was very cold outside."
+          ]
+        },
+        "explanation": {
+          "correct": "(A) Provides a logical action/solution to the statement problem.",
+          "distractors": {
+            "(B)": "Same word trap: Merely repeats the room number without addressing issue.",
+            "(C)": "Irrelevant context: Talks about outside weather temperature."
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "part2": [
+      {
+        "audioUrl": "Audio/part2_sample9.mp3",
+        "outputFile": "part2_sample9.mp3",
+        "voice": "en-US-ChristopherNeural",
+        "accent": "US - Male",
+        "correctIndex": 0,
+        "transcript": {
+          "question": "Why don't we order lunch from the new Italian place across the street?",
+          "options": [
+            "That sounds like a great idea!",
+            "I have been to Italy twice.",
+            "Place the documents on my table."
+          ]
+        },
+        "explanation": {
+          "correct": "(A) Appropriately accepts the suggestion ('Why don't we...?').",
+          "distractors": {
+            "(B)": "Associated word trap: Links 'Italian' to travel experience.",
+            "(C)": "Similar sound / Lexical trap: Uses 'place' as a verb ('put') instead of noun ('restaurant')."
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "part2": [
+      {
+        "audioUrl": "Audio/part2_sample10.mp3",
+        "outputFile": "part2_sample10.mp3",
+        "voice": "en-GB-MaisieNeural",
+        "accent": "UK - Female",
+        "correctIndex": 0,
+        "transcript": {
+          "question": "Mr. Tanaka signed the contract this afternoon, didn't he?",
+          "options": [
+            "No, he wants to review a few clauses first.",
+            "A two-year lease agreement.",
+            "Yes, at the entrance."
+          ]
+        },
+        "explanation": {
+          "correct": "(A) Correctly responds to tag question by explaining why he hasn't signed.",
+          "distractors": {
+            "(B)": "Related topic trap: Describes contract type without confirming signature.",
+            "(C)": "Incoherent context: Combines 'Yes' with a location answer."
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "part2": [
+      {
+        "audioUrl": "Audio/part2_sample11.mp3",
+        "outputFile": "part2_sample11.mp3",
+        "voice": "en-CA-LiamNeural",
+        "accent": "CAN - Male",
+        "correctIndex": 0,
+        "transcript": {
+          "question": "Where can I find the user manual for the new printer?",
+          "options": [
+            "It's available on the company intranet.",
+            "About fifty pages long.",
+            "Print on both sides, please."
+          ]
+        },
+        "explanation": {
+          "correct": "(A) Indicates digital location ('Where').",
+          "distractors": {
+            "(B)": "Incorrect context: Answers 'How long' regarding manual length.",
+            "(C)": "Same word trap: Uses 'print' as an instruction rather than locating manual."
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "part2": [
+      {
+        "audioUrl": "Audio/part2_sample12.mp3",
+        "outputFile": "part2_sample12.mp3",
+        "voice": "en-AU-KimberlyNeural",
+        "accent": "AUS - Female",
+        "correctIndex": 1,
+        "transcript": {
+          "question": "When is the shuttle bus scheduled to leave for the airport?",
+          "options": [
+            "From terminal two.",
+            "In about fifteen minutes.",
+            "To attend the annual convention."
+          ]
+        },
+        "explanation": {
+          "correct": "(B) Gives time delay before departure ('When').",
+          "distractors": {
+            "(A)": "Incorrect context: Indicates departure location ('Where').",
+            "(C)": "Incorrect context: Gives purpose of travel ('Why')."
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "part2": [
+      {
+        "audioUrl": "Audio/part2_sample13.mp3",
+        "outputFile": "part2_sample13.mp3",
+        "voice": "en-US-EricNeural",
+        "accent": "US - Male",
+        "correctIndex": 0,
+        "transcript": {
+          "question": "Who approved the budget for the marketing campaign?",
+          "options": [
+            "The Vice President of Sales.",
+            "It was very effective.",
+            "Next quarter, most likely."
+          ]
+        },
+        "explanation": {
+          "correct": "(A) Identifies job title of person responsible ('Who').",
+          "distractors": {
+            "(B)": "Incorrect context: Evaluates campaign performance.",
+            "(C)": "Incorrect context: Answers a time question ('When')."
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "part2": [
+      {
+        "audioUrl": "Audio/part2_sample14.mp3",
+        "outputFile": "part2_sample14.mp3",
+        "voice": "en-GB-ThomasNeural",
+        "accent": "UK - Male",
+        "correctIndex": 0,
+        "transcript": {
+          "question": "Why are the main elevators shut down today?",
+          "options": [
+            "They are undergoing routine maintenance.",
+            "On the top floor of the building.",
+            "Take the stairs instead."
+          ]
+        },
+        "explanation": {
+          "correct": "(A) Provides technical reason for shutdown ('Why').",
+          "distractors": {
+            "(B)": "Incorrect context: Gives location ('Where').",
+            "(C)": "Action suggestion: Suggests alternative but doesn't answer reason."
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "part2": [
+      {
+        "audioUrl": "Audio/part2_sample15.mp3",
+        "outputFile": "part2_sample15.mp3",
+        "voice": "en-CA-ClaraNeural",
+        "accent": "CAN - Female",
+        "correctIndex": 1,
+        "transcript": {
+          "question": "How long will it take to repair the network server?",
+          "options": [
+            "Our system administrator is working on it.",
+            "It should be fixed within two hours.",
+            "Yes, the server is down."
+          ]
+        },
+        "explanation": {
+          "correct": "(B) States specific duration for repair ('How long').",
+          "distractors": {
+            "(A)": "Incorrect context: Tells who is fixing it, not duration.",
+            "(C)": "Incorrect context: 'Yes' does not answer a 'How long' question."
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "part2": [
+      {
+        "audioUrl": "Audio/part2_sample16.mp3",
+        "outputFile": "part2_sample16.mp3",
+        "voice": "en-AU-WilliamNeural",
+        "accent": "AUS - Male",
+        "correctIndex": 0,
+        "transcript": {
+          "question": "Do you know if the manager is back from lunch yet?",
+          "options": [
+            "Her coat is hanging on her chair.",
+            "At the sandwich shop down the street.",
+            "I usually eat at noon."
+          ]
+        },
+        "explanation": {
+          "correct": "(A) Typical TOEIC indirect response: seeing coat implies she returned.",
+          "distractors": {
+            "(B)": "Incorrect context: Answers where she ate ('Where').",
+            "(C)": "Irrelevant context: States speaker's personal eating habit."
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "part2": [
+      {
+        "audioUrl": "Audio/part2_sample17.mp3",
+        "outputFile": "part2_sample17.mp3",
+        "voice": "en-US-AriaNeural",
+        "accent": "US - Female",
+        "correctIndex": 0,
+        "transcript": {
+          "question": "Would you like me to help you set up the projector for the presentation?",
+          "options": [
+            "Thanks, but John has already taken care of it.",
+            "The project was completed on time.",
+            "Yes, I enjoyed the presentation."
+          ]
+        },
+        "explanation": {
+          "correct": "(A) Politely declines offer of assistance with reason.",
+          "distractors": {
+            "(B)": "Similar sound trap: Confuses 'projector' with 'project'.",
+            "(C)": "Tense error: Uses past tense ('enjoyed') for upcoming presentation."
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "part2": [
+      {
+        "audioUrl": "Audio/part2_sample18.mp3",
+        "outputFile": "part2_sample18.mp3",
+        "voice": "en-GB-SoniaNeural",
+        "accent": "UK - Female",
+        "correctIndex": 1,
+        "transcript": {
+          "question": "Could you tell me where the Human Resources department is located?",
+          "options": [
+            "I am applying for the sales position.",
+            "Take the elevator to the fourth floor.",
+            "Mr. Jenkins is the manager."
+          ]
+        },
+        "explanation": {
+          "correct": "(B) Gives directions to reach location ('where... located').",
+          "distractors": {
+            "(A)": "Irrelevant context: Explains reason for visit instead of directions.",
+            "(C)": "Incorrect context: Names manager instead of location."
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "part2": [
+      {
+        "audioUrl": "Audio/part2_sample19.mp3",
+        "outputFile": "part2_sample19.mp3",
+        "voice": "en-CA-LiamNeural",
+        "accent": "CAN - Male",
+        "correctIndex": 0,
+        "transcript": {
+          "question": "We need to order more office supplies before Friday.",
+          "options": [
+            "I'll send the inventory list to your email.",
+            "Yes, the office is open until five.",
+            "They were delivered yesterday."
+          ]
+        },
+        "explanation": {
+          "correct": "(A) Logical response offering stock list to facilitate ordering.",
+          "distractors": {
+            "(B)": "Misinterpretation: Focuses on office opening hours instead of supplies.",
+            "(C)": "Contradiction: References past delivery, contradicting upcoming need."
+          }
+        }
+      }
+    ]
+  }
+]
