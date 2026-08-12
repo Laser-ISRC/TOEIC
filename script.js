@@ -57,7 +57,7 @@ function getAccentBadgeHTML(accentText) {
     // Si un code est trouvé, on crée la balise img avec flagcdn (SVG ultra-léger)
     if (countryCode) {
         const flagUrl = `https://flagcdn.com/${countryCode}.svg`;
-        return `<img src="${flagUrl}" alt="${accentText}" title="${accentText}" class="flag-icon" />`;
+        return `<img src="${flagUrl}" alt="${accentText}" title="${accentText}" class="flag-icon" style="width:2.5em; height:2.5em; object-fit:cover; border-radius:50%; vertical-align:middle; display:inline-block;" />`;
     }
 
     return `<span>${accentText}</span>`;
