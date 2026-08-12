@@ -49,7 +49,7 @@ function renderQuiz(index) {
 
     // Mise à jour du badge de quiz courant
     const quizDisplay = document.getElementById('current-quiz-display');
-    if (quizDisplay) quizDisplay.innerText = `Quiz #${index + 1}`;
+    if (quizDisplay) quizDisplay.innerText = `Quiz #${quiz.index || (allQuizzes.length - index)}`;
 
     // Reinitialisation des scores pour le quiz
     solvedQuestions.clear();
@@ -259,7 +259,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if (prevBtn) {
         prevBtn.addEventListener('click', () => {
             if (allQuizzes.length === 0) return;
-            currentIndex = (currentIndex - 1 + allQuizzes.length) % allQuizzes.length;
+            currentIndex = (currentIndex + 1) % allQuizzes.length;
             renderQuiz(currentIndex);
             window.scrollTo({ top: 0, behavior: 'smooth' });
         });
@@ -269,7 +269,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if (nextBtn) {
         nextBtn.addEventListener('click', () => {
             if (allQuizzes.length === 0) return;
-            currentIndex = (currentIndex + 1) % allQuizzes.length;
+            currentIndex = (currentIndex - 1 + allQuizzes.length) % allQuizzes.length;
             renderQuiz(currentIndex);
             window.scrollTo({ top: 0, behavior: 'smooth' });
         });
