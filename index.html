@@ -74,7 +74,7 @@
 
     <!-- 3. Révélation du Script + Explications (masqué par défaut) -->
     <div id="part2-transcript-box" class="transcript-box" style="display: none;">
-        <h4>Script de la question :</h4>
+        <h4>Restrancription :</h4>
         <p class="transcript-q"><strong>Q:</strong> Where is the marketing meeting being held?</p>
         <ul class="transcript-options">
             <li class="correct"><strong>A:</strong> On the third floor.</li>
@@ -82,9 +82,13 @@
             <li><strong>C:</strong> Yes, I'll be attending.</li>
         </ul>
         
-        <div id="part2-explanation" class="explanation">
-            <!-- Explication insérée dynamiquement -->
-        </div>
+        <div id="explanation-container" class="explanation-box" style="display: none;">
+    
+    <p id="explanation-correct" class="exp-correct"></p>
+    
+    <h4>Distractors :</h4>
+    <ul id="explanation-distractors" class="exp-distractors-list"></ul>
+</div>
     </div>
 </div>
 
@@ -104,7 +108,7 @@
         <section id="quiz-container"></section>
     </main>
 
-    <script src="script.js?v=1.5.4"></script>
-    <div class="version-tag">v1.5.4</div>
+    <script src="script.js?v=1.5.6"></script>
+    <div class="version-tag">v1.5.6</div>
 </body>
 </html>

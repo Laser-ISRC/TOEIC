@@ -21,8 +21,14 @@
           ]
         },
         "correctIndex": 0,
-        "explanation": "<strong>Raison :</strong> 'Where' attend un lieu. L'option A est la seule à indiquer un emplacement physique.<br><em>Distracteurs :</em> B est un piège temporel ('When'), C est une réponse Yes/No impossible pour une question ouverte."
-      }
+        "explanation": {
+  "correct": "(A) The question begins with 'Where', which asks for a location. 'On the third floor' is the only option providing a physical location.",
+  "distractors": {
+    "(B)": "Time/When Distractor: Gives a temporal response ('Next Tuesday') which answers a 'When' question rather than a 'Where' question.",
+    "(C)": "Yes/No Distractor: Answering with 'Yes' is grammatically incorrect for open-ended Wh- questions."
+  }
+}   
+       }
     ],
   "part7":{
   "type": "Part 7",

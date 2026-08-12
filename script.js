@@ -43,6 +43,39 @@ function formatExplanation(expl) {
     return html;
 }
 
+function showExplanation(part2Data) {
+    const container = document.getElementById('explanation-container');
+    const correctEl = document.getElementById('explanation-correct');
+    const distractorsEl = document.getElementById('explanation-distractors');
+
+    if (!container || !part2Data || !part2Data.explanation) return;
+
+    const exp = part2Data.explanation;
+
+    // 1. Explication de la réponse correcte
+    if (correctEl) {
+        correctEl.innerHTML = `<strong>Correct</strong> ${exp.correct || ''}`;
+    }
+
+    // 2. Traitement et affichage des distracteurs
+    if (distractorsEl) {
+        distractorsEl.innerHTML = ''; // Vide la liste précédente
+        
+        if (exp.distractors && typeof exp.distractors === 'object') {
+            Object.entries(exp.distractors).forEach(([key, text]) => {
+                const li = document.createElement('li');
+                // Nettoie la clé pour éviter les doublons de parenthèses
+                const cleanKey = key.replace(/[\(\)]/g, ''); 
+                li.innerHTML = `<strong>Option ${cleanKey} :</strong> ${text}`;
+                distractorsEl.appendChild(li);
+            });
+        }
+    }
+
+    // 3. Afficher le conteneur
+    container.style.display = 'block';
+}
+
 function getAccentBadgeHTML(accentText) {
     if (!accentText) return '';
 
@@ -83,6 +116,11 @@ function renderQuiz(index) {
     // ----------------------------------------------------
     const part2Data = quiz.part2 ? quiz.part2[0] : null;
     const part2Card = document.querySelector('.part2-card');
+
+    const container = document.getElementById('explanation-container');
+    if (container) {
+        container.style.display = 'none'; // Masque l'explication précédente
+    }
 
     const accentDisplay = document.getElementById('quiz-accent');
     if (accentDisplay && part2Data) {
@@ -227,9 +265,14 @@ function checkPart2Answer(selectedIdx, btn, part2Data) {
         if (buttons[correctIndex]) buttons[correctIndex].classList.add('btn-correct');
     }
 
-    // Affiche le script et les explications
+    // 1. Affiche la boîte de transcription
     const transcriptBox = document.getElementById('part2-transcript-box');
     if (transcriptBox) transcriptBox.style.display = 'block';
+
+    // 2. Déclenche l'affichage du bloc d'explications et distracteurs
+    if (part2Data) {
+        showExplanation(part2Data);
+    }
 
     updateProgressBar();
 }

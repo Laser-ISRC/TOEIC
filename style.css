@@ -319,3 +319,48 @@ img.flag-icon {
     vertical-align: middle !important;
 }
 
+.explanation-box {
+    margin-top: 20px;
+    padding: 16px 20px;
+    background-color: rgba(255,255,255,0.05);
+    border-left: 4px solid #2563eb;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+}
+
+.explanation-box h3 {
+    margin-top: 0;
+    font-size: 1.1rem;
+    color: #1e293b;
+}
+
+.exp-correct {
+    font-weight: 600;
+    color: #166534;
+    background-color: #dcfce7;
+    padding: 8px 12px;
+    border-radius: 6px;
+}
+
+.exp-distractors-list {
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+.exp-distractors-list li {
+    margin-bottom: 8px;
+    padding: 6px 10px;
+    background-color: #fff1f2;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    color: #9f1239;
+}
+
+.transcript-box {
+    background: #1e293b;
+    padding: 25px;
+    border-radius: 16px;
+    margin-bottom: 25px;
+    border: 1px solid #334155;
+}
