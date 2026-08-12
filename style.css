@@ -309,3 +309,13 @@ body {
     vertical-align: middle;
 }
 
+h1 #quiz-accent img.flag-icon,
+img.flag-icon {
+    width: 2.5em !important;
+    height: 2.5em !important;
+    object-fit: cover !important;
+    border-radius: 50% !important;
+    display: inline-block !important;
+    vertical-align: middle !important;
+}
+
