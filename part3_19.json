@@ -1,0 +1,1712 @@
+[
+  {
+    "id": "p3-set2",
+    "audioUrl": "Audio/part3/part3_sample20_set2.mp3",
+    "outputFile": "part3_sample20_set2.mp3",
+    "transcript": [
+      {
+        "speaker": "Speaker 1",
+        "gender": "Woman",
+        "accent": "US",
+        "voice": "en-US-JennyNeural",
+        "text": "Hi Mark, did the cloud migration team finish transferring our database over the weekend?"
+      },
+      {
+        "speaker": "Speaker 2",
+        "gender": "Man",
+        "accent": "AU",
+        "voice": "en-AU-WilliamNeural",
+        "text": "Almost. They encountered a minor sync delay with the customer records, but it should be fully resolved by 2 PM."
+      },
+      {
+        "speaker": "Speaker 1",
+        "gender": "Woman",
+        "accent": "US",
+        "voice": "en-US-JennyNeural",
+        "text": "Great. I'll inform the sales team so they hold off on running big queries until then."
+      }
+    ],
+    "questions": [
+      {
+        "id": "p3-q4",
+        "qNum": 1,
+        "qText": "What technical operation are the speakers discussing?",
+        "options": [
+          "(A) A software installation",
+          "(B) A cloud database migration",
+          "(C) A hardware replacement",
+          "(D) A firewall update"
+        ],
+        "correctIndex": 1,
+        "explanation": {
+          "correct": "(B) Speaker 1 asks about transferring the database to the cloud.",
+          "distractors": {
+            "(A)": "No software installation is mentioned.",
+            "(C)": "No hardware changes are discussed.",
+            "(D)": "Security or firewalls are not mentioned."
+          }
+        }
+      },
+      {
+        "id": "p3-q5",
+        "qNum": 2,
+        "qText": "When is the task expected to be completed?",
+        "options": [
+          "(A) By 10 AM",
+          "(B) By noon",
+          "(C) By 2 PM",
+          "(D) Tomorrow morning"
+        ],
+        "correctIndex": 2,
+        "explanation": {
+          "correct": "(C) Speaker 2 explicitly mentions it should be resolved by 2 PM.",
+          "distractors": {
+            "(A)": "Incorrect time frame.",
+            "(B)": "Not mentioned.",
+            "(D)": "The speaker specifies today by 2 PM."
+          }
+        }
+      },
+      {
+        "id": "p3-q6",
+        "qNum": 3,
+        "qText": "What will the woman do next?",
+        "options": [
+          "(A) Notify the sales team",
+          "(B) Contact customer support",
+          "(C) Run a database query",
+          "(D) Cancel a scheduled meeting"
+        ],
+        "correctIndex": 0,
+        "explanation": {
+          "correct": "(A) She says 'I'll inform the sales team so they hold off'.",
+          "distractors": {
+            "(B)": "Customer support is not mentioned.",
+            "(C)": "She wants the team to hold off on queries, not run them herself.",
+            "(D)": "No meeting is canceled."
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "p3-set3",
+    "audioUrl": "Audio/part3/part3_sample20_set3.mp3",
+    "outputFile": "part3_sample20_set3.mp3",
+    "transcript": [
+      {
+        "speaker": "Speaker 1",
+        "gender": "Man",
+        "accent": "UK",
+        "voice": "en-GB-RyanNeural",
+        "text": "Excuse me, Sarah. I tried logging into the corporate portal, but my credentials keep getting rejected."
+      },
+      {
+        "speaker": "Speaker 2",
+        "gender": "Woman",
+        "accent": "CA",
+        "voice": "en-CA-ClaraNeural",
+        "text": "Ah, cybersecurity mandated password resets for all employees this morning. Check your email for a temporary link."
+      },
+      {
+        "speaker": "Speaker 1",
+        "gender": "Man",
+        "accent": "UK",
+        "voice": "en-GB-RyanNeural",
+        "text": "Thanks! I can't access my email on my desktop either, but I'll check it on my mobile phone right away."
+      }
+    ],
+    "questions": [
+      {
+        "id": "p3-q7",
+        "qNum": 1,
+        "qText": "What problem is the man experiencing?",
+        "options": [
+          "(A) His computer will not turn on",
+          "(B) He forgot his phone",
+          "(C) He is locked out of the company portal",
+          "(D) His internet connection is down"
+        ],
+        "correctIndex": 2,
+        "explanation": {
+          "correct": "(C) He mentions his credentials keep getting rejected on the portal.",
+          "distractors": {
+            "(A)": "His computer works, but login fails.",
+            "(B)": "He plans to use his mobile phone.",
+            "(D)": "No network connection issues are stated."
+          }
+        }
+      },
+      {
+        "id": "p3-q8",
+        "qNum": 2,
+        "qText": "Why did this issue occur?",
+        "options": [
+          "(A) Mandatory password resets were issued",
+          "(B) The main server crashed",
+          "(C) His account was deleted",
+          "(D) A software update failed"
+        ],
+        "correctIndex": 0,
+        "explanation": {
+          "correct": "(A) The woman explains that cybersecurity mandated password resets.",
+          "distractors": {
+            "(B)": "No server crash occurred.",
+            "(C)": "Account deletion is not mentioned.",
+            "(D)": "Not related to a software update."
+          }
+        }
+      },
+      {
+        "id": "p3-q9",
+        "qNum": 3,
+        "qText": "How will the man retrieve his temporary link?",
+        "options": [
+          "(A) By calling the help desk",
+          "(B) By asking a coworker",
+          "(C) By checking his desk drawer",
+          "(D) By using his smartphone"
+        ],
+        "correctIndex": 3,
+        "explanation": {
+          "correct": "(D) He says he will check his email on his mobile phone.",
+          "distractors": {
+            "(A)": "No mention of calling help desk.",
+            "(B)": "He is already talking to a colleague, but needs to check his phone.",
+            "(C)": "Not stored in a physical drawer."
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "p3-set4",
+    "audioUrl": "Audio/part3/part3_sample20_set4.mp3",
+    "outputFile": "part3_sample20_set4.mp3",
+    "transcript": [
+      {
+        "speaker": "Speaker 1",
+        "gender": "Woman",
+        "accent": "AU",
+        "voice": "en-AU-NatashaNeural",
+        "text": "Tom, the client wants to add two more features to the mobile application before launch."
+      },
+      {
+        "speaker": "Speaker 2",
+        "gender": "Man",
+        "accent": "US",
+        "voice": "en-US-ChristopherNeural",
+        "text": "If we do that, we'll definitely miss our release deadline next Friday."
+      },
+      {
+        "speaker": "Speaker 1",
+        "gender": "Woman",
+        "accent": "AU",
+        "voice": "en-AU-NatashaNeural",
+        "text": "I'll draft a change request document explaining the extra costs and timeline extension for them to review."
+      }
+    ],
+    "questions": [
+      {
+        "id": "p3-q10",
+        "qNum": 1,
+        "qText": "What concern does the man express?",
+        "options": [
+          "(A) The budget is insufficient",
+          "(B) The team lacks developers",
+          "(C) The launch deadline will be missed",
+          "(D) The app has critical bugs"
+        ],
+        "correctIndex": 2,
+        "explanation": {
+          "correct": "(C) He states 'we'll definitely miss our release deadline next Friday'.",
+          "distractors": {
+            "(A)": "Budget is mentioned later by the woman, not as his main concern.",
+            "(B)": "Developer count is not discussed.",
+            "(D)": "Bugs are not mentioned."
+          }
+        }
+      },
+      {
+        "id": "p3-q11",
+        "qNum": 2,
+        "qText": "What does the client want to change?",
+        "options": [
+          "(A) Reduce project costs",
+          "(B) Add extra features to the app",
+          "(C) Change the design colors",
+          "(D) Postpone the kickoff meeting"
+        ],
+        "correctIndex": 1,
+        "explanation": {
+          "correct": "(B) The woman mentions adding 'two more features to the mobile application'.",
+          "distractors": {
+            "(A)": "Adding features increases costs.",
+            "(C)": "No color or design talk.",
+            "(D)": "Kickoff already happened."
+          }
+        }
+      },
+      {
+        "id": "p3-q12",
+        "qNum": 3,
+        "qText": "What document will the woman prepare?",
+        "options": [
+          "(A) A change request",
+          "(B) A user manual",
+          "(C) A bug report",
+          "(D) A contract termination"
+        ],
+        "correctIndex": 0,
+        "explanation": {
+          "correct": "(A) She explicitly says 'I'll draft a change request document'.",
+          "distractors": {
+            "(B)": "Manual is not mentioned.",
+            "(C)": "Not a bug report.",
+            "(D)": "The project continues, no contract termination."
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "p3-set5",
+    "audioUrl": "Audio/part3/part3_sample20_set5.mp3",
+    "outputFile": "part3_sample20_set5.mp3",
+    "transcript": [
+      {
+        "speaker": "Speaker 1",
+        "gender": "Man",
+        "accent": "US",
+        "voice": "en-US-EricNeural",
+        "text": "Hello, I'm calling from the IT department. We noticed unusual traffic coming from your office workstation."
+      },
+      {
+        "speaker": "Speaker 2",
+        "gender": "Woman",
+        "accent": "UK",
+        "voice": "en-GB-AbbiNeural",
+        "text": "Oh dear. I did click on an attachment in an unexpected email about an invoice an hour ago."
+      },
+      {
+        "speaker": "Speaker 1",
+        "gender": "Man",
+        "accent": "US",
+        "voice": "en-US-EricNeural",
+        "text": "Please disconnect your ethernet cable immediately while I remote in to scan for malware."
+      }
+    ],
+    "questions": [
+      {
+        "id": "p3-q13",
+        "qNum": 1,
+        "qText": "Why is the man contacting the woman?",
+        "options": [
+          "(A) To deliver new hardware",
+          "(B) To report suspicious network activity",
+          "(C) To confirm an invoice payment",
+          "(D) To schedule routine maintenance"
+        ],
+        "correctIndex": 1,
+        "explanation": {
+          "correct": "(B) He noticed unusual traffic coming from her computer.",
+          "distractors": {
+            "(A)": "No hardware delivery.",
+            "(C)": "The invoice email was suspicious, not a real payment check.",
+            "(D)": "This is an emergency incident, not routine."
+          }
+        }
+      },
+      {
+        "id": "p3-q14",
+        "qNum": 2,
+        "qText": "What caused the issue?",
+        "options": [
+          "(A) Downloading an unapproved software",
+          "(B) Opening an email attachment",
+          "(C) Visiting an unsafe website",
+          "(D) Leaving the computer unattended"
+        ],
+        "correctIndex": 1,
+        "explanation": {
+          "correct": "(B) She clicked on an attachment in an unexpected email.",
+          "distractors": {
+            "(A)": "Not general software download.",
+            "(C)": "Web browsing is not mentioned.",
+            "(D)": "Physical security is not mentioned."
+          }
+        }
+      },
+      {
+        "id": "p3-q15",
+        "qNum": 3,
+        "qText": "What does the man instruct the woman to do?",
+        "options": [
+          "(A) Restart her computer",
+          "(B) Unplug her network cable",
+          "(C) Delete her email inbox",
+          "(D) Change her Windows password"
+        ],
+        "correctIndex": 1,
+        "explanation": {
+          "correct": "(B) He instructs her to 'disconnect your ethernet cable immediately'.",
+          "distractors": {
+            "(A)": "Restarting is not requested.",
+            "(C)": "No deletion requested.",
+            "(D)": "Password change is not mentioned yet."
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "p3-set6",
+    "audioUrl": "Audio/part3/part3_sample20_set6.mp3",
+    "outputFile": "part3_sample20_set6.mp3",
+    "transcript": [
+      {
+        "speaker": "Speaker 1",
+        "gender": "Woman",
+        "accent": "CA",
+        "voice": "en-CA-ClaraNeural",
+        "text": "David, do you have a minute to look at the automated testing pipeline for the payment service?"
+      },
+      {
+        "speaker": "Speaker 2",
+        "gender": "Man",
+        "accent": "UK",
+        "voice": "en-GB-RyanNeural",
+        "text": "Sure. Is the build failing again on step 3?"
+      },
+      {
+        "speaker": "Speaker 1",
+        "gender": "Woman",
+        "accent": "CA",
+        "voice": "en-CA-ClaraNeural",
+        "text": "Yes, exactly. The API integration tests are timing out because the staging server is overloaded."
+      }
+    ],
+    "questions": [
+      {
+        "id": "p3-q16",
+        "qNum": 1,
+        "qText": "What component is failing in the pipeline?",
+        "options": [
+          "(A) Database backup",
+          "(B) API integration tests",
+          "(C) User authentication",
+          "(D) UI rendering"
+        ],
+        "correctIndex": 1,
+        "explanation": {
+          "correct": "(B) She mentions 'API integration tests are timing out'.",
+          "distractors": {
+            "(A)": "Backups are not discussed.",
+            "(C)": "Authentication is not mentioned.",
+            "(D)": "UI is not mentioned."
+          }
+        }
+      },
+      {
+        "id": "p3-q17",
+        "qNum": 2,
+        "qText": "Why is the test failing?",
+        "options": [
+          "(A) The code has syntax errors",
+          "(B) The developer credentials expired",
+          "(C) The staging server is overloaded",
+          "(D) The network connection was lost"
+        ],
+        "correctIndex": 2,
+        "explanation": {
+          "correct": "(C) She explains that 'the staging server is overloaded'.",
+          "distractors": {
+            "(A)": "No syntax error mentioned.",
+            "(B)": "Credentials are fine.",
+            "(D)": "It's a timeout due to server load, not lost connection."
+          }
+        }
+      },
+      {
+        "id": "p3-q18",
+        "qNum": 3,
+        "qText": "What system are the tests associated with?",
+        "options": [
+          "(A) Inventory management",
+          "(B) Payment service",
+          "(C) Employee HR portal",
+          "(D) Email newsletter"
+        ],
+        "correctIndex": 1,
+        "explanation": {
+          "correct": "(B) The woman refers to testing for the 'payment service'.",
+          "distractors": {
+            "(A)": "Inventory is not mentioned.",
+            "(C)": "HR is not mentioned.",
+            "(D)": "Newsletter is not mentioned."
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "p3-set7",
+    "audioUrl": "Audio/part3/part3_sample20_set7.mp3",
+    "outputFile": "part3_sample20_set7.mp3",
+    "transcript": [
+      {
+        "speaker": "Speaker 1",
+        "gender": "Man",
+        "accent": "AU",
+        "voice": "en-AU-WilliamNeural",
+        "text": "Lisa, our team leader wants us to adopt Agile sprint planning starting next month."
+      },
+      {
+        "speaker": "Speaker 2",
+        "gender": "Woman",
+        "accent": "US",
+        "voice": "en-US-JennyNeural",
+        "text": "That's a big shift from our traditional waterfall workflow! Are we getting formal training?"
+      },
+      {
+        "speaker": "Speaker 1",
+        "gender": "Man",
+        "accent": "AU",
+        "voice": "en-AU-WilliamNeural",
+        "text": "Yes, a certified Scrum Master will conduct a workshop next Tuesday morning."
+      }
+    ],
+    "questions": [
+      {
+        "id": "p3-q19",
+        "qNum": 1,
+        "qText": "What operational change is the company making?",
+        "options": [
+          "(A) Switching to remote work",
+          "(B) Relocating to a new office",
+          "(C) Adopting Agile sprint planning",
+          "(D) Outsourcing software development"
+        ],
+        "correctIndex": 2,
+        "explanation": {
+          "correct": "(C) Speaker 1 states they will 'adopt Agile sprint planning'.",
+          "distractors": {
+            "(A)": "Remote work is not mentioned.",
+            "(B)": "No office relocation.",
+            "(D)": "No outsourcing mentioned."
+          }
+        }
+      },
+      {
+        "id": "p3-q20",
+        "qNum": 2,
+        "qText": "Who will lead the upcoming workshop?",
+        "options": [
+          "(A) The team leader",
+          "(B) A certified Scrum Master",
+          "(C) An external consultant",
+          "(D) The HR director"
+        ],
+        "correctIndex": 1,
+        "explanation": {
+          "correct": "(B) Man confirms 'a certified Scrum Master will conduct a workshop'.",
+          "distractors": {
+            "(A)": "Team leader requested the change, but won't conduct training.",
+            "(C)": "Not specified as general consultant, but Scrum Master.",
+            "(D)": "HR is not mentioned."
+          }
+        }
+      },
+      {
+        "id": "p3-q21",
+        "qNum": 3,
+        "qText": "When will the training take place?",
+        "options": [
+          "(A) Next Tuesday morning",
+          "(B) This Friday afternoon",
+          "(C) At the end of the month",
+          "(D) Next month"
+        ],
+        "correctIndex": 0,
+        "explanation": {
+          "correct": "(A) Man explicitly states 'next Tuesday morning'.",
+          "distractors": {
+            "(B)": "Incorrect timing.",
+            "(C)": "Incorrect timing.",
+            "(D)": "Agile planning starts next month, but training is next Tuesday."
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "p3-set8",
+    "audioUrl": "Audio/part3/part3_sample20_set8.mp3",
+    "outputFile": "part3_sample20_set8.mp3",
+    "transcript": [
+      {
+        "speaker": "Speaker 1",
+        "gender": "Woman",
+        "accent": "UK",
+        "voice": "en-GB-SoniaNeural",
+        "text": "Good morning, Alex. Has the quote for the new server rack arrive from the supplier?"
+      },
+      {
+        "speaker": "Speaker 2",
+        "gender": "Man",
+        "accent": "US",
+        "voice": "en-US-GuyNeural",
+        "text": "Yes, it came in 20 minutes ago. It's slightly higher than expected, around $4,500."
+      },
+      {
+        "speaker": "Speaker 1",
+        "gender": "Woman",
+        "accent": "UK",
+        "voice": "en-GB-SoniaNeural",
+        "text": "Hmm, let's request a discount if we order two units at once instead."
+      }
+    ],
+    "questions": [
+      {
+        "id": "p3-q22",
+        "qNum": 1,
+        "qText": "What item is the price quote for?",
+        "options": [
+          "(A) A batch of laptops",
+          "(B) A new server rack",
+          "(C) Network cables",
+          "(D) Software licenses"
+        ],
+        "correctIndex": 1,
+        "explanation": {
+          "correct": "(B) Woman asks about the 'quote for the new server rack'.",
+          "distractors": {
+            "(A)": "Laptops not mentioned.",
+            "(C)": "Cables not mentioned.",
+            "(D)": "Hardware rack, not software licenses."
+          }
+        }
+      },
+      {
+        "id": "p3-q23",
+        "qNum": 2,
+        "qText": "How much was the quoted price?",
+        "options": [
+          "(A) $2,000",
+          "(B) $3,500",
+          "(C) $4,500",
+          "(D) $5,000"
+        ],
+        "correctIndex": 2,
+        "explanation": {
+          "correct": "(C) Man explicitly states 'around $4,500'.",
+          "distractors": {
+            "(A)": "Incorrect price.",
+            "(B)": "Incorrect price.",
+            "(D)": "Incorrect price."
+          }
+        }
+      },
+      {
+        "id": "p3-q24",
+        "qNum": 3,
+        "qText": "What strategy does the woman propose to lower the cost?",
+        "options": [
+          "(A) Buying a refurbished model",
+          "(B) Negotiating a bulk discount for two units",
+          "(C) Switching to a different vendor",
+          "(D) Delaying the purchase until Q4"
+        ],
+        "correctIndex": 1,
+        "explanation": {
+          "correct": "(B) She suggests requesting a discount if they order two units at once.",
+          "distractors": {
+            "(A)": "Refurbished units are not suggested.",
+            "(C)": "No vendor switch proposed.",
+            "(D)": "No delay proposed."
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "p3-set9",
+    "audioUrl": "Audio/part3/part3_sample20_set9.mp3",
+    "outputFile": "part3_sample20_set9.mp3",
+    "transcript": [
+      {
+        "speaker": "Speaker 1",
+        "gender": "Man",
+        "accent": "US",
+        "voice": "en-US-ChristopherNeural",
+        "text": "Karen, our DevOps team just released version 3.2 of the backend API."
+      },
+      {
+        "speaker": "Speaker 2",
+        "gender": "Woman",
+        "accent": "AU",
+        "voice": "en-AU-NatashaNeural",
+        "text": "Awesome! Did they include the documentation for the new authentication endpoints?"
+      },
+      {
+        "speaker": "Speaker 1",
+        "gender": "Man",
+        "accent": "US",
+        "voice": "en-US-ChristopherNeural",
+        "text": "Not yet. They promised to publish the updated Swagger docs on our internal wiki by end of day."
+      }
+    ],
+    "questions": [
+      {
+        "id": "p3-q25",
+        "qNum": 1,
+        "qText": "What was recently released?",
+        "options": [
+          "(A) Version 3.2 of the backend API",
+          "(B) A new mobile UI theme",
+          "(C) An automated security patch",
+          "(D) A database backup script"
+        ],
+        "correctIndex": 0,
+        "explanation": {
+          "correct": "(A) Man mentions releasing 'version 3.2 of the backend API'.",
+          "distractors": {
+            "(B)": "UI theme is not mentioned.",
+            "(C)": "Security patch is not mentioned.",
+            "(D)": "Database script is not mentioned."
+          }
+        }
+      },
+      {
+        "id": "p3-q26",
+        "qNum": 2,
+        "qText": "What is currently missing?",
+        "options": [
+          "(A) The release notes",
+          "(B) The API endpoint documentation",
+          "(C) The source code repository",
+          "(D) The staging server link"
+        ],
+        "correctIndex": 1,
+        "explanation": {
+          "correct": "(B) Woman asks about documentation, and man confirms it's not published yet.",
+          "distractors": {
+            "(A)": "Release notes not mentioned.",
+            "(C)": "Source code is available.",
+            "(D)": "Staging server link not mentioned."
+          }
+        }
+      },
+      {
+        "id": "p3-q27",
+        "qNum": 3,
+        "qText": "Where will the missing information be published?",
+        "options": [
+          "(A) On a public GitHub repository",
+          "(B) In a email newsletter",
+          "(C) On the internal wiki",
+          "(D) In a Slack channel"
+        ],
+        "correctIndex": 2,
+        "explanation": {
+          "correct": "(C) Man states they will publish docs on 'our internal wiki'.",
+          "distractors": {
+            "(A)": "Internal wiki, not public GitHub.",
+            "(B)": "Not via email newsletter.",
+            "(D)": "Not mentioned as Slack."
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "p3-set10",
+    "audioUrl": "Audio/part3/part3_sample20_set10.mp3",
+    "outputFile": "part3_sample20_set10.mp3",
+    "transcript": [
+      {
+        "speaker": "Speaker 1",
+        "gender": "Woman",
+        "accent": "US",
+        "voice": "en-US-JennyNeural",
+        "text": "Hi Brian, are you attending the webinar on artificial intelligence tools for developers this afternoon?"
+      },
+      {
+        "speaker": "Speaker 2",
+        "gender": "Man",
+        "accent": "CA",
+        "voice": "en-CA-LiamNeural",
+        "text": "I wanted to, but I have a client presentation at 3 PM when it starts."
+      },
+      {
+        "speaker": "Speaker 1",
+        "gender": "Woman",
+        "accent": "US",
+        "voice": "en-US-JennyNeural",
+        "text": "Don't worry, I'll record the session and send you the link afterwards."
+      }
+    ],
+    "questions": [
+      {
+        "id": "p3-q28",
+        "qNum": 1,
+        "qText": "What event is taking place this afternoon?",
+        "options": [
+          "(A) A team building event",
+          "(B) A job interview",
+          "(C) A webinar on AI developer tools",
+          "(D) A product demonstration"
+        ],
+        "correctIndex": 2,
+        "explanation": {
+          "correct": "(C) Woman asks about 'the webinar on artificial intelligence tools for developers'.",
+          "distractors": {
+            "(A)": "Not a team building event.",
+            "(B)": "Not a job interview.",
+            "(D)": "The man has a client presentation, but the main event discussed is the webinar."
+          }
+        }
+      },
+      {
+        "id": "p3-q29",
+        "qNum": 2,
+        "qText": "Why can the man NOT attend?",
+        "options": [
+          "(A) He is on vacation",
+          "(B) He has a client presentation",
+          "(C) His laptop battery died",
+          "(D) He didn't register in time"
+        ],
+        "correctIndex": 1,
+        "explanation": {
+          "correct": "(B) He states 'I have a client presentation at 3 PM'.",
+          "distractors": {
+            "(A)": "He is working.",
+            "(C)": "Hardware issue not mentioned.",
+            "(D)": "Registration is not the obstacle."
+          }
+        }
+      },
+      {
+        "id": "p3-q30",
+        "qNum": 3,
+        "qText": "What does the woman offer to do?",
+        "options": [
+          "(A) Take meeting notes for him",
+          "(B) Reschedule his presentation",
+          "(C) Record the webinar session",
+          "(D) Give him a ride home"
+        ],
+        "correctIndex": 2,
+        "explanation": {
+          "correct": "(C) She offers 'I'll record the session and send you the link'.",
+          "distractors": {
+            "(A)": "Recording, not manual notes.",
+            "(B)": "She cannot reschedule his client presentation.",
+            "(D)": "Transportation is irrelevant."
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "p3-set11",
+    "audioUrl": "Audio/part3/part3_sample20_set11.mp3",
+    "outputFile": "part3_sample20_set11.mp3",
+    "transcript": [
+      {
+        "speaker": "Speaker 1",
+        "gender": "Man",
+        "accent": "UK",
+        "voice": "en-GB-RyanNeural",
+        "text": "Emma, the Wi-Fi signal in the second-floor conference room is very weak during large meetings."
+      },
+      {
+        "speaker": "Speaker 2",
+        "gender": "Woman",
+        "accent": "UK",
+        "voice": "en-GB-AbbiNeural",
+        "text": "I know. Network engineering recommended installing a wireless access point right outside the door."
+      },
+      {
+        "speaker": "Speaker 1",
+        "gender": "Man",
+        "accent": "UK",
+        "voice": "en-GB-RyanNeural",
+        "text": "Sounds good. Let's submit a work order so facilities can mount it this week."
+      }
+    ],
+    "questions": [
+      {
+        "id": "p3-q31",
+        "qNum": 1,
+        "qText": "Where is the network issue located?",
+        "options": [
+          "(A) In the basement cafeteria",
+          "(B) On the executive floor",
+          "(C) In the second-floor conference room",
+          "(D) In the main lobby"
+        ],
+        "correctIndex": 2,
+        "explanation": {
+          "correct": "(C) Man mentions 'second-floor conference room'.",
+          "distractors": {
+            "(A)": "Cafeteria not mentioned.",
+            "(B)": "Executive floor not mentioned.",
+            "(D)": "Main lobby not mentioned."
+          }
+        }
+      },
+      {
+        "id": "p3-q32",
+        "qNum": 2,
+        "qText": "What solution was recommended by network engineering?",
+        "options": [
+          "(A) Replacing all ethernet cables",
+          "(B) Installing a wireless access point",
+          "(C) Upgrading router firmware",
+          "(D) Restricting phone connectivity"
+        ],
+        "correctIndex": 1,
+        "explanation": {
+          "correct": "(B) Woman states they recommended 'installing a wireless access point'.",
+          "distractors": {
+            "(A)": "Ethernet cable replacement not proposed.",
+            "(C)": "Firmware upgrade not mentioned.",
+            "(D)": "Restricting devices not suggested."
+          }
+        }
+      },
+      {
+        "id": "p3-q33",
+        "qNum": 3,
+        "qText": "What action will the speakers take next?",
+        "options": [
+          "(A) Submit a work order",
+          "(B) Purchase a new router online",
+          "(C) Contact their internet provider",
+          "(D) Conduct a speed test"
+        ],
+        "correctIndex": 0,
+        "explanation": {
+          "correct": "(A) Man says 'Let's submit a work order so facilities can mount it'.",
+          "distractors": {
+            "(B)": "Facilities will mount it, no online purchase needed.",
+            "(C)": "ISP contact not required.",
+            "(D)": "Speed test already made clear the signal is weak."
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "p3-set12",
+    "audioUrl": "Audio/part3/part3_sample20_set12.mp3",
+    "outputFile": "part3_sample20_set12.mp3",
+    "transcript": [
+      {
+        "speaker": "Speaker 1",
+        "gender": "Woman",
+        "accent": "US",
+        "voice": "en-US-JennyNeural",
+        "text": "Hi Carl, did you finish writing the technical specs for our new microservice architecture?"
+      },
+      {
+        "speaker": "Speaker 2",
+        "gender": "Man",
+        "accent": "US",
+        "voice": "en-US-EricNeural",
+        "text": "Yes, I uploaded the draft to Confluence yesterday afternoon."
+      },
+      {
+        "speaker": "Speaker 1",
+        "gender": "Woman",
+        "accent": "US",
+        "voice": "en-US-JennyNeural",
+        "text": "Awesome! I'll go through it today and leave my feedback in the comment section."
+      }
+    ],
+    "questions": [
+      {
+        "id": "p3-q34",
+        "qNum": 1,
+        "qText": "What document did the man complete?",
+        "options": [
+          "(A) A financial audit report",
+          "(B) A technical specs document",
+          "(C) A marketing strategy deck",
+          "(D) A job description"
+        ],
+        "correctIndex": 1,
+        "explanation": {
+          "correct": "(B) Woman asks about 'technical specs for our new microservice architecture'.",
+          "distractors": {
+            "(A)": "Financial report not mentioned.",
+            "(C)": "Marketing deck not mentioned.",
+            "(D)": "Job description not mentioned."
+          }
+        }
+      },
+      {
+        "id": "p3-q35",
+        "qNum": 2,
+        "qText": "Where was the draft uploaded?",
+        "options": [
+          "(A) Google Drive",
+          "(B) Dropbox",
+          "(C) Confluence",
+          "(D) SharePoint"
+        ],
+        "correctIndex": 2,
+        "explanation": {
+          "correct": "(C) Man states 'I uploaded the draft to Confluence'.",
+          "distractors": {
+            "(A)": "Google Drive not mentioned.",
+            "(B)": "Dropbox not mentioned.",
+            "(D)": "SharePoint not mentioned."
+          }
+        }
+      },
+      {
+        "id": "p3-q36",
+        "qNum": 3,
+        "qText": "How will the woman provide her feedback?",
+        "options": [
+          "(A) In the comment section",
+          "(B) Via email attachment",
+          "(C) During a phone call",
+          "(D) In a printed review"
+        ],
+        "correctIndex": 0,
+        "explanation": {
+          "correct": "(A) Woman says she will 'leave my feedback in the comment section'.",
+          "distractors": {
+            "(B)": "Not via email.",
+            "(C)": "Not via phone call.",
+            "(D)": "Not printed."
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "p3-set13",
+    "audioUrl": "Audio/part3/part3_sample20_set13.mp3",
+    "outputFile": "part3_sample20_set13.mp3",
+    "transcript": [
+      {
+        "speaker": "Speaker 1",
+        "gender": "Man",
+        "accent": "AU",
+        "voice": "en-AU-WilliamNeural",
+        "text": "Hello Rachel, do you know why the automated nightly backup job failed last night?"
+      },
+      {
+        "speaker": "Speaker 2",
+        "gender": "Woman",
+        "accent": "CA",
+        "voice": "en-CA-ClaraNeural",
+        "text": "Yes, storage volume 4 ran out of disk space right around midnight."
+      },
+      {
+        "speaker": "Speaker 1",
+        "gender": "Man",
+        "accent": "AU",
+        "voice": "en-AU-WilliamNeural",
+        "text": "I see. I'll allocate an extra 500 gigabytes to that volume right away."
+      }
+    ],
+    "questions": [
+      {
+        "id": "p3-q37",
+        "qNum": 1,
+        "qText": "What automated task failed last night?",
+        "options": [
+          "(A) Security scanning",
+          "(B) System reboot",
+          "(C) Nightly backup job",
+          "(D) Database indexing"
+        ],
+        "correctIndex": 2,
+        "explanation": {
+          "correct": "(C) Man asks about the 'automated nightly backup job'.",
+          "distractors": {
+            "(A)": "Security scan not mentioned.",
+            "(B)": "Reboot not mentioned.",
+            "(D)": "Database indexing not mentioned."
+          }
+        }
+      },
+      {
+        "id": "p3-q38",
+        "qNum": 2,
+        "qText": "What caused the failure?",
+        "options": [
+          "(A) Network disconnect",
+          "(B) Insufficient disk space",
+          "(C) Incorrect admin password",
+          "(D) Power outage"
+        ],
+        "correctIndex": 1,
+        "explanation": {
+          "correct": "(B) Woman explains 'storage volume 4 ran out of disk space'.",
+          "distractors": {
+            "(A)": "Network was fine.",
+            "(C)": "Credentials were fine.",
+            "(D)": "No power loss mentioned."
+          }
+        }
+      },
+      {
+        "id": "p3-q39",
+        "qNum": 3,
+        "qText": "How much storage will the man add?",
+        "options": [
+          "(A) 100 gigabytes",
+          "(B) 250 gigabytes",
+          "(C) 500 gigabytes",
+          "(D) 1 terabyte"
+        ],
+        "correctIndex": 2,
+        "explanation": {
+          "correct": "(C) Man states 'I'll allocate an extra 500 gigabytes'.",
+          "distractors": {
+            "(A)": "Incorrect capacity.",
+            "(B)": "Incorrect capacity.",
+            "(D)": "Incorrect capacity."
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "p3-set14",
+    "audioUrl": "Audio/part3/part3_sample20_set14.mp3",
+    "outputFile": "part3_sample20_set14.mp3",
+    "transcript": [
+      {
+        "speaker": "Speaker 1",
+        "gender": "Woman",
+        "accent": "UK",
+        "voice": "en-GB-SoniaNeural",
+        "text": "Peter, our contract with the current SSL certificate provider expires at the end of the month."
+      },
+      {
+        "speaker": "Speaker 2",
+        "gender": "Man",
+        "accent": "US",
+        "voice": "en-US-GuyNeural",
+        "text": "Should we renew with them or switch to Let's Encrypt for automated free certificates?"
+      },
+      {
+        "speaker": "Speaker 1",
+        "gender": "Woman",
+        "accent": "UK",
+        "voice": "en-GB-SoniaNeural",
+        "text": "Let's switch. It will save us nearly $1,200 annually."
+      }
+    ],
+    "questions": [
+      {
+        "id": "p3-q40",
+        "qNum": 1,
+        "qText": "What service contract is expiring soon?",
+        "options": [
+          "(A) Web hosting",
+          "(B) SSL certificate provider",
+          "(C) Domain registrar",
+          "(D) Email gateway"
+        ],
+        "correctIndex": 1,
+        "explanation": {
+          "correct": "(B) Woman states 'contract with the current SSL certificate provider expires'.",
+          "distractors": {
+            "(A)": "Web hosting not mentioned.",
+            "(C)": "Domain registrar not mentioned.",
+            "(D)": "Email gateway not mentioned."
+          }
+        }
+      },
+      {
+        "id": "p3-q41",
+        "qNum": 2,
+        "qText": "What alternative does the man suggest?",
+        "options": [
+          "(A) Let's Encrypt",
+          "(B) DigiCert",
+          "(C) Cloudflare",
+          "(D) Amazon Web Services"
+        ],
+        "correctIndex": 0,
+        "explanation": {
+          "correct": "(A) Man asks 'or switch to Let's Encrypt for automated free certificates?'.",
+          "distractors": {
+            "(B)": "DigiCert not mentioned.",
+            "(C)": "Cloudflare not mentioned.",
+            "(D)": "AWS not mentioned."
+          }
+        }
+      },
+      {
+        "id": "p3-q42",
+        "qNum": 3,
+        "qText": "How much money will switching save annually?",
+        "options": [
+          "(A) Nearly $500",
+          "(B) Nearly $800",
+          "(C) Nearly $1,200",
+          "(D) Nearly $2,000"
+        ],
+        "correctIndex": 2,
+        "explanation": {
+          "correct": "(C) Woman explicitly says 'save us nearly $1,200 annually'.",
+          "distractors": {
+            "(A)": "Incorrect amount.",
+            "(B)": "Incorrect amount.",
+            "(D)": "Incorrect amount."
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "p3-set15",
+    "audioUrl": "Audio/part3/part3_sample20_set15.mp3",
+    "outputFile": "part3_sample20_set15.mp3",
+    "transcript": [
+      {
+        "speaker": "Speaker 1",
+        "gender": "Man",
+        "accent": "US",
+        "voice": "en-US-ChristopherNeural",
+        "text": "Hi Samantha, have you reviewed the code pull request I submitted for the user profile module?"
+      },
+      {
+        "speaker": "Speaker 2",
+        "gender": "Woman",
+        "accent": "AU",
+        "voice": "en-AU-NatashaNeural",
+        "text": "I did. Overall it looks clean, but you need to add unit tests for the edge cases in password validation."
+      },
+      {
+        "speaker": "Speaker 1",
+        "gender": "Man",
+        "accent": "US",
+        "voice": "en-US-ChristopherNeural",
+        "text": "Good catch! I'll write those tests right away and push an updated commit."
+      }
+    ],
+    "questions": [
+      {
+        "id": "p3-q43",
+        "qNum": 1,
+        "qText": "What module is the pull request for?",
+        "options": [
+          "(A) Billing integration",
+          "(B) User profile module",
+          "(C) Search engine indexing",
+          "(D) Notification service"
+        ],
+        "correctIndex": 1,
+        "explanation": {
+          "correct": "(B) Man asks about code submitted for 'user profile module'.",
+          "distractors": {
+            "(A)": "Billing not mentioned.",
+            "(C)": "Search engine not mentioned.",
+            "(D)": "Notifications not mentioned."
+          }
+        }
+      },
+      {
+        "id": "p3-q44",
+        "qNum": 2,
+        "qText": "What addition does the woman request?",
+        "options": [
+          "(A) Unit tests for edge cases",
+          "(B) Inline code comments",
+          "(C) Performance benchmarks",
+          "(D) UI screenshots"
+        ],
+        "correctIndex": 0,
+        "explanation": {
+          "correct": "(A) Woman says 'you need to add unit tests for the edge cases'.",
+          "distractors": {
+            "(B)": "Comments not requested.",
+            "(C)": "Benchmarks not requested.",
+            "(D)": "Screenshots not requested."
+          }
+        }
+      },
+      {
+        "id": "p3-q45",
+        "qNum": 3,
+        "qText": "What will the man do next?",
+        "options": [
+          "(A) Close the pull request",
+          "(B) Push an updated commit",
+          "(C) Schedule a code demo",
+          "(D) Merge the branch to main"
+        ],
+        "correctIndex": 1,
+        "explanation": {
+          "correct": "(B) Man says 'I'll write those tests right away and push an updated commit'.",
+          "distractors": {
+            "(A)": "Closing request without updates is wrong.",
+            "(C)": "No demo scheduled.",
+            "(D)": "He cannot merge before adding tests."
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "p3-set16",
+    "audioUrl": "Audio/part3/part3_sample20_set16.mp3",
+    "outputFile": "part3_sample20_set16.mp3",
+    "transcript": [
+      {
+        "speaker": "Speaker 1",
+        "gender": "Woman",
+        "accent": "CA",
+        "voice": "en-CA-ClaraNeural",
+        "text": "Jason, the marketing team wants to track user behavior on our e-commerce platform using a third-party analytics tag."
+      },
+      {
+        "speaker": "Speaker 2",
+        "gender": "Man",
+        "accent": "UK",
+        "voice": "en-GB-RyanNeural",
+        "text": "We must verify GDPR compliance before embedding any external tracking scripts."
+      },
+      {
+        "speaker": "Speaker 1",
+        "gender": "Woman",
+        "accent": "CA",
+        "voice": "en-CA-ClaraNeural",
+        "text": "Agreed. I'll forward the vendor's data privacy policy to our legal department first."
+      }
+    ],
+    "questions": [
+      {
+        "id": "p3-q46",
+        "qNum": 1,
+        "qText": "What does marketing want to add to the platform?",
+        "options": [
+          "(A) A new payment gateway",
+          "(B) A customer live chat widget",
+          "(C) A third-party analytics tracking tag",
+          "(D) A promotional banner"
+        ],
+        "correctIndex": 2,
+        "explanation": {
+          "correct": "(C) Woman explains marketing wants to use 'a third-party analytics tag'.",
+          "distractors": {
+            "(A)": "Payment gateway not mentioned.",
+            "(B)": "Live chat not mentioned.",
+            "(D)": "Promotional banner not mentioned."
+          }
+        }
+      },
+      {
+        "id": "p3-q47",
+        "qNum": 2,
+        "qText": "What concern does the man raise?",
+        "options": [
+          "(A) Page load speed degradation",
+          "(B) GDPR compliance",
+          "(C) High licensing cost",
+          "(D) Mobile responsiveness"
+        ],
+        "correctIndex": 1,
+        "explanation": {
+          "correct": "(B) Man states 'We must verify GDPR compliance'.",
+          "distractors": {
+            "(A)": "Performance speed not mentioned.",
+            "(C)": "Cost not mentioned.",
+            "(D)": "Mobile responsiveness not mentioned."
+          }
+        }
+      },
+      {
+        "id": "p3-q48",
+        "qNum": 3,
+        "qText": "Who will receive the vendor's privacy policy?",
+        "options": [
+          "(A) The CEO",
+          "(B) The lead developer",
+          "(C) The legal department",
+          "(D) The head of marketing"
+        ],
+        "correctIndex": 2,
+        "explanation": {
+          "correct": "(C) Woman states 'I'll forward the vendor's data privacy policy to our legal department'.",
+          "distractors": {
+            "(A)": "CEO not mentioned.",
+            "(B)": "Lead developer not mentioned.",
+            "(D)": "Marketing already initiated the request."
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "p3-set17",
+    "audioUrl": "Audio/part3/part3_sample20_set17.mp3",
+    "outputFile": "part3_sample20_set17.mp3",
+    "transcript": [
+      {
+        "speaker": "Speaker 1",
+        "gender": "Man",
+        "accent": "US",
+        "voice": "en-US-EricNeural",
+        "text": "Hi Laura, the VPN server went down ten minutes ago, disconnecting remote workers."
+      },
+      {
+        "speaker": "Speaker 2",
+        "gender": "Woman",
+        "accent": "UK",
+        "voice": "en-GB-AbbiNeural",
+        "text": "I noticed! Is it a hardware failure or a software glitch?"
+      },
+      {
+        "speaker": "Speaker 1",
+        "gender": "Man",
+        "accent": "US",
+        "voice": "en-US-EricNeural",
+        "text": "It looks like a memory leak caused the daemon to crash. Restarting the service right now should fix it."
+      }
+    ],
+    "questions": [
+      {
+        "id": "p3-q49",
+        "qNum": 1,
+        "qText": "What infrastructure failure occurred?",
+        "options": [
+          "(A) The VPN server went down",
+          "(B) The office lost electricity",
+          "(C) The primary domain name expired",
+          "(D) The VOIP phone system crashed"
+        ],
+        "correctIndex": 0,
+        "explanation": {
+          "correct": "(A) Man states 'the VPN server went down ten minutes ago'.",
+          "distractors": {
+            "(B)": "No power loss mentioned.",
+            "(C)": "Domain name fine.",
+            "(D)": "VOIP phones not mentioned."
+          }
+        }
+      },
+      {
+        "id": "p3-q50",
+        "qNum": 2,
+        "qText": "Who was affected by the outage?",
+        "options": [
+          "(A) On-site executives",
+          "(B) Remote workers",
+          "(C) Third-party contractors",
+          "(D) Overseas clients"
+        ],
+        "correctIndex": 1,
+        "explanation": {
+          "correct": "(B) Man states 'disconnecting remote workers'.",
+          "distractors": {
+            "(A)": "On-site workers use LAN.",
+            "(C)": "Contractors not specified.",
+            "(D)": "Clients don't use internal VPN."
+          }
+        }
+      },
+      {
+        "id": "p3-q51",
+        "qNum": 3,
+        "qText": "How is the man fixing the issue?",
+        "options": [
+          "(A) By replacing the server motherboard",
+          "(B) By rolling back the OS update",
+          "(C) By restarting the daemon service",
+          "(D) By routing traffic to secondary backup"
+        ],
+        "correctIndex": 2,
+        "explanation": {
+          "correct": "(C) Man states 'Restarting the service right now should fix it'.",
+          "distractors": {
+            "(A)": "Not a hardware failure.",
+            "(B)": "No OS rollback mentioned.",
+            "(D)": "Not routing to secondary backup."
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "p3-set18",
+    "audioUrl": "Audio/part3/part3_sample20_set18.mp3",
+    "outputFile": "part3_sample20_set18.mp3",
+    "transcript": [
+      {
+        "speaker": "Speaker 1",
+        "gender": "Woman",
+        "accent": "AU",
+        "voice": "en-AU-NatashaNeural",
+        "text": "Good morning Kevin, are we ready for the quarterly IT security audit next Thursday?"
+      },
+      {
+        "speaker": "Speaker 2",
+        "gender": "Man",
+        "accent": "US",
+        "voice": "en-US-GuyNeural",
+        "text": "Almost. We still need to gather the access logs for the financial database."
+      },
+      {
+        "speaker": "Speaker 1",
+        "gender": "Woman",
+        "accent": "AU",
+        "voice": "en-AU-NatashaNeural",
+        "text": "I'll export those logs today and organize them in the shared audit folder."
+      }
+    ],
+    "questions": [
+      {
+        "id": "p3-q52",
+        "qNum": 1,
+        "qText": "What event is taking place next Thursday?",
+        "options": [
+          "(A) A software product launch",
+          "(B) A quarterly IT security audit",
+          "(C) A company-wide town hall",
+          "(D) A hardware inventory check"
+        ],
+        "correctIndex": 1,
+        "explanation": {
+          "correct": "(B) Woman asks about 'the quarterly IT security audit next Thursday'.",
+          "distractors": {
+            "(A)": "No product launch.",
+            "(C)": "Town hall not mentioned.",
+            "(D)": "Hardware check not mentioned."
+          }
+        }
+      },
+      {
+        "id": "p3-q53",
+        "qNum": 2,
+        "qText": "What item still needs to be gathered?",
+        "options": [
+          "(A) Employee NDA forms",
+          "(B) Server purchase invoices",
+          "(C) Access logs for financial database",
+          "(D) Firewall configuration backups"
+        ],
+        "correctIndex": 2,
+        "explanation": {
+          "correct": "(C) Man states 'gather the access logs for the financial database'.",
+          "distractors": {
+            "(A)": "NDA forms not mentioned.",
+            "(B)": "Invoices not mentioned.",
+            "(D)": "Firewall configs not mentioned."
+          }
+        }
+      },
+      {
+        "id": "p3-q54",
+        "qNum": 3,
+        "qText": "Where will the woman place the exported logs?",
+        "options": [
+          "(A) On a USB flash drive",
+          "(B) In a password-protected zip file",
+          "(C) In the shared audit folder",
+          "(D) Sent directly via encrypted email"
+        ],
+        "correctIndex": 2,
+        "explanation": {
+          "correct": "(C) She says she will 'organize them in the shared audit folder'.",
+          "distractors": {
+            "(A)": "USB flash drive not mentioned.",
+            "(B)": "Zip file not mentioned.",
+            "(D)": "Not sent via email."
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "p3-set19",
+    "audioUrl": "Audio/part3/part3_sample20_set19.mp3",
+    "outputFile": "part3_sample20_set19.mp3",
+    "transcript": [
+      {
+        "speaker": "Speaker 1",
+        "gender": "Man",
+        "accent": "UK",
+        "voice": "en-GB-RyanNeural",
+        "text": "Hi Chloe, have you noticed how slow the company search engine has been lately?"
+      },
+      {
+        "speaker": "Speaker 2",
+        "gender": "Woman",
+        "accent": "CA",
+        "voice": "en-CA-ClaraNeural",
+        "text": "Yes, queries take almost 10 seconds to return results. The Elasticsearch cluster needs re-indexing."
+      },
+      {
+        "speaker": "Speaker 1",
+        "gender": "Man",
+        "accent": "UK",
+        "voice": "en-GB-RyanNeural",
+        "text": "I can run the re-indexing job overnight so user traffic isn't affected."
+      }
+    ],
+    "questions": [
+      {
+        "id": "p3-q55",
+        "qNum": 1,
+        "qText": "What system is performing slowly?",
+        "options": [
+          "(A) Email server",
+          "(B) Company search engine",
+          "(C) Time tracking software",
+          "(D) Video conferencing tool"
+        ],
+        "correctIndex": 1,
+        "explanation": {
+          "correct": "(B) Man asks if she noticed 'how slow the company search engine has been'.",
+          "distractors": {
+            "(A)": "Email server fine.",
+            "(C)": "Time tracking not mentioned.",
+            "(D)": "Video tool not mentioned."
+          }
+        }
+      },
+      {
+        "id": "p3-q56",
+        "qNum": 2,
+        "qText": "How long do search queries currently take?",
+        "options": [
+          "(A) Almost 3 seconds",
+          "(B) Almost 5 seconds",
+          "(C) Almost 10 seconds",
+          "(D) Almost 30 seconds"
+        ],
+        "correctIndex": 2,
+        "explanation": {
+          "correct": "(C) Woman states 'queries take almost 10 seconds to return results'.",
+          "distractors": {
+            "(A)": "Incorrect duration.",
+            "(B)": "Incorrect duration.",
+            "(D)": "Incorrect duration."
+          }
+        }
+      },
+      {
+        "id": "p3-q57",
+        "qNum": 3,
+        "qText": "When will the re-indexing job be executed?",
+        "options": [
+          "(A) Immediately",
+          "(B) During lunchtime",
+          "(C) Overnight",
+          "(D) Over the upcoming weekend"
+        ],
+        "correctIndex": 2,
+        "explanation": {
+          "correct": "(C) Man says 'I can run the re-indexing job overnight'.",
+          "distractors": {
+            "(A)": "Running immediately would affect daytime user traffic.",
+            "(B)": "Lunchtime still has active users.",
+            "(D)": "Overnight is specified, not weekend."
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "p3-set20",
+    "audioUrl": "Audio/part3/part3_sample20_set20.mp3",
+    "outputFile": "part3_sample20_set20.mp3",
+    "transcript": [
+      {
+        "speaker": "Speaker 1",
+        "gender": "Woman",
+        "accent": "US",
+        "voice": "en-US-JennyNeural",
+        "text": "Brian, management approved our budget request for upgrading our team's laptops!"
+      },
+      {
+        "speaker": "Speaker 2",
+        "gender": "Man",
+        "accent": "CA",
+        "voice": "en-CA-LiamNeural",
+        "text": "That's fantastic news! Are we getting the 16-inch MacBook Pros?"
+      },
+      {
+        "speaker": "Speaker 1",
+        "gender": "Woman",
+        "accent": "US",
+        "voice": "en-US-JennyNeural",
+        "text": "Yes. I'll send procurement our preferred hardware specifications by noon."
+      }
+    ],
+    "questions": [
+      {
+        "id": "p3-q58",
+        "qNum": 1,
+        "qText": "What good news does the woman share?",
+        "options": [
+          "(A) The team received annual bonuses",
+          "(B) Laptop upgrade budget was approved",
+          "(C) Office renovation will start soon",
+          "(D) A major project milestone was met"
+        ],
+        "correctIndex": 1,
+        "explanation": {
+          "correct": "(B) Woman states 'management approved our budget request for upgrading our team's laptops'.",
+          "distractors": {
+            "(A)": "Bonuses not mentioned.",
+            "(C)": "Renovation not mentioned.",
+            "(D)": "Project milestone not mentioned."
+          }
+        }
+      },
+      {
+        "id": "p3-q59",
+        "qNum": 2,
+        "qText": "Which computer model will they receive?",
+        "options": [
+          "(A) Dell XPS 15",
+          "(B) Lenovo ThinkPad X1",
+          "(C) 16-inch MacBook Pro",
+          "(D) HP Spectre x360"
+        ],
+        "correctIndex": 2,
+        "explanation": {
+          "correct": "(C) Man asks about 16-inch MacBook Pros and woman confirms 'Yes'.",
+          "distractors": {
+            "(A)": "Dell not mentioned.",
+            "(B)": "Lenovo not mentioned.",
+            "(D)": "HP not mentioned."
+          }
+        }
+      },
+      {
+        "id": "p3-q60",
+        "qNum": 3,
+        "qText": "When will specifications be sent to procurement?",
+        "options": [
+          "(A) By 10 AM",
+          "(B) By noon",
+          "(C) By 5 PM",
+          "(D) Tomorrow morning"
+        ],
+        "correctIndex": 1,
+        "explanation": {
+          "correct": "(B) Woman says 'I'll send procurement our preferred hardware specifications by noon'.",
+          "distractors": {
+            "(A)": "Incorrect time.",
+            "(C)": "Incorrect time.",
+            "(D)": "Incorrect time."
+          }
+        }
+      }
+    ]
+  }
+]

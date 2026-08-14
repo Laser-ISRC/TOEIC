@@ -54,43 +54,38 @@
             </div>            
         </section>
 
-        <h1>Part 2: Listening <span id="quiz-accent" class="accent-badge"></span></h1>
-        
-        
+        <h1>Part 2: Listening <span id="quiz-accent" class="accent-badge"></span></h1>     
         <div class="part2-card">
            
-
-    <!-- 1. Lecteur Audio -->
-    <div class="audio-player-box">
-        <audio id="part2-audio" controls src="Audio/part2_index20.mp3"></audio>
-    </div>
-
-    <!-- 2. Options de réponse (Texte des choix masqué au départ) -->
-    <div class="options-grid-3">
-        <button class="option-btn" onclick="checkPart2Answer(0, this)">Option A</button>
-        <button class="option-btn" onclick="checkPart2Answer(1, this)">Option B</button>
-        <button class="option-btn" onclick="checkPart2Answer(2, this)">Option C</button>
-    </div>
-
-    <!-- 3. Révélation du Script + Explications (masqué par défaut) -->
-    <div id="part2-transcript-box" class="transcript-box" style="display: none;">
-        <h4>Restrancription :</h4>
-        <p class="transcript-q"><strong>Q:</strong> Where is the marketing meeting being held?</p>
-        <ul class="transcript-options">
-            <li class="correct"><strong>A:</strong> On the third floor.</li>
-            <li><strong>B:</strong> Next Tuesday at two o'clock.</li>
-            <li><strong>C:</strong> Yes, I'll be attending.</li>
-        </ul>
+            <!-- 1. Lecteur Audio -->
+            <div class="audio-player-box">
+                <audio id="part2-audio" controls src="Audio/part2_index20.mp3"></audio>
+            </div>
         
-        <div id="explanation-container" class="explanation-box" style="display: none;">
-    
-    <p id="explanation-correct" class="exp-correct"></p>
-    
-    <h4>Distractors :</h4>
-    <ul id="explanation-distractors" class="exp-distractors-list"></ul>
-</div>
-    </div>
-</div>
+            <!-- 2. Options de réponse (Texte des choix masqué au départ) -->
+            <div class="options-grid-3">
+                <button class="option-btn" onclick="checkPart2Answer(0, this)">Option A</button>
+                <button class="option-btn" onclick="checkPart2Answer(1, this)">Option B</button>
+                <button class="option-btn" onclick="checkPart2Answer(2, this)">Option C</button>
+            </div>
+        
+            <!-- 3. Révélation du Script + Explications (masqué par défaut) -->
+            <div id="part2-transcript-box" class="transcript-box" style="display: none;">
+                <h4>Restrancription :</h4>
+                <p class="transcript-q"><strong>Q:</strong> Where is the marketing meeting being held?</p>
+                <ul class="transcript-options">
+                    <li class="correct"><strong>A:</strong> On the third floor.</li>
+                    <li><strong>B:</strong> Next Tuesday at two o'clock.</li>
+                    <li><strong>C:</strong> Yes, I'll be attending.</li>
+                </ul>
+
+                <div id="explanation-container" class="explanation-box" style="display: none;">
+                <p id="explanation-correct" class="exp-correct"></p>  
+                <h4>Distractors :</h4>
+                <ul id="explanation-distractors" class="exp-distractors-list"></ul>
+                </div>
+            </div>
+        </div>
 
 
 
