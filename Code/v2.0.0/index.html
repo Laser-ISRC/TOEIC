@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TOEIC IT Mastery</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="nav-bar">
+        <div class="logo">TOEIC<span>LASER</span></div>
+        <select id="part-selector">
+            <option>Part 2: Listening</option>
+            <option>Part 7: Reading</option>
+            <option disabled>Part 5: Grammar</option>            
+        </select>
+    </div>
+
+    <div class="progress-container-fixed">
+        <div id="daily-bar-mini"></div>
+    </div>
+
+    <main class="container">
+        <header>
+            <div class="nav-controls">
+                <button id="prev-day" class="nav-btn">
+                    <span>Previous</span>
+                    </br>
+                    <span>Quiz</span>
+                    </br>
+                    <span class="arrow">←</span>
+                </button>
+                <span class="badge" id="current-quiz-display">Loading...</span>
+                <button id="next-day" class="nav-btn">
+                    <span>Next</span>
+                    </br>
+                    <span>Quiz</span>
+                    </br>
+                    <span class="arrow">→</span>
+                </button>
+            </div>
+        </header>
+
+        <section class="dashboard">
+            <div class="daily-progress-container">
+                    <div class="progress-labels">
+                        <span>Quiz Progress</span>
+                        <span id="daily-count">0/0</span>
+                    </div>
+                    <div class="progress-bar-bg">
+                        <div id="daily-bar-main" ></div>
+                    </div>
+            </div>            
+        </section>
+
+        <h1>Part 2: Listening</h1>
+        <div class="part2-card">
+    <!-- 1. Lecteur Audio -->
+    <div class="audio-player-box">
+        <audio id="part2-audio" controls src="Audio/part2_index20.mp3"></audio>
+    </div>
+
+    <!-- 2. Options de réponse (Texte des choix masqué au départ) -->
+    <div class="options-grid-3">
+        <button class="option-btn" onclick="checkPart2Answer(0, this)">Option A</button>
+        <button class="option-btn" onclick="checkPart2Answer(1, this)">Option B</button>
+        <button class="option-btn" onclick="checkPart2Answer(2, this)">Option C</button>
+    </div>
+
+    <!-- 3. Révélation du Script + Explications (masqué par défaut) -->
+    <div id="part2-transcript-box" class="transcript-box" style="display: none;">
+        <h4>Script de la question :</h4>
+        <p class="transcript-q"><strong>Q:</strong> Where is the marketing meeting being held?</p>
+        <ul class="transcript-options">
+            <li class="correct"><strong>A:</strong> On the third floor.</li>
+            <li><strong>B:</strong> Next Tuesday at two o'clock.</li>
+            <li><strong>C:</strong> Yes, I'll be attending.</li>
+        </ul>
+        
+        <div id="part2-explanation" class="explanation">
+            <!-- Explication insérée dynamiquement -->
+        </div>
+    </div>
+</div>
+
+
+
+        <h1>Part 7: Reading Comprehension</h1>
+
+        <section class="article-card">
+            <div class="article-header">
+                <h2 id="art-title"></h2>
+                <a id="art-link" target="_blank">Original Source ↗</a>
+            </div>
+            <img id="art-img" class="article-image">
+            <div id="art-text" class="article-content"></div>
+        </section>
+
+        <section id="quiz-container"></section>
+    </main>
+
+    <script src="script.js?v=1.5.0"></script>
+    <div class="version-tag">v1.5.0</div>
+</body>
+</html>
