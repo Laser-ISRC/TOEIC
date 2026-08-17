@@ -986,8 +986,8 @@
         "text": "Dear Valued Customer,\n\nThank you for taking the time to share your feedback regarding your recent dining experience at Bistro Royale. We genuinely value input from our guests, as it helps us [131] ---- our high standards of food quality and hospitality.\n\nI was concerned to learn about the delay you experienced with your main course. [132] ----. To demonstrate our commitment to your satisfaction, I have enclosed a $25 dining voucher valid for your next visit.\n\nWe hope to have the opportunity to serve you [133] ---- in the near future. Please feel free to contact me directly if you wish to discuss your experience [134] ----.",
         "questions": [
           {
-            "qNum": 1,
-            "qText": "Select the best word to complete blank :",
+            "qNum": 131,
+            "qText": "Select the best word to complete blank [131]:",
             "options": [
               "(A) uphold",
               "(B) neglect",
@@ -1005,8 +1005,8 @@
             }
           },
           {
-            "qNum": 2,
-            "qText": "Select the best sentence to complete blank :",
+            "qNum": 132,
+            "qText": "Select the best sentence to complete blank [132]:",
             "options": [
               "(A) Our kitchen team has been retrained to ensure faster meal preparation.",
               "(B) Prices on our weekend menu will increase starting next month.",
@@ -1024,8 +1024,8 @@
             }
           },
           {
-            "qNum": 3,
-            "qText": "Select the best word to complete blank  :",
+            "qNum": 133,
+            "qText": "Select the best word to complete blank [133]:",
             "options": [
               "(A) again",
               "(B) former",
@@ -1043,8 +1043,8 @@
             }
           },
           {
-            "qNum": 4,
-            "qText": "Select the best word to complete blank  :",
+            "qNum": 134,
+            "qText": "Select the best word to complete blank [134]:",
             "options": [
               "(A) further",
               "(B) absolute",
@@ -1262,8 +1262,8 @@
         "text": "SEATTLE — Vanguard Power Solutions announced today that construction has officially begun on its new solar farm in Eastern Washington. The facility, spanning over 500 acres, is designed to generate clean electricity for over 35 000 residential homes upon [131] ----.\n\nThis $120 million investment aligns with the state's initiative to transition toward renewable energy sources. [132] ----. Local authorities have praised the initiative for creating over 200 skilled construction jobs during the building phase.\n\nEngineers expect the solar panel arrays to become fully [133] ---- by November of next year. Vanguard Power Solutions remains dedicated to [134] ---- carbon emissions across the region.",
         "questions": [
           {
-            "qNum": 1,
-            "qText": "Select the best word to complete blank :",
+            "qNum": 131,
+            "qText": "Select the best word to complete blank [131]:",
             "options": [
               "(A) complete",
               "(B) completion",
@@ -1281,8 +1281,8 @@
             }
           },
           {
-            "qNum": 2,
-            "qText": "Select the best sentence to complete blank :",
+            "qNum": 132,
+            "qText": "Select the best sentence to complete blank [132]:",
             "options": [
               "(A) Electricity rates for commercial businesses were raised last month.",
               "(B) The project will significantly reduce the region's reliance on fossil fuels.",
@@ -1300,8 +1300,8 @@
             }
           },
           {
-            "qNum": 3,
-            "qText": "Select the best word to complete blank :",
+            "qNum": 133,
+            "qText": "Select the best word to complete blank [133]:",
             "options": [
               "(A) operational",
               "(B) operate",
@@ -1319,8 +1319,8 @@
             }
           },
           {
-            "qNum": 4,
-            "qText": "Select the best word to complete blank  :",
+            "qNum": 134,
+            "qText": "Select the best word to complete blank [134]:",
             "options": [
               "(A) reduce",
               "(B) reducing",
@@ -3708,6 +3708,114 @@
     ]
   }
   ],
+  "part5": [
+      {
+        "id": "p5-q1",
+        "qNum": 1,
+        "sentence": "The finance committee reviewed the budget proposal ----- before submitting it to the board of directors for final approval.",
+        "options": [
+          "(A) thorough",
+          "(B) thoroughly",
+          "(C) thoroughness",
+          "(D) thoroughbred"
+        ],
+        "correctIndex": 1,
+        "explanation": {
+          "correct": "(B) 'thoroughly' is the adverb modifying the action verb 'reviewed'.",
+          "distractors": {
+            "A": "'thorough' is an adjective and cannot modify a verb.",
+            "C": "'thoroughness' is a noun and does not fit adverbially in this position.",
+            "D": "'thoroughbred' is an unrelated noun."
+          }
+        }
+      }
+    ],
+    "part6": [
+      {
+        "title": "Email - Office Supply Ordering Process",
+        "text": "Dear Team,\n\nWe are updating our internal procurement procedure to make ordering routine office supplies more streamlined. Starting next month, all requests must be submitted through the new online purchasing portal [1] ---- using paper order forms.\n\n[2] ----. Each department manager will have an assigned monthly budget limit displayed on their account dashboard.\n\nPlease ensure that all routine supply orders for the upcoming quarter are submitted [3] ---- September 25. Thank you for your cooperation in helping us transition to a more efficient [4] ---- system.",
+        "questions": [
+          {
+            "qNum": 1,
+            "qText": "Select the best word to complete blank [1]:",
+            "options": [
+              "(A) instead of",
+              "(B) in spite of",
+              "(C) as well as",
+              "(D) on behalf of"
+            ],
+            "correctIndex": 0,
+            "explanation": {
+              "correct": "(A) 'instead of' indicates that the new online portal is replacing the paper order forms.",
+              "distractors": {
+                "B": "'in spite of' introduces contrast, which does not fit replacing a procedure.",
+                "C": "'as well as' implies using both systems simultaneously, contradicting the transition.",
+                "D": "'on behalf of' means representing someone else, which is contextually incorrect."
+              }
+            }
+          },
+          {
+            "qNum": 2,
+            "qText": "Select the best sentence to complete blank [2]:",
+            "options": [
+              "(A) Log-in instructions will be distributed to department heads by the end of the week.",
+              "(B) The main lobby furniture will be replaced during the winter holiday break.",
+              "(C) Employee parking permits can be renewed at the security desk.",
+              "(D) Catering options for internal meetings must be booked two weeks early."
+            ],
+            "correctIndex": 0,
+            "explanation": {
+              "correct": "(A) This sentence provides logical details on how users will gain access to the new online portal mentioned in the opening paragraph.",
+              "distractors": {
+                "B": "Replacing lobby furniture is unrelated to office supply procurement.",
+                "C": "Parking permit renewals introduce off-topic facility information.",
+                "D": "Catering bookings are unrelated to routine supply orders."
+              }
+            }
+          },
+          {
+            "qNum": 3,
+            "qText": "Select the best word to complete blank [3]:",
+            "options": [
+              "(A) by",
+              "(B) into",
+              "(C) along",
+              "(D) across"
+            ],
+            "correctIndex": 0,
+            "explanation": {
+              "correct": "(A) 'by' is the preposition used to express a deadline date.",
+              "distractors": {
+                "B": "'into' denotes movement toward the inside.",
+                "C": "'along' indicates direction parallel to a line or path.",
+                "D": "'across' indicates movement from one side to another."
+              }
+            }
+          },
+          {
+            "qNum": 4,
+            "qText": "Select the best word to complete blank [4]:",
+            "options": [
+              "(A) procure",
+              "(B) procurement",
+              "(C) procurable",
+              "(D) procuringly"
+            ],
+            "correctIndex": 1,
+            "explanation": {
+              "correct": "(B) 'procurement' is the noun modifying 'system' to form the noun phrase 'procurement system'.",
+              "distractors": {
+                "A": "'procure' is a verb and cannot modify 'system' directly as a noun compound here.",
+                "C": "'procurable' is an adjective and does not form the standard business noun phrase.",
+                "D": "'procuringly' is an adverb."
+              }
+            }
+          }
+        ]
+      }
+    ],
+
+
   "part7": {
   "type": "Part 7",
   "category": "Market Trends & Electronics",
