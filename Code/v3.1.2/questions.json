@@ -124,6 +124,115 @@
       }
     ],
 
+  "part5": [
+    {
+      "id": "p5-q1",
+      "qNum": 1,
+      "sentence": "Ms. Jenkins was promoted after showing exceptional leadership during the merger, ----- her team to complete the project ahead of schedule.",
+      "options": [
+        "(A) allow",
+        "(B) allowing",
+        "(C) allowed",
+        "(D) allowance"
+      ],
+      "correctIndex": 1,
+      "explanation": {
+        "correct": "(B) 'Allowing' sert ici d'apposition sous forme de participe présent pour exprimer le résultat de l'action principale.",
+        "distractors": {
+          "(A)": "Forme verbale brute incorrecte dans cette structure.",
+          "(C)": "Participe passé qui n'a pas de sens passif ici.",
+          "(D)": "Nom commun qui ne s'intègre pas grammaticalement devant 'her team'."
+        }
+      }
+    }
+  ],
+
+  "part6": [
+    {
+      "id": "p6-set1",
+      "textType": "Email",
+      "text": "To: All Staff\nFrom: Facilities Department\nDate: October 12\nSubject: Scheduled Network Maintenance\n\nPlease be advised that our primary servers will undergo routine maintenance this Saturday from 8:00 AM to 1:00 PM. During this period, internal systems and internet access will be ----- [1]. \n\nWe apologize for any inconvenience this may cause and recommend saving all ongoing work prior to the weekend. ----- [2]. If you have urgent questions, please contact the IT helpdesk before Friday evening. We appreciate your ----- [3] while we work to ----- [4] our system performance.",
+      "questions": [
+        {
+          "id": "p6-q1",
+          "qNum": 1,
+          "options": [
+            "(A) expanded",
+            "(B) unavailable",
+            "(C) renewed",
+            "(D) accelerated"
+          ],
+          "correctIndex": 1,
+          "explanation": {
+            "correct": "(B) 'Unavailable' est le seul adjectif logiquement adapté à une coupure de réseau.",
+            "distractors": {
+              "(A)": "Sens contraire à l'idée d'une interruption.",
+              "(C)": "Ne convient pas pour un accès temporairement coupé.",
+              "(D)": "L'accès ne sera pas accéléré pendant la maintenance."
+            }
+          }
+        },
+        {
+          "id": "p6-q2",
+          "qNum": 2,
+          "options": [
+            "(A) Remote access will also be restricted during these hours.",
+            "(B) The maintenance was successfully completed last week.",
+            "(C) All laptops must be returned to HR immediately.",
+            "(D) Free refreshments will be provided in the cafeteria."
+          ],
+          "correctIndex": 0,
+          "explanation": {
+            "correct": "(A) Cette phrase complète logiquement les consignes liées à l'interruption des systèmes.",
+            "distractors": {
+              "(B)": "Contradiction temporelle avec la maintenance prévue ce samedi.",
+              "(C)": "Hors-sujet par rapport à une maintenance serveur.",
+              "(D)": "Sans rapport avec le sujet informatique."
+            }
+          }
+        },
+        {
+          "id": "p6-q3",
+          "qNum": 3,
+          "options": [
+            "(A) patience",
+            "(B) candidate",
+            "(C) budget",
+            "(D) application"
+          ],
+          "correctIndex": 0,
+          "explanation": {
+            "correct": "(A) 'We appreciate your patience' est la tournure usuelle lors d'un désagrément.",
+            "distractors": {
+              "(B)": "Incohérent dans ce contexte.",
+              "(C)": "Il n'est pas question de coût.",
+              "(D)": "Ne convient pas pour exprimer la compréhension des employés."
+            }
+          }
+        },
+        {
+          "id": "p6-q4",
+          "qNum": 4,
+          "options": [
+            "(A) improve",
+            "(B) improving",
+            "(C) improvement",
+            "(D) improved"
+          ],
+          "correctIndex": 0,
+          "explanation": {
+            "correct": "(A) La structure 'to + base verbale' (to improve) sert à exprimer le but.",
+            "distractors": {
+              "(B)": "Forme en -ing incorrecte après la particule 'to' dans ce contexte.",
+              "(C)": "Forme nominale non adaptée ici.",
+              "(D)": "Participe passé grammaticalement incorrect."
+            }
+          }
+        }
+      ]
+    }
+  ],
+
   "part7":{
   "type": "Part 7",
   "category": "Corporate History & Events",
