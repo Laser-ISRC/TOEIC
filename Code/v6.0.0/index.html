@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TOEIC IT Mastery</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="nav-bar">
+        <div class="logo">TOEIC<span>LASER</span></div>
+        <select id="part-selector">
+            <option value="all">All Parts</option>
+            <option value="part1">Part 1: Photographs</option>
+            <option value="part2">Part 2: Listening</option>
+            <option value="part3">Part 3: Conversations</option>
+            <option value="part4">Part 4: Short Talks</option>
+            <option value="part5">Part 5: Grammar</option>
+            <option value="part6">Part 6: Text Completion</option>
+            <option value="part7">Part 7: Reading</option>
+        </select>
+    </div>
+
+    <div class="progress-container-fixed">
+        <div id="daily-bar-mini"></div>
+    </div>
+
+    <main class="container">
+        <header>
+            <div class="nav-controls">
+                <button id="prev-day" class="nav-btn">
+                    <span>Previous</span><br>
+                    <span>Quiz</span><br>
+                    <span class="arrow">←</span>
+                </button>
+                <span class="badge" id="current-quiz-display">Loading...</span>
+                <button id="next-day" class="nav-btn">
+                    <span>Next</span><br>
+                    <span>Quiz</span><br>
+                    <span class="arrow">→</span>
+                </button>
+            </div>
+        </header>
+
+        <section class="dashboard">
+            <div class="daily-progress-container">
+                <div class="progress-labels">
+                    <span>Quiz Progress</span>
+                    <span id="daily-count">0/0</span>
+                </div>
+                <div class="progress-bar-bg">
+                    <div id="daily-bar-main"></div>
+                </div>
+            </div>            
+        </section>
+
+        <!-- SECTION PART 1: PHOTOGRAPHS -->
+        <section id="part1-section" class="part-section">
+            <h1>Part 1: Photographs</h1>
+            <div id="part1-container">
+                <div class="part1-card">
+                    <div class="part1-image-box">
+                        <img id="part1-img" src="" alt="TOEIC Photograph" class="part1-photo">
+                    </div>
+
+                    <div class="audio-player-box">
+                        <audio id="part1-audio" controls src=""></audio>
+                    </div>
+
+                    <div class="options-grid-4">
+                        <button class="option-btn" onclick="checkPart1Answer(0, this)">(A)</button>
+                        <button class="option-btn" onclick="checkPart1Answer(1, this)">(B)</button>
+                        <button class="option-btn" onclick="checkPart1Answer(2, this)">(C)</button>
+                        <button class="option-btn" onclick="checkPart1Answer(3, this)">(D)</button>
+                    </div>
+
+                    <div id="part1-transcript-box" class="transcript-box" style="display: none;">
+                        <h4>Retranscription :</h4>
+                        <ul class="transcript-options" id="p1-trans-options"></ul>
+                        
+                        <div id="part1-explanation-container" class="explanation-box" style="display: none;">
+                            <p id="p1-explanation-correct" class="exp-correct"></p>
+                            <h4>Distractors :</h4>
+                            <ul id="p1-explanation-distractors" class="exp-distractors-list"></ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION PART 2 -->
+        <section id="part2-section" class="part-section">
+            <h1>Part 2: Listening <span id="quiz-accent" class="accent-badge"></span></h1>
+            <div class="part2-card">
+                <div class="audio-player-box">
+                    <audio id="part2-audio" controls src=""></audio>
+                </div>
+
+                <div class="options-grid-3">
+                    <button class="option-btn" onclick="checkPart2Answer(0, this)">Option A</button>
+                    <button class="option-btn" onclick="checkPart2Answer(1, this)">Option B</button>
+                    <button class="option-btn" onclick="checkPart2Answer(2, this)">Option C</button>
+                </div>
+
+                <div id="part2-transcript-box" class="transcript-box" style="display: none;">
+                    <h4>Retranscription :</h4>
+                    <p class="transcript-q"><strong id="p2-trans-q">Q:</strong></p>
+                    <ul class="transcript-options" id="p2-trans-options"></ul>
+                    
+                    <div id="explanation-container" class="explanation-box" style="display: none;">
+                        <p id="explanation-correct" class="exp-correct"></p>
+                        <h4>Distractors :</h4>
+                        <ul id="explanation-distractors" class="exp-distractors-list"></ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION PART 3 -->
+        <section id="part3-section" class="part-section">
+            <h1>Part 3: Conversations</h1>
+            <div id="part3-container"></div>
+        </section>
+
+        <!-- SECTION PART 4: SHORT TALKS -->
+        <section id="part4-section" class="part-section">
+            <h1>Part 4: Short Talks</h1>
+            <div id="part4-container"></div>
+        </section>
+
+        <!-- SECTION PART 5: GRAMMAR & VOCABULARY -->
+        <section id="part5-section" class="part-section" style="display: none;">
+            <h1>Part 5: Incomplete Sentences</h1>
+            <div id="part5-container"></div>
+        </section>
+
+        <!-- SECTION PART 6: TEXT COMPLETION -->
+        <section id="part6-section" class="part-section" style="display: none;">
+            <h1>Part 6: Text Completion</h1>
+            <div id="part6-container"></div>
+        </section>
+
+        <!-- SECTION PART 7 -->
+        <section id="part7-section" class="part-section">
+            <h1>Part 7: Reading Comprehension</h1>
+            <section class="article-card">
+                <div class="article-header">
+                    <h2 id="art-title"></h2>
+                    <a id="art-link" target="_blank">Original Source ↗</a>
+                </div>
+                <img id="art-img" class="article-image">
+                <div id="art-text" class="article-content"></div>
+            </section>
+            <section id="quiz-container"></section>
+        </section>
+    </main>
+
+    <script src="script.js?v=6.0.0"></script>
+    <div class="version-tag">v6.0.0</div>
+</body>
+</html>
