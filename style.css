@@ -718,11 +718,25 @@ img.flag-icon {
   overflow: hidden; /* Sécurité pour couper tout débordement résiduel */
 }
 
-/* S'assure que le composant audio respecte les limites */
+/* S'assure que le composant audio respecte les limites 
 .part1-container audio,
 #part1-audio {
   width: 100%;
   max-width: 100%;
   box-sizing: border-box;
-  display: block; /* Évite les espaces indésirables sous l'élément */
+  display: block; /* Évite les espaces indésirables sous l'élément 
+}
+*/
+.audio-wrapper {
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  overflow: hidden; /* Force le découpage si le navigateur résiste */
+}
+
+.audio-wrapper audio {
+  width: 100%;
+  min-width: 0; /* CASSE la largeur minimale forcée par le navigateur */
+  max-width: 100%;
 }
