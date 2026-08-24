@@ -44,14 +44,16 @@ function formatExplanation(expl) {
     return html;
 }
 
-function showExplanation(part2Data) {
-    const container = document.getElementById('explanation-container');
-    const correctEl = document.getElementById('explanation-correct');
-    const distractorsEl = document.getElementById('explanation-distractors');
+function showExplanation(partData, isPart1 = false) {
+    const prefix = isPart1 ? 'part1-' : '';
+    const container = document.getElementById(isPart1 ? 'part1-explanation-container' : 'explanation-container');
+    const correctEl = document.getElementById(isPart1 ? 'p1-explanation-correct' : 'explanation-correct');
+    const distractorsEl = document.getElementById(isPart1 ? 'p1-explanation-distractors' : 'explanation-distractors');
 
-    if (!container || !part2Data || !part2Data.explanation) return;
+    const firstQuestion = (partData.questions && partData.questions.length > 0) ? partData.questions[0] : null;
+    const exp = partData.explanation || (firstQuestion ? firstQuestion.explanation : null);
 
-    const exp = part2Data.explanation;
+    if (!container || !exp) return;
 
     if (correctEl) {
         correctEl.innerHTML = `<strong>Correct :</strong> ${exp.correct || ''}`;
@@ -96,12 +98,17 @@ function renderQuiz(index) {
     if (!quiz) return;
 
     const quizDisplay = document.getElementById('current-quiz-display');
-    if (quizDisplay) quizDisplay.innerText = `Quiz #${quiz.index || (allQuizzes.length - index)}`;
+    if (quizDisplay) quizDisplay.innerText = `Quiz #${quiz.quizIndex || quiz.index || (allQuizzes.length - index)}`;
 
     solvedQuestions.clear();
     correctAnswers = 0;
 
     // Calcul du nombre total de questions pour le quiz courant
+    let p1Count = 0;
+    if (quiz.part1) {
+        quiz.part1.forEach(set => p1Count += (set.questions ? set.questions.length : 1));
+    }
+
     const p2Count = quiz.part2 ? quiz.part2.length : 0;
     
     let p3Count = 0;
@@ -123,7 +130,55 @@ function renderQuiz(index) {
 
     const p7Count = quiz.part7 && quiz.part7.questions ? quiz.part7.questions.length : 0;
     
-    totalQuestions = p2Count + p3Count + p4Count + p5Count + p6Count + p7Count;
+    totalQuestions = p1Count + p2Count + p3Count + p4Count + p5Count + p6Count + p7Count;
+
+    // ----------------------------------------------------
+    // 0. PART 1 (Photographs)
+    // ----------------------------------------------------
+    const part1Data = quiz.part1 ? quiz.part1[0] : null;
+    const part1Section = document.getElementById('part1-section');
+
+    const p1Container = document.getElementById('part1-explanation-container');
+    if (p1Container) p1Container.style.display = 'none';
+
+    if (part1Data && part1Section) {
+        const imgEl = document.getElementById('part1-img');
+        if (imgEl) imgEl.src = part1Data.image || '';
+
+        const audioEl = document.getElementById('part1-audio');
+        if (audioEl) audioEl.src = part1Data.audioUrl || (part1Data.outputFile ? `Audio/part1/${part1Data.outputFile}` : '');
+
+        const transcriptBox = document.getElementById('part1-transcript-box');
+        if (transcriptBox) transcriptBox.style.display = 'none';
+
+        const p1Question = (part1Data.questions && part1Data.questions.length > 0) ? part1Data.questions[0] : null;
+        const correctIdx = p1Question ? p1Question.correctIndex : (part1Data.correctIndex || 0);
+
+        const p1Buttons = part1Section.querySelectorAll('.options-grid-4 .option-btn');
+        p1Buttons.forEach((btn, optIdx) => {
+            btn.className = 'option-btn';
+            btn.disabled = false;
+            btn.onclick = () => checkPart1Answer(optIdx, btn, part1Data, correctIdx);
+        });
+
+        const transcriptOpts = document.getElementById('p1-trans-options');
+        if (transcriptOpts) {
+            const labels = ['A', 'B', 'C', 'D'];
+            let optionsList = [];
+
+            if (p1Question && p1Question.options) {
+                optionsList = p1Question.options;
+            } else if (part1Data.audioScript) {
+                optionsList = part1Data.audioScript.split(/(?=\([A-D]\))/).map(s => s.trim()).filter(Boolean);
+            }
+
+            transcriptOpts.innerHTML = optionsList.map((opt, i) => `
+                <li class="${i === correctIdx ? 'correct' : ''}">
+                    <strong>${labels[i]}:</strong> ${opt.replace(/^\([A-D]\)\s*/, '')}
+                </li>
+            `).join('');
+        }
+    }
 
     // ----------------------------------------------------
     // 1. PART 2 (Listening)
@@ -339,7 +394,6 @@ function renderQuiz(index) {
                 const setCard = document.createElement('div');
                 setCard.className = 'part6-card-split';
 
-                // Bloc Texte (à gauche ou en haut)
                 let textHtml = `
                     <div class="part6-text-pane">
                         <h3>${set.title || 'Text Completion'}</h3>
@@ -349,7 +403,6 @@ function renderQuiz(index) {
                     </div>
                 `;
 
-                // Bloc Questions (à droite ou en bas)
                 let questionsHtml = '<div class="part6-questions-pane">';
                 if (set.questions && set.questions.length > 0) {
                     set.questions.forEach((q, qIdx) => {
@@ -445,14 +498,37 @@ function renderQuiz(index) {
         }
     }
 
-    // Met à jour la visibilité selon le sélecteur
     updatePartVisibility();
     updateProgressBar();
 }
 
 // ----------------------------------------------------
-// VALIDATIONS GÉNÉRIQUES & ESPECIFIQUES
+// VALIDATIONS SPÉCIFIQUES & GÉNÉRIQUES
 // ----------------------------------------------------
+function checkPart1Answer(selectedIdx, btn, part1Data, correctIndex) {
+    const parentGrid = btn.closest('.options-grid-4');
+    const buttons = parentGrid.querySelectorAll('.option-btn');
+
+    buttons.forEach(b => b.disabled = true);
+
+    if (selectedIdx === correctIndex) {
+        btn.classList.add('btn-correct');
+        correctAnswers++;
+    } else {
+        btn.classList.add('btn-wrong');
+        if (buttons[correctIndex]) buttons[correctIndex].classList.add('btn-correct');
+    }
+
+    const transcriptBox = document.getElementById('part1-transcript-box');
+    if (transcriptBox) transcriptBox.style.display = 'block';
+
+    if (part1Data) {
+        showExplanation(part1Data, true);
+    }
+
+    updateProgressBar();
+}
+
 function checkPart2Answer(selectedIdx, btn, part2Data) {
     const parentGrid = btn.closest('.options-grid-3');
     const buttons = parentGrid.querySelectorAll('.option-btn');
@@ -473,7 +549,7 @@ function checkPart2Answer(selectedIdx, btn, part2Data) {
     if (transcriptBox) transcriptBox.style.display = 'block';
 
     if (part2Data) {
-        showExplanation(part2Data);
+        showExplanation(part2Data, false);
     }
 
     updateProgressBar();
@@ -526,6 +602,7 @@ function updatePartVisibility() {
     if (!partSelector) return;
 
     const val = partSelector.value.toLowerCase();
+    const p1Section = document.getElementById('part1-section');
     const p2Section = document.getElementById('part2-section');
     const p3Section = document.getElementById('part3-section');
     const p4Section = document.getElementById('part4-section');
@@ -534,6 +611,7 @@ function updatePartVisibility() {
     const p7Section = document.getElementById('part7-section');
 
     if (val === 'all') {
+        if (p1Section) p1Section.style.display = 'block';
         if (p2Section) p2Section.style.display = 'block';
         if (p3Section) p3Section.style.display = 'block';
         if (p4Section) p4Section.style.display = 'block';
@@ -541,6 +619,7 @@ function updatePartVisibility() {
         if (p6Section) p6Section.style.display = 'block';
         if (p7Section) p7Section.style.display = 'block';
     } else {
+        if (p1Section) p1Section.style.display = val.includes('part1') ? 'block' : 'none';
         if (p2Section) p2Section.style.display = val.includes('part2') ? 'block' : 'none';
         if (p3Section) p3Section.style.display = val.includes('part3') ? 'block' : 'none';
         if (p4Section) p4Section.style.display = val.includes('part4') ? 'block' : 'none';
