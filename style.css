@@ -710,3 +710,19 @@ img.flag-icon {
         grid-template-columns: 1fr;
     }
 }
+
+.part1-container {
+  width: 100%;
+  max-width: 100%; /* Définit la limite max (ex: 600px selon ton design) */
+  box-sizing: border-box; /* Inclusion du padding dans la largeur totale */
+  overflow: hidden; /* Sécurité pour couper tout débordement résiduel */
+}
+
+/* S'assure que le composant audio respecte les limites */
+.part1-container audio,
+#part1-audio {
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+  display: block; /* Évite les espaces indésirables sous l'élément */
+}
